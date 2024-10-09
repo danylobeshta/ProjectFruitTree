@@ -178,4 +178,94 @@ OmEntry {
 		#self : OmReference [ '30' ]
 	},
 	#content : 'apple := AppleTree new.\rapple initialize.\r\rapricot := ApricotTree new.\rapricot initialize.\r\r"Testing growOneYear: method"\rapple growOneYear: true. \rapple growOneYear: true.\rapple growOneYear: true.\rapple growOneYear: true.\rapple growOneYear: true.\rapple growOneYear: true.\r"No frost this year"\r"apricot growOneYear: true.  ""Frost occurred this year""\rapricot growOneYear: true. \rapricot growOneYear: true.\rapricot growOneYear: false. \rapricot growOneYear: true."\r \r"Print the results to Transcript"\rTranscript open.\rapple printTree: Transcript.\rapricot printTree: Transcript.\r\rTranscript clear.\r\r'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2024-10-10T00:00:18.242+03:00' ],
+		#self : OmReference [ '31' ]
+	},
+	#content : 'apple := AppleTree new.\rapple initialize.\r\rapricot := ApricotTree new.\rapricot initialize.\r\r"Testing growOneYear: method"\rapple growOneYear: true. \rapple growOneYear: true.\rapple growOneYear: true.\rapple growOneYear: true.\rapple growOneYear: true.\rapple growOneYear: true.\r\rapricot growOneYear: true.  "Frost occurred this year"\rapricot growOneYear: true. \rapricot growOneYear: true.\rapricot growOneYear: false. \rapricot growOneYear: true. "No frost"\r \r"Print the results to Transcript"\rTranscript open.\rapple printTree: Transcript.\rapricot printTree: Transcript.\r\rTranscript clear.\r\r'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2024-10-10T00:06:12.795+03:00' ],
+		#self : OmReference [ '32' ]
+	},
+	#content : 'apple := AppleTree new.\rapple initialize.\r\rapricot := ApricotTree new.\rapricot initialize.\r\r"Testing growOneYear: method"\rapple growOneYear: true. \rapple growOneYear: true.\rapple growOneYear: true.\rapple growOneYear: true.\rapple growOneYear: true.\rapple growOneYear: true.\r\rapricot growOneYear: true.  "Frost occurred this year"\rapricot growOneYear: true. \rapricot growOneYear: true.\rapricot growOneYear: false. \rapricot growOneYear: true. "No frost"\r \r"Print the results to Transcript"\rTranscript open.\rapple printTree: Transcript.\rapricot printTree: Transcript.\r\rTranscript clear.\r\rt\r\r'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2024-10-10T00:13:51.123+03:00' ],
+		#self : OmReference [ '33' ]
+	},
+	#content : 'apple := AppleTree new.\rapple initialize.\r\rapricot := ApricotTree new.\rapricot initialize.\r\r"Testing growOneYear: method"\rapple growOneYear: true. \rapple growOneYear: true.\rapple growOneYear: true.\rapple growOneYear: true.\rapple growOneYear: true.\rapple growOneYear: true.\r\rapricot growOneYear: true.  "Frost occurred this year"\rapricot growOneYear: true. \rapricot growOneYear: true.\rapricot growOneYear: false. \rapricot growOneYear: true. "No frost"\r \r"Print the results to Transcript"\rTranscript open.\rapple printTree: Transcript.\rapricot printTree: Transcript.\r\rTranscript clear.\r\r\r\r'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2024-10-10T00:14:10.006+03:00' ],
+		#self : OmReference [ '34' ]
+	},
+	#content : 'apple := AppleTree new.\rapple initialize.\r\rapricot := ApricotTree new.\rapricot initialize.\r\r"Testing growOneYear: method"\rapple growOneYear: true. \rapple growOneYear: true.\rapple growOneYear: true.\rapple growOneYear: true.\rapple growOneYear: true.\rapple growOneYear: true.\r\rapricot growOneYear: true.  "Frost occurred this year"\rapricot growOneYear: true. \rapricot growOneYear: true.\rapricot growOneYear: false. \rapricot growOneYear: true. "No frost"\r \r"Print the results to Transcript"\rTranscript open.\rapple printTree: Transcript.\rapricot printTree: Transcript.\r\rTranscript clear.\r\rMyTestClass \r\r'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2024-10-10T00:14:24.659+03:00' ],
+		#self : OmReference [ '35' ]
+	},
+	#content : 'apple := AppleTree new.\rapple initialize.\r\rapricot := ApricotTree new.\rapricot initialize.\r\r"Testing growOneYear: method"\rapple growOneYear: true. \rapple growOneYear: true.\rapple growOneYear: true.\rapple growOneYear: true.\rapple growOneYear: true.\rapple growOneYear: true.\r\rapricot growOneYear: true.  "Frost occurred this year"\rapricot growOneYear: true. \rapricot growOneYear: true.\rapricot growOneYear: false. \rapricot growOneYear: true. "No frost"\r \r"Print the results to Transcript"\rTranscript open.\rapple printTree: Transcript.\rapricot printTree: Transcript.\r\rTranscript clear.\r\rMyTestClass run\r\r'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2024-10-10T00:15:01.128+03:00' ],
+		#self : OmReference [ '36' ]
+	},
+	#content : 'apple := AppleTree new.\rapple initialize.\r\rapricot := ApricotTree new.\rapricot initialize.\r\r"Testing growOneYear: method"\rapple growOneYear: true. \rapple growOneYear: true.\rapple growOneYear: true.\rapple growOneYear: true.\rapple growOneYear: true.\rapple growOneYear: true.\r\rapricot growOneYear: true.  "Frost occurred this year"\rapricot growOneYear: true. \rapricot growOneYear: true.\rapricot growOneYear: false. \rapricot growOneYear: true. "No frost"\r \r"Print the results to Transcript"\rTranscript open.\rapple printTree: Transcript.\rapricot printTree: Transcript.\r\rTranscript clear.\r\rMyTestClass runCase testDecrising.\r\r'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2024-10-10T00:15:24.276+03:00' ],
+		#self : OmReference [ '37' ]
+	},
+	#content : 'apple := AppleTree new.\rapple initialize.\r\rapricot := ApricotTree new.\rapricot initialize.\r\r"Testing growOneYear: method"\rapple growOneYear: true. \rapple growOneYear: true.\rapple growOneYear: true.\rapple growOneYear: true.\rapple growOneYear: true.\rapple growOneYear: true.\r\rapricot growOneYear: true.  "Frost occurred this year"\rapricot growOneYear: true. \rapricot growOneYear: true.\rapricot growOneYear: false. \rapricot growOneYear: true. "No frost"\r \r"Print the results to Transcript"\rTranscript open.\rapple printTree: Transcript.\rapricot printTree: Transcript.\r\rTranscript clear.\r\rMyTestClass runTes testDecrising.\r\r'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2024-10-10T00:15:31.61+03:00' ],
+		#self : OmReference [ '38' ]
+	},
+	#content : 'apple := AppleTree new.\rapple initialize.\r\rapricot := ApricotTree new.\rapricot initialize.\r\r"Testing growOneYear: method"\rapple growOneYear: true. \rapple growOneYear: true.\rapple growOneYear: true.\rapple growOneYear: true.\rapple growOneYear: true.\rapple growOneYear: true.\r\rapricot growOneYear: true.  "Frost occurred this year"\rapricot growOneYear: true. \rapricot growOneYear: true.\rapricot growOneYear: false. \rapricot growOneYear: true. "No frost"\r \r"Print the results to Transcript"\rTranscript open.\rapple printTree: Transcript.\rapricot printTree: Transcript.\r\rTranscript clear.\r\rMyTestClass runTest: testDecrising.\r\r'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2024-10-10T00:17:32.406+03:00' ],
+		#self : OmReference [ '39' ]
+	},
+	#content : 'apple := AppleTree new.\rapple initialize.\r\rapricot := ApricotTree new.\rapricot initialize.\r\r"Testing growOneYear: method"\rapple growOneYear: true. \rapple growOneYear: true.\rapple growOneYear: true.\rapple growOneYear: true.\rapple growOneYear: true.\rapple growOneYear: true.\r\rapricot growOneYear: true.  "Frost occurred this year"\rapricot growOneYear: true. \rapricot growOneYear: true.\rapricot growOneYear: false. \rapricot growOneYear: true. "No frost"\r \r"Print the results to Transcript"\rTranscript open.\rapple printTree: Transcript.\rapricot printTree: Transcript.\r\rTranscript clear.\r\rMyTestClassTest runAllTests.\r\r'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2024-10-10T00:18:46.31+03:00' ],
+		#self : OmReference [ '40' ]
+	},
+	#content : 'apple := AppleTree new.\rapple initialize.\r\rapricot := ApricotTree new.\rapricot initialize.\r\r"Testing growOneYear: method"\rapple growOneYear: true. \rapple growOneYear: true.\rapple growOneYear: true.\rapple growOneYear: true.\rapple growOneYear: true.\rapple growOneYear: true.\r\rapricot growOneYear: true.  "Frost occurred this year"\rapricot growOneYear: true. \rapricot growOneYear: true.\rapricot growOneYear: false. \rapricot growOneYear: true. "No frost"\r \r"Print the results to Transcript"\rTranscript open.\rapple printTree: Transcript.\rapricot printTree: Transcript.\r\rTranscript clear.\r\rMyTestClassTest run.\r\r'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2024-10-10T00:19:11.433+03:00' ],
+		#self : OmReference [ '41' ]
+	},
+	#content : 'apple := AppleTree new.\rapple initialize.\r\rapricot := ApricotTree new.\rapricot initialize.\r\r"Testing growOneYear: method"\rapple growOneYear: true. \rapple growOneYear: true.\rapple growOneYear: true.\rapple growOneYear: true.\rapple growOneYear: true.\rapple growOneYear: true.\r\rapricot growOneYear: true.  "Frost occurred this year"\rapricot growOneYear: true. \rapricot growOneYear: true.\rapricot growOneYear: false. \rapricot growOneYear: true. "No frost"\r \r"Print the results to Transcript"\rTranscript open.\rapple printTree: Transcript.\rapricot printTree: Transcript.\r\rTranscript clear.\r\rMyTestClassTest \r\r'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2024-10-10T00:20:21.157+03:00' ],
+		#self : OmReference [ '42' ]
+	},
+	#content : 'apple := AppleTree new.\rapple initialize.\r\rapricot := ApricotTree new.\rapricot initialize.\r\r"Testing growOneYear: method"\rapple growOneYear: true. \rapple growOneYear: true.\rapple growOneYear: true.\rapple growOneYear: true.\rapple growOneYear: true.\rapple growOneYear: true.\r\rapricot growOneYear: true.  "Frost occurred this year"\rapricot growOneYear: true. \rapricot growOneYear: true.\rapricot growOneYear: false. \rapricot growOneYear: true. "No frost"\r \r"Print the results to Transcript"\rTranscript open.\rapple printTree: Transcript.\rapricot printTree: Transcript.\r\rTranscript clear.\r\rMyTestClassTest run\r\r'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2024-10-10T00:33:00.881+03:00' ],
+		#self : OmReference [ '43' ]
+	},
+	#content : 'apple := AppleTree new.\rapple initialize.\r\rapricot := ApricotTree new.\rapricot initialize.\r\r"Testing growOneYear: method"\rapple growOneYear: true. \rapple growOneYear: true.\rapple growOneYear: true.\rapple growOneYear: true.\rapple growOneYear: true.\rapple growOneYear: true.\r\rapricot growOneYear: true.  "Frost occurred this year"\r"apricot growOneYear: true. \rapricot growOneYear: true.\rapricot growOneYear: false. \rapricot growOneYear: true". "No frost"\r \r"Print the results to Transcript"\rTranscript open.\rapple printTree: Transcript.\rapricot printTree: Transcript.\r\rTranscript clear.\r\rMyTestClassTest run\r\r'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2024-10-10T00:33:26.841+03:00' ],
+		#self : OmReference [ '44' ]
+	},
+	#content : 'apple := AppleTree new.\rapple initialize.\r\rapricot := ApricotTree new.\rapricot initialize.\r\r"Testing growOneYear: method"\rapple growOneYear: true. \rapple growOneYear: true.\rapple growOneYear: true.\rapple growOneYear: true.\rapple growOneYear: true.\rapple growOneYear: true.\r\rapricot growOneYear: false.  "Frost occurred this year"\rapricot growOneYear: true. \rapricot growOneYear: true.\rapricot growOneYear: false. \rapricot growOneYear: true". "No frost"\r \r"Print the results to Transcript"\rTranscript open.\rapple printTree: Transcript.\rapricot printTree: Transcript.\r\rTranscript clear.\r\rMyTestClassTest run\r\r'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2024-10-10T00:58:24.635+03:00' ],
+		#self : OmReference [ '45' ]
+	},
+	#content : 'apple := AppleTree new.\rapple initialize.\r\rapricot := ApricotTree new.\rapricot initialize.\r\r"Testing growOneYear: method"\rapple growOneYear: true. \rapple growOneYear: true.\rapple growOneYear: true.\rapple growOneYear: true.\rapple growOneYear: true.\rapple growOneYear: true.\r\rapricot growOneYear: false.  "Frost occurred this year"\rapricot growOneYear: true. \rapricot growOneYear: true.\rapricot growOneYear: false. \rapricot growOneYear: true". "No frost"\r \r"Print the results to Transcript"\rTranscript open.\rapple printTree: Transcript.\rapricot printTree: Transcript.\r\rTranscript clear.\r\rMyTestClassTest run\r\r| counterT |\r\tcounterT := MyTestClass new.\r\tcounterT setCounter: 5.\r\tcounterT increment .\r\tcounterT getCounter.\r\r'
 }

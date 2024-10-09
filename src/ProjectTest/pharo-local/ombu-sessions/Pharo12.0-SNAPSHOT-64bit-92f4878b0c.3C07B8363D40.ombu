@@ -5617,4 +5617,898 @@ OmEntry {
 	#content : EpSessionSnapshot {
 		#imageName : 'C:\\PharoProject\\ProjectFruitTree\\src\\ProjectTest\\ProjectTest.image'
 	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '169' ],
+		#self : OmReference [ '170' ]
+	},
+	#content : EpSessionSnapshot {
+		#imageName : 'C:\\PharoProject\\ProjectFruitTree\\src\\ProjectTest\\ProjectTest.image'
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '170' ],
+		#self : OmReference [ '171' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #MyTestClassTest
+			},
+			#name : #testDecrising,
+			#protocol : #tests,
+			#sourceCode : 'testDecrising\r  "A test that will check if method decrement is working properly.\r   Test value 5. Expested result is 4."\r  |tree|\r  tree := ApricotTree new.\r  tree initializeTree: ApricotTree age: 4  height: 1  yield: 10  fruitingAge: 1  frostOccured: true.\r  tree decreaseYield .\r  self assert: (tree yield value = 12.0)',
+			#stamp : '10/10/2024 00:05',
+			#package : #ProjectFruitTree-Tests
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '171' ],
+		#self : OmReference [ '172' ]
+	},
+	#content : EpCompositeRefactoring {
+		#childrenRefactorings : [ ]
+	}
+}OmEntry {
+	#tags : {
+		#trigger : OmReference [ '172' ],
+		#prior : @3,
+		#self : OmReference [ '173' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #MyTestClassTest
+			},
+			#name : #testDecrising,
+			#protocol : #tests,
+			#sourceCode : 'testDecrising\r  "A test that will check if method decrement is working properly.\r   Test value 5. Expested result is 4."\r  |tree|\r  tree := ApricotTree new.\r  tree initializeTree: ApricotTree age: 4  height: 1  yield: 10  fruitingAge: 1  frostOccured: true.\r  tree decreaseYield .\r  self assert: (tree yield value = 12.0)',
+			#stamp : '10/10/2024 00:05',
+			#package : #ProjectFruitTree-Tests
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #MyTestClassTest
+			},
+			#name : #testDecrising,
+			#protocol : #tests,
+			#sourceCode : 'testDecrising\r\t"A test that will check if method decrement is working properly.\r   Test value 5. Expested result is 4."\r\r\t| tree |\r\ttree := ApricotTree new.\r\ttree\r\t\tinitializeTree: ApricotTree\r\t\tage: 4\r\t\theight: 1\r\t\tyield: 10\r\t\tfruitingAge: 1\r\t\tfrostOccured: true.\r\ttree decreaseYield.\r\tself assert: tree yield value equals: 12.0',
+			#stamp : '10/10/2024 00:05',
+			#package : #ProjectFruitTree-Tests
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '173' ],
+		#self : OmReference [ '174' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #MyTestClassTest
+			},
+			#name : #testDecrising,
+			#protocol : #tests,
+			#sourceCode : 'testDecrising\r\t"A test that will check if method decrement is working properly.\r   Test value 5. Expested result is 4."\r\r\t| tree |\r\ttree := ApricotTree new.\r\ttree\r\t\tinitializeTree: ApricotTree\r\t\tage: 4\r\t\theight: 1\r\t\tyield: 10\r\t\tfruitingAge: 1\r\t\tfrostOccured: true.\r\ttree decreaseYield.\r\tself assert: tree yield value equals: 12.0',
+			#stamp : '10/10/2024 00:05',
+			#package : #ProjectFruitTree-Tests
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #MyTestClassTest
+			},
+			#name : #testDecrising,
+			#protocol : #tests,
+			#sourceCode : 'testDecrising\r\t"A test that will check if method decrement is working properly.\r   Test value 10. Expested result is 12."\r|tree|\rtree := ApricotTree new.\rtree initializeTree: \'Apricot Tree\'\r        age: 4\r        height: 1\r        yield: 10\r        fruitingAge: 1\r        frostOccured: true.\r\r"Apply the decreaseYield method"\rtree decreaseYield.\r\r"Expected result after decreasing yield by 20%"\r\t\r"Check if the actual yield matches the expected yield"\r(tree yield = 12.0)\r    ifTrue: [Transcript show: \'Test Passed: Yield is \', tree yield printString; cr]\r    ifFalse: [Transcript show: \'Test Failed: Expected \', 12.0 printString, \' but got \', tree yield printString; cr].\r\r\t',
+			#stamp : '10/10/2024 00:12',
+			#package : #ProjectFruitTree-Tests
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '174' ],
+		#self : OmReference [ '175' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #FruitTree
+			},
+			#name : #getYield,
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'getYield \r    ^(age >= fruitingAge) ifTrue: [yield] ifFalse: [0].\r',
+			#stamp : '10/9/2024 22:11',
+			#package : #ProjectFruitTree
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #FruitTree
+			},
+			#name : #getYield,
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'getYield \r    ^yield.\r',
+			#stamp : '10/10/2024 00:25',
+			#package : #ProjectFruitTree
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '175' ],
+		#self : OmReference [ '176' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #MyTestClassTest
+			},
+			#name : #testDecrising,
+			#protocol : #tests,
+			#sourceCode : 'testDecrising\r\t"A test that will check if method decrement is working properly.\r   Test value 10. Expested result is 12."\r|tree|\rtree := ApricotTree new.\rtree initializeTree: \'Apricot Tree\'\r        age: 4\r        height: 1\r        yield: 10\r        fruitingAge: 1\r        frostOccured: true.\r\r"Apply the decreaseYield method"\rtree decreaseYield.\r\r"Expected result after decreasing yield by 20%"\r\t\r"Check if the actual yield matches the expected yield"\r(tree yield = 12.0)\r    ifTrue: [Transcript show: \'Test Passed: Yield is \', tree yield printString; cr]\r    ifFalse: [Transcript show: \'Test Failed: Expected \', 12.0 printString, \' but got \', tree yield printString; cr].\r\r\t',
+			#stamp : '10/10/2024 00:12',
+			#package : #ProjectFruitTree-Tests
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #MyTestClassTest
+			},
+			#name : #testDecrising,
+			#protocol : #tests,
+			#sourceCode : 'testDecrising\r\t"A test that will check if method decrement is working properly.\r   Test value 10. Expested result is 12."\r|tree|\rtree := ApricotTree new.\rtree initializeTree: \'Apricot Tree\'\r        age: 4\r        height: 1\r        yield: 10\r        fruitingAge: 1\r        frostOccured: true.\r\r"Apply the decreaseYield method"\rtree decreaseYield.\r\r"Expected result after decreasing yield by 20%"\r\t\r"Check if the actual yield matches the expected yield"\r(tree getYield = 12.0)\r    ifTrue: [Transcript show: \'Test Passed: Yield is \', tree getYield printString; cr]\r    ifFalse: [Transcript show: \'Test Failed: Expected \', 12.0 printString, \' but got \', tree getYield printString; cr].\r\r\t',
+			#stamp : '10/10/2024 00:26',
+			#package : #ProjectFruitTree-Tests
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '176' ],
+		#self : OmReference [ '177' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #FruitTree
+			},
+			#name : #getAge,
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'getAge\r\t^age.\r\t',
+			#stamp : '10/10/2024 00:28',
+			#package : #ProjectFruitTree
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '177' ],
+		#self : OmReference [ '178' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #MyTestClassTest
+			},
+			#name : #testDecrising,
+			#protocol : #tests,
+			#sourceCode : 'testDecrising\r\t"A test that will check if method decrement is working properly.\r   Test value 10. Expested result is 12."\r|tree|\rtree := ApricotTree new.\rtree initializeTree: \'Apricot Tree\'\r        age: 4\r        height: 1\r        yield: 10\r        fruitingAge: 1\r        frostOccured: true.\r\r"Apply the decreaseYield method"\rtree decreaseYield.\r\r"Expected result after decreasing yield by 20%"\r\t\r"Check if the actual yield matches the expected yield"\r(tree getYield = 12.0)\r    ifTrue: [Transcript show: \'Test Passed: Yield is \', tree getYield printString; cr]\r    ifFalse: [Transcript show: \'Test Failed: Expected \', 12.0 printString, \' but got \', tree getYield printString; cr].\r\r\t',
+			#stamp : '10/10/2024 00:26',
+			#package : #ProjectFruitTree-Tests
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #MyTestClassTest
+			},
+			#name : #testDecrising,
+			#protocol : #tests,
+			#sourceCode : 'testDecrising\r\t"A test that will check if method decrement is working properly.\r   Test value 10. Expested result is 12."\r|tree|\rtree := ApricotTree new.\rtree initializeTree: \'Apricot Tree\'\r        age: 4\r        height: 1\r        yield: 10\r        fruitingAge: 1\r        frostOccured: true.\r\r"Apply the decreaseYield method"\rtree decreaseYield.\r\rself assert: (tree getYield = 12.0)\r\r\t',
+			#stamp : '10/10/2024 00:29',
+			#package : #ProjectFruitTree-Tests
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '178' ],
+		#self : OmReference [ '179' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #MyTestClassTest
+			},
+			#name : #testDecrising,
+			#protocol : #tests,
+			#sourceCode : 'testDecrising\r\t"A test that will check if method decrement is working properly.\r   Test value 10. Expested result is 12."\r|tree|\rtree := ApricotTree new.\rtree initializeTree: \'Apricot Tree\'\r        age: 4\r        height: 1\r        yield: 10\r        fruitingAge: 1\r        frostOccured: true.\r\r"Apply the decreaseYield method"\rtree decreaseYield.\r\rself assert: (tree getYield = 12.0)\r\r\t',
+			#stamp : '10/10/2024 00:29',
+			#package : #ProjectFruitTree-Tests
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #MyTestClassTest
+			},
+			#name : #testDecrising,
+			#protocol : #tests,
+			#sourceCode : 'testDecrising\r\t"A test that will check if method decrement is working properly.\r   Test value 10. Expested result is 12."\r|tree|\rtree := ApricotTree new.\rtree initializeTree: \'Apricot Tree\'\r        age: 4\r        height: 1\r        yield: 10\r        fruitingAge: 1\r        frostOccured: true.\r\r"Apply the decreaseYield method"\rtree growOneYear: true.\rtree getYield\rself assert: (tree getYield = 12.0)\r\r\t',
+			#stamp : '10/10/2024 00:31',
+			#package : #ProjectFruitTree-Tests
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '179' ],
+		#self : OmReference [ '180' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #MyTestClassTest
+			},
+			#name : #testDecrising,
+			#protocol : #tests,
+			#sourceCode : 'testDecrising\r\t"A test that will check if method decrement is working properly.\r   Test value 10. Expested result is 12."\r|tree|\rtree := ApricotTree new.\rtree initializeTree: \'Apricot Tree\'\r        age: 4\r        height: 1\r        yield: 10\r        fruitingAge: 1\r        frostOccured: true.\r\r"Apply the decreaseYield method"\rtree growOneYear: true.\rtree getYield\rself assert: (tree getYield = 12.0)\r\r\t',
+			#stamp : '10/10/2024 00:31',
+			#package : #ProjectFruitTree-Tests
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #MyTestClassTest
+			},
+			#name : #testDecrising,
+			#protocol : #tests,
+			#sourceCode : 'testDecrising\r\t"A test that will check if method decrement is working properly.\r   Test value 10. Expested result is 12."\r|tree|\rtree := ApricotTree new.\rtree initializeTree: \'Apricot Tree\'\r        age: 4\r        height: 1\r        yield: 10\r        fruitingAge: 1\r        frostOccured: true.\r\r"Apply the decreaseYield method"\rtree growOneYear: true.\rself assert: (tree getYield = 12)\r\r\t',
+			#stamp : '10/10/2024 00:32',
+			#package : #ProjectFruitTree-Tests
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '180' ],
+		#self : OmReference [ '181' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #MyTestClassTest
+			},
+			#name : #testDecrising,
+			#protocol : #tests,
+			#sourceCode : 'testDecrising\r\t"A test that will check if method decrement is working properly.\r   Test value 10. Expested result is 12."\r|tree|\rtree := ApricotTree new.\rtree initializeTree: \'Apricot Tree\'\r        age: 4\r        height: 1\r        yield: 10\r        fruitingAge: 1\r        frostOccured: true.\r\r"Apply the decreaseYield method"\rtree growOneYear: true.\rself assert: (tree getYield = 12)\r\r\t',
+			#stamp : '10/10/2024 00:32',
+			#package : #ProjectFruitTree-Tests
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #MyTestClassTest
+			},
+			#name : #testDecrising,
+			#protocol : #tests,
+			#sourceCode : 'testDecrising\r\t"A test that will check if method decrement is working properly.\r   Test value 10. Expested result is 12."\r|tree|\rtree := ApricotTree new.\rtree initializeTree: \'Apricot Tree\'\r        age: 4\r        height: 1\r        yield: 10\r        fruitingAge: 1\r        frostOccured: true.\r\r"Apply the decreaseYield method"\rtree decreaseYield \rself assert: (tree getYield = 12)\r\r\t',
+			#stamp : '10/10/2024 00:33',
+			#package : #ProjectFruitTree-Tests
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '181' ],
+		#self : OmReference [ '182' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #MyTestClassTest
+			},
+			#name : #testDecrising,
+			#protocol : #tests,
+			#sourceCode : 'testDecrising\r\t"A test that will check if method decrement is working properly.\r   Test value 10. Expested result is 12."\r|tree|\rtree := ApricotTree new.\rtree initializeTree: \'Apricot Tree\'\r        age: 4\r        height: 1\r        yield: 10\r        fruitingAge: 1\r        frostOccured: true.\r\r"Apply the decreaseYield method"\rtree decreaseYield \rself assert: (tree getYield = 12)\r\r\t',
+			#stamp : '10/10/2024 00:33',
+			#package : #ProjectFruitTree-Tests
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #MyTestClassTest
+			},
+			#name : #testDecrising,
+			#protocol : #tests,
+			#sourceCode : 'testDecrising\r\t"A test that will check if method decrement is working properly.\r   Test value 10. Expested result is 12."\r|tree|\rtree := ApricotTree new.\rtree initializeTree: \'Apricot Tree\'\r        age: 4\r        height: 1\r        yield: 10\r        fruitingAge: 1\r        frostOccured: true.\r\r"Apply the decreaseYield method"\rtree decreaseYield .\rself assert: (tree getYield = 12)\r\r\t',
+			#stamp : '10/10/2024 00:34',
+			#package : #ProjectFruitTree-Tests
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '182' ],
+		#self : OmReference [ '183' ]
+	},
+	#content : EpCompositeRefactoring {
+		#childrenRefactorings : [ ]
+	}
+}OmEntry {
+	#tags : {
+		#trigger : OmReference [ '183' ],
+		#prior : @3,
+		#self : OmReference [ '184' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #MyTestClassTest
+			},
+			#name : #testDecrising,
+			#protocol : #tests,
+			#sourceCode : 'testDecrising\r\t"A test that will check if method decrement is working properly.\r   Test value 10. Expested result is 12."\r|tree|\rtree := ApricotTree new.\rtree initializeTree: \'Apricot Tree\'\r        age: 4\r        height: 1\r        yield: 10\r        fruitingAge: 1\r        frostOccured: true.\r\r"Apply the decreaseYield method"\rtree decreaseYield .\rself assert: (tree getYield = 12)\r\r\t',
+			#stamp : '10/10/2024 00:34',
+			#package : #ProjectFruitTree-Tests
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #MyTestClassTest
+			},
+			#name : #testDecrising,
+			#protocol : #tests,
+			#sourceCode : 'testDecrising\r\t"A test that will check if method decrement is working properly.\r   Test value 10. Expested result is 12."\r\r\t| tree |\r\ttree := ApricotTree new.\r\ttree\r\t\tinitializeTree: \'Apricot Tree\'\r\t\tage: 4\r\t\theight: 1\r\t\tyield: 10\r\t\tfruitingAge: 1\r\t\tfrostOccured: true.\r\r\t"Apply the decreaseYield method"\r\ttree decreaseYield.\r\tself assert: tree getYield equals: 12',
+			#stamp : '10/10/2024 00:34',
+			#package : #ProjectFruitTree-Tests
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '184' ],
+		#self : OmReference [ '185' ]
+	},
+	#content : EpCompositeRefactoring {
+		#childrenRefactorings : [ ]
+	}
+}OmEntry {
+	#tags : {
+		#trigger : OmReference [ '185' ],
+		#prior : @3,
+		#self : OmReference [ '186' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #MyTestClassTest
+			},
+			#name : #testDecrementing,
+			#protocol : #tests,
+			#sourceCode : 'testDecrementing\r  "A test that will check if method decrement is working properly.\r   Test value 5. Expested result is 4."\r  |counter|\r  counter := MyTestClass new.\r  counter counter: 5.\r  counter decrement.\r  self assert: (counter value = 4)',
+			#stamp : '10/9/2024 17:37',
+			#package : #ProjectFruitTree-Tests
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #MyTestClassTest
+			},
+			#name : #testDecrementing,
+			#protocol : #tests,
+			#sourceCode : 'testDecrementing\r\t"A test that will check if method decrement is working properly.\r   Test value 5. Expested result is 4."\r\r\t| counter |\r\tcounter := MyTestClass new.\r\tcounter counter: 5.\r\tcounter decrement.\r\tself assert: counter value equals: 4',
+			#stamp : '10/10/2024 00:36',
+			#package : #ProjectFruitTree-Tests
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '186' ],
+		#self : OmReference [ '187' ]
+	},
+	#content : EpCompositeRefactoring {
+		#childrenRefactorings : [ ]
+	}
+}OmEntry {
+	#tags : {
+		#trigger : OmReference [ '187' ],
+		#prior : @3,
+		#self : OmReference [ '188' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #MyTestClassTest
+			},
+			#name : #testIncrementing,
+			#protocol : #tests,
+			#sourceCode : 'testIncrementing\r  "A test that will check if method increment is working properly. \r    Test value 5. Expected result 6."\r  |counter|\r  counter := MyTestClass new.\r  counter counter: 5.\r  counter increment.\r  self assert: (counter value = 6)',
+			#stamp : '10/9/2024 17:33',
+			#package : #ProjectFruitTree-Tests
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #MyTestClassTest
+			},
+			#name : #testIncrementing,
+			#protocol : #tests,
+			#sourceCode : 'testIncrementing\r\t"A test that will check if method increment is working properly. \r    Test value 5. Expected result 6."\r\r\t| counter |\r\tcounter := MyTestClass new.\r\tcounter counter: 5.\r\tcounter increment.\r\tself assert: counter value equals: 6',
+			#stamp : '10/10/2024 00:36',
+			#package : #ProjectFruitTree-Tests
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '188' ],
+		#self : OmReference [ '189' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #ApricotTree
+			},
+			#name : #initialize,
+			#protocol : #initialization,
+			#sourceCode : 'initialize \r    species := \'Apricot Tree\'.\r    age := 0.\r    height := 1.0.\r    yield := 0.\r    fruitingAge := 3. \r    frostOccured := true. \r',
+			#stamp : '10/9/2024 22:47',
+			#package : #ProjectFruitTree
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #ApricotTree
+			},
+			#name : #initialize,
+			#protocol : #initialization,
+			#sourceCode : 'initialize \r    species := \'Apricot Tree\'.\r    age := 0.\r    height := 1.0.\r    yield := 10.\r    fruitingAge := 3. \r    frostOccured := true. \r',
+			#stamp : '10/10/2024 00:40',
+			#package : #ProjectFruitTree
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '189' ],
+		#self : OmReference [ '190' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #MyTestClassTest
+			},
+			#name : #testDecrementing,
+			#protocol : #tests,
+			#sourceCode : 'testDecrementing\r\t"A test that will check if method decrement is working properly.\r   Test value 5. Expested result is 4."\r\r\t| counter |\r\tcounter := MyTestClass new.\r\tcounter counter: 5.\r\tcounter decrement.\r\tself assert: counter value equals: 4',
+			#stamp : '10/10/2024 00:36',
+			#package : #ProjectFruitTree-Tests
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #MyTestClassTest
+			},
+			#name : #testDecrementing,
+			#protocol : #tests,
+			#sourceCode : 'testDecrementing\r\t"A test that will check if method decrement is working properly.\r   Test value 5. Expested result is 4."\r\r\t| counter |\r\tcounter := MyTestClass new.\r\tcounter counter: 5.\r\tcounter decrement.\r\tself assert: counter counter equals: 4',
+			#stamp : '10/10/2024 00:42',
+			#package : #ProjectFruitTree-Tests
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '190' ],
+		#self : OmReference [ '191' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #MyTestClassTest
+			},
+			#name : #testIncrementing,
+			#protocol : #tests,
+			#sourceCode : 'testIncrementing\r\t"A test that will check if method increment is working properly. \r    Test value 5. Expected result 6."\r\r\t| counter |\r\tcounter := MyTestClass new.\r\tcounter counter: 5.\r\tcounter increment.\r\tself assert: counter value equals: 6',
+			#stamp : '10/10/2024 00:36',
+			#package : #ProjectFruitTree-Tests
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #MyTestClassTest
+			},
+			#name : #testIncrementing,
+			#protocol : #tests,
+			#sourceCode : 'testIncrementing\r\t"A test that will check if method increment is working properly. \r    Test value 5. Expected result 6."\r\r\t| counter |\r\tcounter := MyTestClass new.\r\tcounter counter: 5.\r\tcounter increment.\r\tself assert: counter counter equals: 6',
+			#stamp : '10/10/2024 00:43',
+			#package : #ProjectFruitTree-Tests
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '191' ],
+		#self : OmReference [ '192' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #MyTestClassTest
+			},
+			#name : #testIncrementing,
+			#protocol : #tests,
+			#sourceCode : 'testIncrementing\r\t"A test that will check if method increment is working properly. \r    Test value 5. Expected result 6."\r\r\t| counter |\r\tcounter := MyTestClass new.\r\tcounter counter: 5.\r\tcounter increment.\r\tself assert: counter counter equals: 6',
+			#stamp : '10/10/2024 00:43',
+			#package : #ProjectFruitTree-Tests
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #MyTestClassTest
+			},
+			#name : #testIncrementing,
+			#protocol : #tests,
+			#sourceCode : 'testIncrementing\r\t"A test that will check if method increment is working properly. \r    Test value 5. Expected result 6."\r\r\t| counterT |\r\tcounterT := MyTestClass new.\r\tcounterT counter: 5.\r\tcounterT increment.\r\tself assert: counterT counter equals: 6',
+			#stamp : '10/10/2024 00:43',
+			#package : #ProjectFruitTree-Tests
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '192' ],
+		#self : OmReference [ '193' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #FruitTree
+			},
+			#name : #'initializeTree:age:height:yield:fruitingAge:frostOccured:',
+			#protocol : #initialization,
+			#sourceCode : 'initializeTree: aSpecies age: anAge height: aHeight yield: aYield fruitingAge: aFruitingAge frostOccured: afrostOccured [\r    species := aSpecies ifNil: [\'Fig\'].\r    age := anAge ifNil: [0].\r    height := aHeight ifNil: [1.0].\r    yield := aYield ifNil: [3].\r    fruitingAge := aFruitingAge ifNil: [1].\r\t frostOccured := afrostOccured ifNil: [false].\r]',
+			#stamp : '10/9/2024 20:53',
+			#package : #ProjectFruitTree
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #FruitTree
+			},
+			#name : #'initializeTree:age:height:yield:fruitingAge:frostOccured:',
+			#protocol : #initialization,
+			#sourceCode : 'initializeTree: aSpecies age: anAge height: aHeight yield: aYield fruitingAge: aFruitingAge frostOccured: afrostOccured \r    species := aSpecies.\r    age := anAge.\r    height := aHeight.\r    yield := aYield.\r    fruitingAge := aFruitingAge.\r\t frostOccured := afrostOccured.\r',
+			#stamp : '10/10/2024 00:48',
+			#package : #ProjectFruitTree
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '193' ],
+		#self : OmReference [ '194' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #MyTestClassTest
+			},
+			#name : #testDecrementing,
+			#protocol : #tests,
+			#sourceCode : 'testDecrementing\r\t"A test that will check if method decrement is working properly.\r   Test value 5. Expested result is 4."\r\r\t| counter |\r\tcounter := MyTestClass new.\r\tcounter counter: 5.\r\tcounter decrement.\r\tself assert: counter counter equals: 4',
+			#stamp : '10/10/2024 00:42',
+			#package : #ProjectFruitTree-Tests
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #MyTestClassTest
+			},
+			#name : #testDecrementing,
+			#protocol : #tests,
+			#sourceCode : 'testDecrementing\r\t"A test that will check if method decrement is working properly.\r   Test value 5. Expested result is 4."\r\r\t| classT |\r\tclassT := MyTestClass new.\r\tclassT counter: 5.\r\tclassT decrement.\r\tself assert: classT counter equals: 4',
+			#stamp : '10/10/2024 00:50',
+			#package : #ProjectFruitTree-Tests
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '194' ],
+		#self : OmReference [ '195' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #MyTestClass
+			},
+			#name : #getCounter,
+			#protocol : #accessing,
+			#sourceCode : 'getCounter [\r    ^counter.\r]',
+			#stamp : '10/10/2024 00:50',
+			#package : #ProjectFruitTree
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '195' ],
+		#self : OmReference [ '196' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #MyTestClassTest
+			},
+			#name : #testDecrementing,
+			#protocol : #tests,
+			#sourceCode : 'testDecrementing\r\t"A test that will check if method decrement is working properly.\r   Test value 5. Expested result is 4."\r\r\t| classT |\r\tclassT := MyTestClass new.\r\tclassT counter: 5.\r\tclassT decrement.\r\tself assert: classT counter equals: 4',
+			#stamp : '10/10/2024 00:50',
+			#package : #ProjectFruitTree-Tests
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #MyTestClassTest
+			},
+			#name : #testDecrementing,
+			#protocol : #tests,
+			#sourceCode : 'testDecrementing\r\t"A test that will check if method decrement is working properly.\r   Test value 5. Expested result is 4."\r\r\t| classT |\r\tclassT := MyTestClass new.\r\tclassT counter: 5.\r\tclassT decrement.\r\tself assert: classT getCounter equals: 4',
+			#stamp : '10/10/2024 00:51',
+			#package : #ProjectFruitTree-Tests
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '196' ],
+		#self : OmReference [ '197' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #MyTestClass
+			},
+			#name : #'setCounter:',
+			#protocol : #accessing,
+			#sourceCode : 'setCounter: anInteger\r\t"Method that sets *annteger* as a variable value"\r\tcounter := anInteger',
+			#stamp : '10/10/2024 00:51',
+			#package : #ProjectFruitTree
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '197' ],
+		#self : OmReference [ '198' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #MyTestClassTest
+			},
+			#name : #testIncrementing,
+			#protocol : #tests,
+			#sourceCode : 'testIncrementing\r\t"A test that will check if method increment is working properly. \r    Test value 5. Expected result 6."\r\r\t| counterT |\r\tcounterT := MyTestClass new.\r\tcounterT counter: 5.\r\tcounterT increment.\r\tself assert: counterT counter equals: 6',
+			#stamp : '10/10/2024 00:56',
+			#package : #ProjectFruitTree-Tests
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #MyTestClassTest
+			},
+			#name : #testIncrementing,
+			#protocol : #tests,
+			#sourceCode : 'testIncrementing\r\t"A test that will check if method increment is working properly. \r    Test value 5. Expected result 6."\r\r\t| counterT |\r\tcounterT := MyTestClass new.\r\tcounterT setCounter: 5.\r\tcounterT increment .\r\t\r\tself assert: counterT getCounter equals: 6',
+			#stamp : '10/10/2024 00:56',
+			#package : #ProjectFruitTree-Tests
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '198' ],
+		#self : OmReference [ '199' ]
+	},
+	#content : EpProtocolAddition {
+		#behavior : RGClassDefinition {
+			#annotations : IdentityDictionary {
+				#superclassName : #TestCase,
+				#traitCompositionSource : '{}',
+				#definitionSource : 'TestCase << #MyTestClassTest\r\tslots: {};\r\tpackage: \'ProjectFruitTree-Tests\''
+			},
+			#name : #MyTestClassTest,
+			#methods : IdentityDictionary { },
+			#protocols : Set [ ],
+			#instanceVariables : OrderedCollection [ ],
+			#metaClass : RGMetaclassDefinition {
+				#annotations : IdentityDictionary {
+					#traitCompositionSource : '{}',
+					#definitionSource : 'TestCase class << MyTestClassTest class\r\tslots: {}'
+				},
+				#name : #'MyTestClassTest class',
+				#methods : IdentityDictionary { },
+				#protocols : Set [ ],
+				#instanceVariables : OrderedCollection [ ],
+				#baseClass : @6
+			},
+			#comment : RGCommentDefinition {
+				#annotations : IdentityDictionary {
+					#isMeta : false,
+					#className : #MyTestClassTest
+				},
+				#parent : @6,
+				#content : 'A MyTestClassTest is a test class for testing the behavior of MyTestClass',
+				#stamp : '<historical>'
+			},
+			#classVariables : OrderedCollection [ ],
+			#package : RGPackageDefinition {
+				#name : #ProjectFruitTree-Tests,
+				#definedClasses : IdentityDictionary { },
+				#definedMethods : IdentityDictionary { },
+				#extensionMethods : IdentityDictionary { }
+			},
+			#packageTag : #Uncategorized,
+			#sharedPools : OrderedCollection [ ]
+		},
+		#protocol : #'as yet unclassified'
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '199' ],
+		#self : OmReference [ '200' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #MyTestClassTest
+			},
+			#name : #testAging,
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'testAging\r\t"A test that will check if method decrement is working properly.\r   Test value 10. Expested result is 12."\r\r\t| tree |\r\ttree := FruitTree new.\r\ttree\r\t\tinitializeTree: \'Apricot Tree\'\r\t\tage: 4\r\t\theight: 1\r\t\tyield: 10\r\t\tfruitingAge: 1\r\t\tfrostOccured: true.\r   tree printTree: Transcript .\r\t"Apply the decreaseYield method"\r\ttree growOneYear: true.\r\tself assert: tree getAge equals: 5',
+			#stamp : '10/10/2024 01:01',
+			#package : #ProjectFruitTree-Tests
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '200' ],
+		#self : OmReference [ '201' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #MyTestClassTest
+			},
+			#name : #testAging,
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'testAging\r\t"A test that will check if method decrement is working properly.\r   Test value 10. Expested result is 12."\r\r\t| tree |\r\ttree := FruitTree new.\r\ttree\r\t\tinitializeTree: \'Apricot Tree\'\r\t\tage: 4\r\t\theight: 1\r\t\tyield: 10\r\t\tfruitingAge: 1\r\t\tfrostOccured: true.\r   tree printTree: Transcript .\r\t"Apply the decreaseYield method"\r\ttree growOneYear: true.\r\tself assert: tree getAge equals: 5',
+			#stamp : '10/10/2024 01:01',
+			#package : #ProjectFruitTree-Tests
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #MyTestClassTest
+			},
+			#name : #testAging,
+			#protocol : #tests,
+			#sourceCode : 'testAging\r\t"A test that will check if method decrement is working properly.\r   Test value 10. Expested result is 12."\r\r\t| tree |\r\ttree := FruitTree new.\r\ttree\r\t\tinitializeTree: \'Apricot Tree\'\r\t\tage: 4\r\t\theight: 1\r\t\tyield: 10\r\t\tfruitingAge: 1\r\t\tfrostOccured: true.\r   tree printTree: Transcript .\r\t"Apply the decreaseYield method"\r\ttree growOneYear: true.\r\tself assert: tree getAge equals: 5',
+			#stamp : '10/10/2024 01:01',
+			#package : #ProjectFruitTree-Tests
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '201' ],
+		#self : OmReference [ '202' ]
+	},
+	#content : EpProtocolAddition {
+		#behavior : RGClassDefinition {
+			#annotations : IdentityDictionary {
+				#superclassName : #TestCase,
+				#traitCompositionSource : '{}',
+				#definitionSource : 'TestCase << #MyTestClassTest\r\tslots: {};\r\tpackage: \'ProjectFruitTree-Tests\''
+			},
+			#name : #MyTestClassTest,
+			#methods : IdentityDictionary { },
+			#protocols : Set [ ],
+			#instanceVariables : OrderedCollection [ ],
+			#metaClass : RGMetaclassDefinition {
+				#annotations : IdentityDictionary {
+					#traitCompositionSource : '{}',
+					#definitionSource : 'TestCase class << MyTestClassTest class\r\tslots: {}'
+				},
+				#name : #'MyTestClassTest class',
+				#methods : IdentityDictionary { },
+				#protocols : Set [ ],
+				#instanceVariables : OrderedCollection [ ],
+				#baseClass : @6
+			},
+			#comment : RGCommentDefinition {
+				#annotations : IdentityDictionary {
+					#isMeta : false,
+					#className : #MyTestClassTest
+				},
+				#parent : @6,
+				#content : 'A MyTestClassTest is a test class for testing the behavior of MyTestClass',
+				#stamp : '<historical>'
+			},
+			#classVariables : OrderedCollection [ ],
+			#package : RGPackageDefinition {
+				#name : #ProjectFruitTree-Tests,
+				#definedClasses : IdentityDictionary { },
+				#definedMethods : IdentityDictionary { },
+				#extensionMethods : IdentityDictionary { }
+			},
+			#packageTag : #Uncategorized,
+			#sharedPools : OrderedCollection [ ]
+		},
+		#protocol : #'as yet unclassified'
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '202' ],
+		#self : OmReference [ '203' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #MyTestClassTest
+			},
+			#name : #testIncreasing,
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'testIncreasing\r\t"A test that will check if method decrement is working properly.\r   Test value 10. Expested result is 12."\r\r\t| tree |\r\ttree := FruitTree new.\r\ttree\r\t\tinitializeTree: \'Apricot Tree\'\r\t\tage: 4\r\t\theight: 1\r\t\tyield: 10\r\t\tfruitingAge: 1\r\t\tfrostOccured: true.\r   tree printTree: Transcript .\r\t"Apply the decreaseYield method"\r\ttree increaseYield .\r\tself assert: tree getYield equals: 20',
+			#stamp : '10/10/2024 01:03',
+			#package : #ProjectFruitTree-Tests
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '203' ],
+		#self : OmReference [ '204' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #MyTestClassTest
+			},
+			#name : #testIncreasing,
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'testIncreasing\r\t"A test that will check if method decrement is working properly.\r   Test value 10. Expested result is 12."\r\r\t| tree |\r\ttree := FruitTree new.\r\ttree\r\t\tinitializeTree: \'Apricot Tree\'\r\t\tage: 4\r\t\theight: 1\r\t\tyield: 10\r\t\tfruitingAge: 1\r\t\tfrostOccured: true.\r   tree printTree: Transcript .\r\t"Apply the decreaseYield method"\r\ttree increaseYield .\r\tself assert: tree getYield equals: 20',
+			#stamp : '10/10/2024 01:03',
+			#package : #ProjectFruitTree-Tests
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #MyTestClassTest
+			},
+			#name : #testIncreasing,
+			#protocol : #tests,
+			#sourceCode : 'testIncreasing\r\t"A test that will check if method decrement is working properly.\r   Test value 10. Expested result is 12."\r\r\t| tree |\r\ttree := FruitTree new.\r\ttree\r\t\tinitializeTree: \'Apricot Tree\'\r\t\tage: 4\r\t\theight: 1\r\t\tyield: 10\r\t\tfruitingAge: 1\r\t\tfrostOccured: true.\r   tree printTree: Transcript .\r\t"Apply the decreaseYield method"\r\ttree increaseYield .\r\tself assert: tree getYield equals: 20',
+			#stamp : '10/10/2024 01:03',
+			#package : #ProjectFruitTree-Tests
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '204' ],
+		#self : OmReference [ '205' ]
+	},
+	#content : EpSessionSnapshot {
+		#imageName : 'C:\\PharoProject\\ProjectFruitTree\\src\\ProjectTest\\ProjectTest.image'
+	}
 }
