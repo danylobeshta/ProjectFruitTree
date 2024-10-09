@@ -1,0 +1,5620 @@
+OmEntry {
+	#tags : {
+		#prior : OmReference [ 'Pharo12.0-SNAPSHOT-64bit-92f4878b0c.3814696925C0', '62' ],
+		#self : OmReference [ '1' ]
+	},
+	#content : EpClassAddition {
+		#class : RGClassDefinition {
+			#annotations : IdentityDictionary {
+				#superclassName : #Object,
+				#traitCompositionSource : '{}',
+				#definitionSource : 'Object << #FruitTree\r\tslots: { #species . #age . #height . #yield . #fruitingAge };\r\tpackage: \'ProjectFruitTree\''
+			},
+			#name : #FruitTree,
+			#methods : IdentityDictionary { },
+			#protocols : Set [ ],
+			#instanceVariables : OrderedCollection [
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#isMeta : false,
+						#className : #FruitTree
+					},
+					#name : #species,
+					#parent : @6
+				},
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#isMeta : false,
+						#className : #FruitTree
+					},
+					#name : #age,
+					#parent : @6
+				},
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#isMeta : false,
+						#className : #FruitTree
+					},
+					#name : #height,
+					#parent : @6
+				},
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#isMeta : false,
+						#className : #FruitTree
+					},
+					#name : #yield,
+					#parent : @6
+				},
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#isMeta : false,
+						#className : #FruitTree
+					},
+					#name : #fruitingAge,
+					#parent : @6
+				}
+			],
+			#metaClass : RGMetaclassDefinition {
+				#annotations : IdentityDictionary {
+					#traitCompositionSource : '{}',
+					#definitionSource : 'Object class << FruitTree class\r\tslots: {}'
+				},
+				#name : #'FruitTree class',
+				#methods : IdentityDictionary { },
+				#protocols : Set [ ],
+				#instanceVariables : OrderedCollection [ ],
+				#baseClass : @6
+			},
+			#comment : RGCommentDefinition {
+				#annotations : IdentityDictionary {
+					#isMeta : false,
+					#className : #FruitTree
+				},
+				#parent : @6,
+				#content : ''
+			},
+			#classVariables : OrderedCollection [ ],
+			#package : RGPackageDefinition {
+				#name : #ProjectFruitTree,
+				#definedClasses : IdentityDictionary { },
+				#definedMethods : IdentityDictionary { },
+				#extensionMethods : IdentityDictionary { }
+			},
+			#packageTag : #Uncategorized,
+			#sharedPools : OrderedCollection [ ]
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '1' ],
+		#self : OmReference [ '2' ]
+	},
+	#content : EpProtocolAddition {
+		#behavior : RGClassDefinition {
+			#annotations : IdentityDictionary {
+				#superclassName : #Object,
+				#traitCompositionSource : '{}',
+				#definitionSource : 'Object << #FruitTree\r\tslots: { #species . #age . #height . #yield . #fruitingAge };\r\tpackage: \'ProjectFruitTree\''
+			},
+			#name : #FruitTree,
+			#methods : IdentityDictionary { },
+			#protocols : Set [ ],
+			#instanceVariables : OrderedCollection [
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#isMeta : false,
+						#className : #FruitTree
+					},
+					#name : #species,
+					#parent : @6
+				},
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#isMeta : false,
+						#className : #FruitTree
+					},
+					#name : #age,
+					#parent : @6
+				},
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#isMeta : false,
+						#className : #FruitTree
+					},
+					#name : #height,
+					#parent : @6
+				},
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#isMeta : false,
+						#className : #FruitTree
+					},
+					#name : #yield,
+					#parent : @6
+				},
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#isMeta : false,
+						#className : #FruitTree
+					},
+					#name : #fruitingAge,
+					#parent : @6
+				}
+			],
+			#metaClass : RGMetaclassDefinition {
+				#annotations : IdentityDictionary {
+					#traitCompositionSource : '{}',
+					#definitionSource : 'Object class << FruitTree class\r\tslots: {}'
+				},
+				#name : #'FruitTree class',
+				#methods : IdentityDictionary { },
+				#protocols : Set [ ],
+				#instanceVariables : OrderedCollection [ ],
+				#baseClass : @6
+			},
+			#comment : RGCommentDefinition {
+				#annotations : IdentityDictionary {
+					#isMeta : false,
+					#className : #FruitTree
+				},
+				#parent : @6,
+				#content : ''
+			},
+			#classVariables : OrderedCollection [ ],
+			#package : RGPackageDefinition {
+				#name : #ProjectFruitTree,
+				#definedClasses : IdentityDictionary { },
+				#definedMethods : IdentityDictionary { },
+				#extensionMethods : IdentityDictionary { }
+			},
+			#packageTag : #Uncategorized,
+			#sharedPools : OrderedCollection [ ]
+		},
+		#protocol : #'as yet unclassified'
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '2' ],
+		#self : OmReference [ '3' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #FruitTree
+			},
+			#name : #'initializeTree:age:height:yield:fruitingAge:',
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'initializeTree: aSpecies age: anAge height: aHeight yield: aYield fruitingAge: aFruitingAge [\r    species := aSpecies.\r    age := anAge.\r    height := aHeight.\r    yield := aYield.\r    fruitingAge := aFruitingAge.\r]',
+			#stamp : '10/9/2024 19:22',
+			#package : #ProjectFruitTree
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '3' ],
+		#self : OmReference [ '4' ]
+	},
+	#content : EpProtocolAddition {
+		#behavior : RGClassDefinition {
+			#annotations : IdentityDictionary {
+				#superclassName : #Object,
+				#traitCompositionSource : '{}',
+				#definitionSource : 'Object << #FruitTree\r\tslots: { #species . #age . #height . #yield . #fruitingAge };\r\tpackage: \'ProjectFruitTree\''
+			},
+			#name : #FruitTree,
+			#methods : IdentityDictionary { },
+			#protocols : Set [ ],
+			#instanceVariables : OrderedCollection [
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#isMeta : false,
+						#className : #FruitTree
+					},
+					#name : #species,
+					#parent : @6
+				},
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#isMeta : false,
+						#className : #FruitTree
+					},
+					#name : #age,
+					#parent : @6
+				},
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#isMeta : false,
+						#className : #FruitTree
+					},
+					#name : #height,
+					#parent : @6
+				},
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#isMeta : false,
+						#className : #FruitTree
+					},
+					#name : #yield,
+					#parent : @6
+				},
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#isMeta : false,
+						#className : #FruitTree
+					},
+					#name : #fruitingAge,
+					#parent : @6
+				}
+			],
+			#metaClass : RGMetaclassDefinition {
+				#annotations : IdentityDictionary {
+					#traitCompositionSource : '{}',
+					#definitionSource : 'Object class << FruitTree class\r\tslots: {}'
+				},
+				#name : #'FruitTree class',
+				#methods : IdentityDictionary { },
+				#protocols : Set [ ],
+				#instanceVariables : OrderedCollection [ ],
+				#baseClass : @6
+			},
+			#comment : RGCommentDefinition {
+				#annotations : IdentityDictionary {
+					#isMeta : false,
+					#className : #FruitTree
+				},
+				#parent : @6,
+				#content : ''
+			},
+			#classVariables : OrderedCollection [ ],
+			#package : RGPackageDefinition {
+				#name : #ProjectFruitTree,
+				#definedClasses : IdentityDictionary { },
+				#definedMethods : IdentityDictionary { },
+				#extensionMethods : IdentityDictionary { }
+			},
+			#packageTag : #Uncategorized,
+			#sharedPools : OrderedCollection [ ]
+		},
+		#protocol : #initialization
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '4' ],
+		#self : OmReference [ '5' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #FruitTree
+			},
+			#name : #'initializeTree:age:height:yield:fruitingAge:',
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'initializeTree: aSpecies age: anAge height: aHeight yield: aYield fruitingAge: aFruitingAge [\r    species := aSpecies.\r    age := anAge.\r    height := aHeight.\r    yield := aYield.\r    fruitingAge := aFruitingAge.\r]',
+			#stamp : '10/9/2024 19:22',
+			#package : #ProjectFruitTree
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #FruitTree
+			},
+			#name : #'initializeTree:age:height:yield:fruitingAge:',
+			#protocol : #initialization,
+			#sourceCode : 'initializeTree: aSpecies age: anAge height: aHeight yield: aYield fruitingAge: aFruitingAge [\r    species := aSpecies.\r    age := anAge.\r    height := aHeight.\r    yield := aYield.\r    fruitingAge := aFruitingAge.\r]',
+			#stamp : '10/9/2024 19:22',
+			#package : #ProjectFruitTree
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '5' ],
+		#self : OmReference [ '6' ]
+	},
+	#content : EpProtocolAddition {
+		#behavior : RGClassDefinition {
+			#annotations : IdentityDictionary {
+				#superclassName : #Object,
+				#traitCompositionSource : '{}',
+				#definitionSource : 'Object << #FruitTree\r\tslots: { #species . #age . #height . #yield . #fruitingAge };\r\tpackage: \'ProjectFruitTree\''
+			},
+			#name : #FruitTree,
+			#methods : IdentityDictionary { },
+			#protocols : Set [ ],
+			#instanceVariables : OrderedCollection [
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#isMeta : false,
+						#className : #FruitTree
+					},
+					#name : #species,
+					#parent : @6
+				},
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#isMeta : false,
+						#className : #FruitTree
+					},
+					#name : #age,
+					#parent : @6
+				},
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#isMeta : false,
+						#className : #FruitTree
+					},
+					#name : #height,
+					#parent : @6
+				},
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#isMeta : false,
+						#className : #FruitTree
+					},
+					#name : #yield,
+					#parent : @6
+				},
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#isMeta : false,
+						#className : #FruitTree
+					},
+					#name : #fruitingAge,
+					#parent : @6
+				}
+			],
+			#metaClass : RGMetaclassDefinition {
+				#annotations : IdentityDictionary {
+					#traitCompositionSource : '{}',
+					#definitionSource : 'Object class << FruitTree class\r\tslots: {}'
+				},
+				#name : #'FruitTree class',
+				#methods : IdentityDictionary { },
+				#protocols : Set [ ],
+				#instanceVariables : OrderedCollection [ ],
+				#baseClass : @6
+			},
+			#comment : RGCommentDefinition {
+				#annotations : IdentityDictionary {
+					#isMeta : false,
+					#className : #FruitTree
+				},
+				#parent : @6,
+				#content : ''
+			},
+			#classVariables : OrderedCollection [ ],
+			#package : RGPackageDefinition {
+				#name : #ProjectFruitTree,
+				#definedClasses : IdentityDictionary { },
+				#definedMethods : IdentityDictionary { },
+				#extensionMethods : IdentityDictionary { }
+			},
+			#packageTag : #Uncategorized,
+			#sharedPools : OrderedCollection [ ]
+		},
+		#protocol : #'as yet unclassified'
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '6' ],
+		#self : OmReference [ '7' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #FruitTree
+			},
+			#name : #growOneYear,
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'growOneYear [\r    age := age + 1.\r    height := height + 0.5. "Height increase"\r    (age >= fruitingAge) ifTrue: [\r        yield := yield + 10. "Increasing of yield after start of fruiting"\r    ].\r]',
+			#stamp : '10/9/2024 19:26',
+			#package : #ProjectFruitTree
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '7' ],
+		#self : OmReference [ '8' ]
+	},
+	#content : EpSessionSnapshot {
+		#imageName : 'C:\\PharoProject\\ProjectFruitTree\\src\\ProjectTest\\ProjectTest.image'
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '8' ],
+		#self : OmReference [ '9' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #FruitTree
+			},
+			#name : #getYield,
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'getYield [\r    ^(age >= fruitingAge) ifTrue: [yield] ifFalse: [0].\r]',
+			#stamp : '10/9/2024 19:27',
+			#package : #ProjectFruitTree
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '9' ],
+		#self : OmReference [ '10' ]
+	},
+	#content : EpSessionSnapshot {
+		#imageName : 'C:\\PharoProject\\ProjectFruitTree\\src\\ProjectTest\\ProjectTest.image'
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '10' ],
+		#self : OmReference [ '11' ]
+	},
+	#content : EpSessionSnapshot {
+		#imageName : 'C:\\PharoProject\\ProjectFruitTree\\src\\ProjectTest\\ProjectTest.image'
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '11' ],
+		#self : OmReference [ '12' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #FruitTree
+			},
+			#name : #'=',
+			#protocol : #'as yet unclassified',
+			#sourceCode : '= anObject [\r    ^anObject isKindOf: FruitTree ifTrue: [self species = anObject species and: [self age = anObject age]]\r]',
+			#stamp : '10/9/2024 19:29',
+			#package : #ProjectFruitTree
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '12' ],
+		#self : OmReference [ '13' ]
+	},
+	#content : EpProtocolAddition {
+		#behavior : RGClassDefinition {
+			#annotations : IdentityDictionary {
+				#superclassName : #Object,
+				#traitCompositionSource : '{}',
+				#definitionSource : 'Object << #FruitTree\r\tslots: { #species . #age . #height . #yield . #fruitingAge };\r\tpackage: \'ProjectFruitTree\''
+			},
+			#name : #FruitTree,
+			#methods : IdentityDictionary { },
+			#protocols : Set [ ],
+			#instanceVariables : OrderedCollection [
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#isMeta : false,
+						#className : #FruitTree
+					},
+					#name : #species,
+					#parent : @6
+				},
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#isMeta : false,
+						#className : #FruitTree
+					},
+					#name : #age,
+					#parent : @6
+				},
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#isMeta : false,
+						#className : #FruitTree
+					},
+					#name : #height,
+					#parent : @6
+				},
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#isMeta : false,
+						#className : #FruitTree
+					},
+					#name : #yield,
+					#parent : @6
+				},
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#isMeta : false,
+						#className : #FruitTree
+					},
+					#name : #fruitingAge,
+					#parent : @6
+				}
+			],
+			#metaClass : RGMetaclassDefinition {
+				#annotations : IdentityDictionary {
+					#traitCompositionSource : '{}',
+					#definitionSource : 'Object class << FruitTree class\r\tslots: {}'
+				},
+				#name : #'FruitTree class',
+				#methods : IdentityDictionary { },
+				#protocols : Set [ ],
+				#instanceVariables : OrderedCollection [ ],
+				#baseClass : @6
+			},
+			#comment : RGCommentDefinition {
+				#annotations : IdentityDictionary {
+					#isMeta : false,
+					#className : #FruitTree
+				},
+				#parent : @6,
+				#content : ''
+			},
+			#classVariables : OrderedCollection [ ],
+			#package : RGPackageDefinition {
+				#name : #ProjectFruitTree,
+				#definedClasses : IdentityDictionary { },
+				#definedMethods : IdentityDictionary { },
+				#extensionMethods : IdentityDictionary { }
+			},
+			#packageTag : #Uncategorized,
+			#sharedPools : OrderedCollection [ ]
+		},
+		#protocol : #comparing
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '13' ],
+		#self : OmReference [ '14' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #FruitTree
+			},
+			#name : #'=',
+			#protocol : #'as yet unclassified',
+			#sourceCode : '= anObject [\r    ^anObject isKindOf: FruitTree ifTrue: [self species = anObject species and: [self age = anObject age]]\r]',
+			#stamp : '10/9/2024 19:29',
+			#package : #ProjectFruitTree
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #FruitTree
+			},
+			#name : #'=',
+			#protocol : #comparing,
+			#sourceCode : '= anObject [\r    ^anObject isKindOf: FruitTree ifTrue: [self species = anObject species and: [self age = anObject age]]\r]',
+			#stamp : '10/9/2024 19:29',
+			#package : #ProjectFruitTree
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '14' ],
+		#self : OmReference [ '15' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #FruitTree
+			},
+			#name : #'printOn:',
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'printOn: aStream [\r    aStream\r        nextPutAll: \'Species: \', species;\r        cr;\r        nextPutAll: \'Age: \', age asString;\r        cr;\r        nextPutAll: \'Height: \', height asString;\r        cr;\r        nextPutAll: \'Yield: \', yield asString.\r]',
+			#stamp : '10/9/2024 19:30',
+			#package : #ProjectFruitTree
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '15' ],
+		#self : OmReference [ '16' ]
+	},
+	#content : EpProtocolAddition {
+		#behavior : RGClassDefinition {
+			#annotations : IdentityDictionary {
+				#superclassName : #Object,
+				#traitCompositionSource : '{}',
+				#definitionSource : 'Object << #FruitTree\r\tslots: { #species . #age . #height . #yield . #fruitingAge };\r\tpackage: \'ProjectFruitTree\''
+			},
+			#name : #FruitTree,
+			#methods : IdentityDictionary { },
+			#protocols : Set [ ],
+			#instanceVariables : OrderedCollection [
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#isMeta : false,
+						#className : #FruitTree
+					},
+					#name : #species,
+					#parent : @6
+				},
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#isMeta : false,
+						#className : #FruitTree
+					},
+					#name : #age,
+					#parent : @6
+				},
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#isMeta : false,
+						#className : #FruitTree
+					},
+					#name : #height,
+					#parent : @6
+				},
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#isMeta : false,
+						#className : #FruitTree
+					},
+					#name : #yield,
+					#parent : @6
+				},
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#isMeta : false,
+						#className : #FruitTree
+					},
+					#name : #fruitingAge,
+					#parent : @6
+				}
+			],
+			#metaClass : RGMetaclassDefinition {
+				#annotations : IdentityDictionary {
+					#traitCompositionSource : '{}',
+					#definitionSource : 'Object class << FruitTree class\r\tslots: {}'
+				},
+				#name : #'FruitTree class',
+				#methods : IdentityDictionary { },
+				#protocols : Set [ ],
+				#instanceVariables : OrderedCollection [ ],
+				#baseClass : @6
+			},
+			#comment : RGCommentDefinition {
+				#annotations : IdentityDictionary {
+					#isMeta : false,
+					#className : #FruitTree
+				},
+				#parent : @6,
+				#content : ''
+			},
+			#classVariables : OrderedCollection [ ],
+			#package : RGPackageDefinition {
+				#name : #ProjectFruitTree,
+				#definedClasses : IdentityDictionary { },
+				#definedMethods : IdentityDictionary { },
+				#extensionMethods : IdentityDictionary { }
+			},
+			#packageTag : #Uncategorized,
+			#sharedPools : OrderedCollection [ ]
+		},
+		#protocol : #printing
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '16' ],
+		#self : OmReference [ '17' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #FruitTree
+			},
+			#name : #'printOn:',
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'printOn: aStream [\r    aStream\r        nextPutAll: \'Species: \', species;\r        cr;\r        nextPutAll: \'Age: \', age asString;\r        cr;\r        nextPutAll: \'Height: \', height asString;\r        cr;\r        nextPutAll: \'Yield: \', yield asString.\r]',
+			#stamp : '10/9/2024 19:30',
+			#package : #ProjectFruitTree
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #FruitTree
+			},
+			#name : #'printOn:',
+			#protocol : #printing,
+			#sourceCode : 'printOn: aStream [\r    aStream\r        nextPutAll: \'Species: \', species;\r        cr;\r        nextPutAll: \'Age: \', age asString;\r        cr;\r        nextPutAll: \'Height: \', height asString;\r        cr;\r        nextPutAll: \'Yield: \', yield asString.\r]',
+			#stamp : '10/9/2024 19:30',
+			#package : #ProjectFruitTree
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '17' ],
+		#self : OmReference [ '18' ]
+	},
+	#content : EpSessionSnapshot {
+		#imageName : 'C:\\PharoProject\\ProjectFruitTree\\src\\ProjectTest\\ProjectTest.image'
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '18' ],
+		#self : OmReference [ '19' ]
+	},
+	#content : EpSessionSnapshot {
+		#imageName : 'C:\\PharoProject\\ProjectFruitTree\\src\\ProjectTest\\ProjectTest.image'
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '19' ],
+		#self : OmReference [ '20' ]
+	},
+	#content : EpSessionSnapshot {
+		#imageName : 'C:\\PharoProject\\ProjectFruitTree\\src\\ProjectTest\\ProjectTest.image'
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '20' ],
+		#self : OmReference [ '21' ]
+	},
+	#content : EpClassAddition {
+		#class : RGClassDefinition {
+			#annotations : IdentityDictionary {
+				#superclassName : #FruitTree,
+				#traitCompositionSource : '{}',
+				#definitionSource : 'FruitTree << #AppleTree\r\tslots: {};\r\tpackage: \'ProjectFruitTree\''
+			},
+			#name : #AppleTree,
+			#methods : IdentityDictionary { },
+			#protocols : Set [ ],
+			#instanceVariables : OrderedCollection [ ],
+			#metaClass : RGMetaclassDefinition {
+				#annotations : IdentityDictionary {
+					#traitCompositionSource : '{}',
+					#definitionSource : 'FruitTree class << AppleTree class\r\tslots: {}'
+				},
+				#name : #'AppleTree class',
+				#methods : IdentityDictionary { },
+				#protocols : Set [ ],
+				#instanceVariables : OrderedCollection [ ],
+				#baseClass : @6
+			},
+			#comment : RGCommentDefinition {
+				#annotations : IdentityDictionary {
+					#isMeta : false,
+					#className : #AppleTree
+				},
+				#parent : @6,
+				#content : ''
+			},
+			#classVariables : OrderedCollection [ ],
+			#package : RGPackageDefinition {
+				#name : #ProjectFruitTree,
+				#definedClasses : IdentityDictionary { },
+				#definedMethods : IdentityDictionary { },
+				#extensionMethods : IdentityDictionary { }
+			},
+			#packageTag : #Uncategorized,
+			#sharedPools : OrderedCollection [ ]
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '21' ],
+		#self : OmReference [ '22' ]
+	},
+	#content : EpSessionSnapshot {
+		#imageName : 'C:\\PharoProject\\ProjectFruitTree\\src\\ProjectTest\\ProjectTest.image'
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '22' ],
+		#self : OmReference [ '23' ]
+	},
+	#content : EpClassAddition {
+		#class : RGClassDefinition {
+			#annotations : IdentityDictionary {
+				#superclassName : #FruitTree,
+				#traitCompositionSource : '{}',
+				#definitionSource : 'FruitTree << #AppleTree\r\tslots: { #isFruitYear . #fruitColor };\r\tpackage: \'ProjectFruitTree\''
+			},
+			#name : #AppleTree,
+			#methods : IdentityDictionary { },
+			#protocols : Set [ ],
+			#instanceVariables : OrderedCollection [
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#isMeta : false,
+						#className : #AppleTree
+					},
+					#name : #isFruitYear,
+					#parent : @6
+				},
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#isMeta : false,
+						#className : #AppleTree
+					},
+					#name : #fruitColor,
+					#parent : @6
+				}
+			],
+			#metaClass : RGMetaclassDefinition {
+				#annotations : IdentityDictionary {
+					#traitCompositionSource : '{}',
+					#definitionSource : 'FruitTree class << AppleTree class\r\tslots: {}'
+				},
+				#name : #'AppleTree class',
+				#methods : IdentityDictionary { },
+				#protocols : Set [ ],
+				#instanceVariables : OrderedCollection [ ],
+				#baseClass : @6
+			},
+			#comment : RGCommentDefinition {
+				#annotations : IdentityDictionary {
+					#isMeta : false,
+					#className : #AppleTree
+				},
+				#parent : @6,
+				#content : ''
+			},
+			#classVariables : OrderedCollection [ ],
+			#package : RGPackageDefinition {
+				#name : #ProjectFruitTree,
+				#definedClasses : IdentityDictionary { },
+				#definedMethods : IdentityDictionary { },
+				#extensionMethods : IdentityDictionary { }
+			},
+			#packageTag : #Uncategorized,
+			#sharedPools : OrderedCollection [ ]
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '23' ],
+		#self : OmReference [ '24' ]
+	},
+	#content : EpClassModification {
+		#oldClass : RGClassDefinition {
+			#annotations : IdentityDictionary {
+				#superclassName : #FruitTree,
+				#traitCompositionSource : '{}',
+				#definitionSource : 'FruitTree << #AppleTree\r\tslots: {};\r\tpackage: \'ProjectFruitTree\''
+			},
+			#name : #AppleTree,
+			#methods : IdentityDictionary { },
+			#protocols : Set [ ],
+			#instanceVariables : OrderedCollection [ ],
+			#metaClass : RGMetaclassDefinition {
+				#annotations : IdentityDictionary {
+					#traitCompositionSource : '{}',
+					#definitionSource : 'FruitTree class << AppleTree class\r\tslots: {}'
+				},
+				#name : #'AppleTree class',
+				#methods : IdentityDictionary { },
+				#protocols : Set [ ],
+				#instanceVariables : OrderedCollection [ ],
+				#baseClass : @6
+			},
+			#comment : RGCommentDefinition {
+				#annotations : IdentityDictionary {
+					#isMeta : false,
+					#className : #AppleTree
+				},
+				#parent : @6,
+				#content : ''
+			},
+			#classVariables : OrderedCollection [ ],
+			#package : RGPackageDefinition {
+				#name : #ProjectFruitTree,
+				#definedClasses : IdentityDictionary { },
+				#definedMethods : IdentityDictionary { },
+				#extensionMethods : IdentityDictionary { }
+			},
+			#packageTag : #Uncategorized,
+			#sharedPools : OrderedCollection [ ]
+		},
+		#newClass : RGClassDefinition {
+			#annotations : IdentityDictionary {
+				#superclassName : #FruitTree,
+				#traitCompositionSource : '{}',
+				#definitionSource : 'FruitTree << #AppleTree\r\tslots: { #isFruitYear . #fruitColor };\r\tpackage: \'ProjectFruitTree\''
+			},
+			#name : #AppleTree,
+			#methods : IdentityDictionary { },
+			#protocols : Set [ ],
+			#instanceVariables : OrderedCollection [
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#isMeta : false,
+						#className : #AppleTree
+					},
+					#name : #isFruitYear,
+					#parent : @24
+				},
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#isMeta : false,
+						#className : #AppleTree
+					},
+					#name : #fruitColor,
+					#parent : @24
+				}
+			],
+			#metaClass : RGMetaclassDefinition {
+				#annotations : IdentityDictionary {
+					#traitCompositionSource : '{}',
+					#definitionSource : 'FruitTree class << AppleTree class\r\tslots: {}'
+				},
+				#name : #'AppleTree class',
+				#methods : IdentityDictionary { },
+				#protocols : Set [ ],
+				#instanceVariables : OrderedCollection [ ],
+				#baseClass : @24
+			},
+			#comment : RGCommentDefinition {
+				#annotations : IdentityDictionary {
+					#isMeta : false,
+					#className : #AppleTree
+				},
+				#parent : @24,
+				#content : ''
+			},
+			#classVariables : OrderedCollection [ ],
+			#package : RGPackageDefinition {
+				#name : #ProjectFruitTree,
+				#definedClasses : IdentityDictionary { },
+				#definedMethods : IdentityDictionary { },
+				#extensionMethods : IdentityDictionary { }
+			},
+			#packageTag : #Uncategorized,
+			#sharedPools : OrderedCollection [ ]
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '24' ],
+		#self : OmReference [ '25' ]
+	},
+	#content : EpSessionSnapshot {
+		#imageName : 'C:\\PharoProject\\ProjectFruitTree\\src\\ProjectTest\\ProjectTest.image'
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '25' ],
+		#self : OmReference [ '26' ]
+	},
+	#content : EpProtocolAddition {
+		#behavior : RGClassDefinition {
+			#annotations : IdentityDictionary {
+				#superclassName : #FruitTree,
+				#traitCompositionSource : '{}',
+				#definitionSource : 'FruitTree << #AppleTree\r\tslots: { #isFruitYear . #fruitColor };\r\tpackage: \'ProjectFruitTree\''
+			},
+			#name : #AppleTree,
+			#methods : IdentityDictionary { },
+			#protocols : Set [ ],
+			#instanceVariables : OrderedCollection [
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#isMeta : false,
+						#className : #AppleTree
+					},
+					#name : #isFruitYear,
+					#parent : @6
+				},
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#isMeta : false,
+						#className : #AppleTree
+					},
+					#name : #fruitColor,
+					#parent : @6
+				}
+			],
+			#metaClass : RGMetaclassDefinition {
+				#annotations : IdentityDictionary {
+					#traitCompositionSource : '{}',
+					#definitionSource : 'FruitTree class << AppleTree class\r\tslots: {}'
+				},
+				#name : #'AppleTree class',
+				#methods : IdentityDictionary { },
+				#protocols : Set [ ],
+				#instanceVariables : OrderedCollection [ ],
+				#baseClass : @6
+			},
+			#comment : RGCommentDefinition {
+				#annotations : IdentityDictionary {
+					#isMeta : false,
+					#className : #AppleTree
+				},
+				#parent : @6,
+				#content : ''
+			},
+			#classVariables : OrderedCollection [ ],
+			#package : RGPackageDefinition {
+				#name : #ProjectFruitTree,
+				#definedClasses : IdentityDictionary { },
+				#definedMethods : IdentityDictionary { },
+				#extensionMethods : IdentityDictionary { }
+			},
+			#packageTag : #Uncategorized,
+			#sharedPools : OrderedCollection [ ]
+		},
+		#protocol : #'as yet unclassified'
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '26' ],
+		#self : OmReference [ '27' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #AppleTree
+			},
+			#name : #'initializeTree:age:height:yield:fruitingAge:fruitColor:',
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'initializeTree: aSpecies age: anAge height: aHeight yield: aYield fruitingAge: aFruitingAge fruitColor: aColor [\r    super initializeSpecies: aSpecies age: anAge height: aHeight yield: aYield fruitingAge: aFruitingAge.\r    fruitColor := aColor.\r    isFruitYear := true. "Яблуня плодоносить раз на два роки"\r]',
+			#stamp : '10/9/2024 19:47',
+			#package : #ProjectFruitTree
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '27' ],
+		#self : OmReference [ '28' ]
+	},
+	#content : EpProtocolAddition {
+		#behavior : RGClassDefinition {
+			#annotations : IdentityDictionary {
+				#superclassName : #FruitTree,
+				#traitCompositionSource : '{}',
+				#definitionSource : 'FruitTree << #AppleTree\r\tslots: { #isFruitYear . #fruitColor };\r\tpackage: \'ProjectFruitTree\''
+			},
+			#name : #AppleTree,
+			#methods : IdentityDictionary { },
+			#protocols : Set [ ],
+			#instanceVariables : OrderedCollection [
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#isMeta : false,
+						#className : #AppleTree
+					},
+					#name : #isFruitYear,
+					#parent : @6
+				},
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#isMeta : false,
+						#className : #AppleTree
+					},
+					#name : #fruitColor,
+					#parent : @6
+				}
+			],
+			#metaClass : RGMetaclassDefinition {
+				#annotations : IdentityDictionary {
+					#traitCompositionSource : '{}',
+					#definitionSource : 'FruitTree class << AppleTree class\r\tslots: {}'
+				},
+				#name : #'AppleTree class',
+				#methods : IdentityDictionary { },
+				#protocols : Set [ ],
+				#instanceVariables : OrderedCollection [ ],
+				#baseClass : @6
+			},
+			#comment : RGCommentDefinition {
+				#annotations : IdentityDictionary {
+					#isMeta : false,
+					#className : #AppleTree
+				},
+				#parent : @6,
+				#content : ''
+			},
+			#classVariables : OrderedCollection [ ],
+			#package : RGPackageDefinition {
+				#name : #ProjectFruitTree,
+				#definedClasses : IdentityDictionary { },
+				#definedMethods : IdentityDictionary { },
+				#extensionMethods : IdentityDictionary { }
+			},
+			#packageTag : #Uncategorized,
+			#sharedPools : OrderedCollection [ ]
+		},
+		#protocol : #initialization
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '28' ],
+		#self : OmReference [ '29' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #AppleTree
+			},
+			#name : #'initializeTree:age:height:yield:fruitingAge:fruitColor:',
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'initializeTree: aSpecies age: anAge height: aHeight yield: aYield fruitingAge: aFruitingAge fruitColor: aColor [\r    super initializeSpecies: aSpecies age: anAge height: aHeight yield: aYield fruitingAge: aFruitingAge.\r    fruitColor := aColor.\r    isFruitYear := true. "Яблуня плодоносить раз на два роки"\r]',
+			#stamp : '10/9/2024 19:47',
+			#package : #ProjectFruitTree
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #AppleTree
+			},
+			#name : #'initializeTree:age:height:yield:fruitingAge:fruitColor:',
+			#protocol : #initialization,
+			#sourceCode : 'initializeTree: aSpecies age: anAge height: aHeight yield: aYield fruitingAge: aFruitingAge fruitColor: aColor [\r    super initializeSpecies: aSpecies age: anAge height: aHeight yield: aYield fruitingAge: aFruitingAge.\r    fruitColor := aColor.\r    isFruitYear := true. "Яблуня плодоносить раз на два роки"\r]',
+			#stamp : '10/9/2024 19:47',
+			#package : #ProjectFruitTree
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '29' ],
+		#self : OmReference [ '30' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #AppleTree
+			},
+			#name : #'initializeTree:age:height:yield:fruitingAge:fruitColor:',
+			#protocol : #initialization,
+			#sourceCode : 'initializeTree: aSpecies age: anAge height: aHeight yield: aYield fruitingAge: aFruitingAge fruitColor: aColor [\r    super initializeSpecies: aSpecies age: anAge height: aHeight yield: aYield fruitingAge: aFruitingAge.\r    fruitColor := aColor.\r    isFruitYear := true. "Яблуня плодоносить раз на два роки"\r]',
+			#stamp : '10/9/2024 19:47',
+			#package : #ProjectFruitTree
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #AppleTree
+			},
+			#name : #'initializeTree:age:height:yield:fruitingAge:fruitColor:',
+			#protocol : #initialization,
+			#sourceCode : 'initializeTree: aSpecies age: anAge height: aHeight yield: aYield fruitingAge: aFruitingAge fruitColor: aColor [\r    super initializeTree: aSpecies age: anAge height: aHeight yield: aYield fruitingAge: aFruitingAge.\r    fruitColor := aColor.\r    isFruitYear := true. "Яблуня плодоносить раз на два роки"\r]',
+			#stamp : '10/9/2024 19:48',
+			#package : #ProjectFruitTree
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '30' ],
+		#self : OmReference [ '31' ]
+	},
+	#content : EpProtocolAddition {
+		#behavior : RGClassDefinition {
+			#annotations : IdentityDictionary {
+				#superclassName : #FruitTree,
+				#traitCompositionSource : '{}',
+				#definitionSource : 'FruitTree << #AppleTree\r\tslots: { #isFruitYear . #fruitColor };\r\tpackage: \'ProjectFruitTree\''
+			},
+			#name : #AppleTree,
+			#methods : IdentityDictionary { },
+			#protocols : Set [ ],
+			#instanceVariables : OrderedCollection [
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#isMeta : false,
+						#className : #AppleTree
+					},
+					#name : #isFruitYear,
+					#parent : @6
+				},
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#isMeta : false,
+						#className : #AppleTree
+					},
+					#name : #fruitColor,
+					#parent : @6
+				}
+			],
+			#metaClass : RGMetaclassDefinition {
+				#annotations : IdentityDictionary {
+					#traitCompositionSource : '{}',
+					#definitionSource : 'FruitTree class << AppleTree class\r\tslots: {}'
+				},
+				#name : #'AppleTree class',
+				#methods : IdentityDictionary { },
+				#protocols : Set [ ],
+				#instanceVariables : OrderedCollection [ ],
+				#baseClass : @6
+			},
+			#comment : RGCommentDefinition {
+				#annotations : IdentityDictionary {
+					#isMeta : false,
+					#className : #AppleTree
+				},
+				#parent : @6,
+				#content : ''
+			},
+			#classVariables : OrderedCollection [ ],
+			#package : RGPackageDefinition {
+				#name : #ProjectFruitTree,
+				#definedClasses : IdentityDictionary { },
+				#definedMethods : IdentityDictionary { },
+				#extensionMethods : IdentityDictionary { }
+			},
+			#packageTag : #Uncategorized,
+			#sharedPools : OrderedCollection [ ]
+		},
+		#protocol : #'as yet unclassified'
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '31' ],
+		#self : OmReference [ '32' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #AppleTree
+			},
+			#name : #growOneYear,
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'growOneYear [\r    age := age + 1.\r    height := height + 0.5.\r    isFruitYear := isFruitYear not. "Yield after year"\r\r    (age >= fruitingAge and: [isFruitYear]) ifTrue: [\r        self increaseYield.\r    ].\r]',
+			#stamp : '10/9/2024 19:48',
+			#package : #ProjectFruitTree
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '32' ],
+		#self : OmReference [ '33' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #FruitTree
+			},
+			#name : #increaseYield,
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'increaseYield [\r    yield := yield + 10.\r]',
+			#stamp : '10/9/2024 19:49',
+			#package : #ProjectFruitTree
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '33' ],
+		#self : OmReference [ '34' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #FruitTree
+			},
+			#name : #growOneYear,
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'growOneYear [\r    age := age + 1.\r    height := height + 0.5. "Height increase"\r    (age >= fruitingAge) ifTrue: [\r        yield := yield + 10. "Increasing of yield after start of fruiting"\r    ].\r]',
+			#stamp : '10/9/2024 19:26',
+			#package : #ProjectFruitTree
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #FruitTree
+			},
+			#name : #growOneYear,
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'growOneYear [\r    age := age + 1.\r    height := height + 0.5. "Height increase"\r    (age >= fruitingAge) ifTrue: [\r        self increaseYield. "Increasing of yield after start of fruiting"\r    ].\r]',
+			#stamp : '10/9/2024 19:50',
+			#package : #ProjectFruitTree
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '34' ],
+		#self : OmReference [ '35' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #AppleTree
+			},
+			#name : #'printOn:',
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'printOn: aStream [\r    super printOn: aStream.\r    aStream\r        cr;\r        nextPutAll: \'Fruit Color: \', fruitColor.\r]',
+			#stamp : '10/9/2024 19:54',
+			#package : #ProjectFruitTree
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '35' ],
+		#self : OmReference [ '36' ]
+	},
+	#content : EpProtocolAddition {
+		#behavior : RGClassDefinition {
+			#annotations : IdentityDictionary {
+				#superclassName : #FruitTree,
+				#traitCompositionSource : '{}',
+				#definitionSource : 'FruitTree << #AppleTree\r\tslots: { #isFruitYear . #fruitColor };\r\tpackage: \'ProjectFruitTree\''
+			},
+			#name : #AppleTree,
+			#methods : IdentityDictionary { },
+			#protocols : Set [ ],
+			#instanceVariables : OrderedCollection [
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#isMeta : false,
+						#className : #AppleTree
+					},
+					#name : #isFruitYear,
+					#parent : @6
+				},
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#isMeta : false,
+						#className : #AppleTree
+					},
+					#name : #fruitColor,
+					#parent : @6
+				}
+			],
+			#metaClass : RGMetaclassDefinition {
+				#annotations : IdentityDictionary {
+					#traitCompositionSource : '{}',
+					#definitionSource : 'FruitTree class << AppleTree class\r\tslots: {}'
+				},
+				#name : #'AppleTree class',
+				#methods : IdentityDictionary { },
+				#protocols : Set [ ],
+				#instanceVariables : OrderedCollection [ ],
+				#baseClass : @6
+			},
+			#comment : RGCommentDefinition {
+				#annotations : IdentityDictionary {
+					#isMeta : false,
+					#className : #AppleTree
+				},
+				#parent : @6,
+				#content : ''
+			},
+			#classVariables : OrderedCollection [ ],
+			#package : RGPackageDefinition {
+				#name : #ProjectFruitTree,
+				#definedClasses : IdentityDictionary { },
+				#definedMethods : IdentityDictionary { },
+				#extensionMethods : IdentityDictionary { }
+			},
+			#packageTag : #Uncategorized,
+			#sharedPools : OrderedCollection [ ]
+		},
+		#protocol : #printing
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '36' ],
+		#self : OmReference [ '37' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #AppleTree
+			},
+			#name : #'printOn:',
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'printOn: aStream [\r    super printOn: aStream.\r    aStream\r        cr;\r        nextPutAll: \'Fruit Color: \', fruitColor.\r]',
+			#stamp : '10/9/2024 19:54',
+			#package : #ProjectFruitTree
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #AppleTree
+			},
+			#name : #'printOn:',
+			#protocol : #printing,
+			#sourceCode : 'printOn: aStream [\r    super printOn: aStream.\r    aStream\r        cr;\r        nextPutAll: \'Fruit Color: \', fruitColor.\r]',
+			#stamp : '10/9/2024 19:54',
+			#package : #ProjectFruitTree
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '37' ],
+		#self : OmReference [ '38' ]
+	},
+	#content : EpClassAddition {
+		#class : RGClassDefinition {
+			#annotations : IdentityDictionary {
+				#superclassName : #FruitTree,
+				#traitCompositionSource : '{}',
+				#definitionSource : 'FruitTree << #ApricotTree\r\tslots: {};\r\tpackage: \'ProjectFruitTree\''
+			},
+			#name : #ApricotTree,
+			#methods : IdentityDictionary { },
+			#protocols : Set [ ],
+			#instanceVariables : OrderedCollection [ ],
+			#metaClass : RGMetaclassDefinition {
+				#annotations : IdentityDictionary {
+					#traitCompositionSource : '{}',
+					#definitionSource : 'FruitTree class << ApricotTree class\r\tslots: {}'
+				},
+				#name : #'ApricotTree class',
+				#methods : IdentityDictionary { },
+				#protocols : Set [ ],
+				#instanceVariables : OrderedCollection [ ],
+				#baseClass : @6
+			},
+			#comment : RGCommentDefinition {
+				#annotations : IdentityDictionary {
+					#isMeta : false,
+					#className : #ApricotTree
+				},
+				#parent : @6,
+				#content : ''
+			},
+			#classVariables : OrderedCollection [ ],
+			#package : RGPackageDefinition {
+				#name : #ProjectFruitTree,
+				#definedClasses : IdentityDictionary { },
+				#definedMethods : IdentityDictionary { },
+				#extensionMethods : IdentityDictionary { }
+			},
+			#packageTag : #Uncategorized,
+			#sharedPools : OrderedCollection [ ]
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '38' ],
+		#self : OmReference [ '39' ]
+	},
+	#content : EpClassAddition {
+		#class : RGClassDefinition {
+			#annotations : IdentityDictionary {
+				#superclassName : #FruitTree,
+				#traitCompositionSource : '{}',
+				#definitionSource : 'FruitTree << #ApricotTree\r\tslots: { #wasFrost };\r\tpackage: \'ProjectFruitTree\''
+			},
+			#name : #ApricotTree,
+			#methods : IdentityDictionary { },
+			#protocols : Set [ ],
+			#instanceVariables : OrderedCollection [
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#isMeta : false,
+						#className : #ApricotTree
+					},
+					#name : #wasFrost,
+					#parent : @6
+				}
+			],
+			#metaClass : RGMetaclassDefinition {
+				#annotations : IdentityDictionary {
+					#traitCompositionSource : '{}',
+					#definitionSource : 'FruitTree class << ApricotTree class\r\tslots: {}'
+				},
+				#name : #'ApricotTree class',
+				#methods : IdentityDictionary { },
+				#protocols : Set [ ],
+				#instanceVariables : OrderedCollection [ ],
+				#baseClass : @6
+			},
+			#comment : RGCommentDefinition {
+				#annotations : IdentityDictionary {
+					#isMeta : false,
+					#className : #ApricotTree
+				},
+				#parent : @6,
+				#content : ''
+			},
+			#classVariables : OrderedCollection [ ],
+			#package : RGPackageDefinition {
+				#name : #ProjectFruitTree,
+				#definedClasses : IdentityDictionary { },
+				#definedMethods : IdentityDictionary { },
+				#extensionMethods : IdentityDictionary { }
+			},
+			#packageTag : #Uncategorized,
+			#sharedPools : OrderedCollection [ ]
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '39' ],
+		#self : OmReference [ '40' ]
+	},
+	#content : EpClassModification {
+		#oldClass : RGClassDefinition {
+			#annotations : IdentityDictionary {
+				#superclassName : #FruitTree,
+				#traitCompositionSource : '{}',
+				#definitionSource : 'FruitTree << #ApricotTree\r\tslots: {};\r\tpackage: \'ProjectFruitTree\''
+			},
+			#name : #ApricotTree,
+			#methods : IdentityDictionary { },
+			#protocols : Set [ ],
+			#instanceVariables : OrderedCollection [ ],
+			#metaClass : RGMetaclassDefinition {
+				#annotations : IdentityDictionary {
+					#traitCompositionSource : '{}',
+					#definitionSource : 'FruitTree class << ApricotTree class\r\tslots: {}'
+				},
+				#name : #'ApricotTree class',
+				#methods : IdentityDictionary { },
+				#protocols : Set [ ],
+				#instanceVariables : OrderedCollection [ ],
+				#baseClass : @6
+			},
+			#comment : RGCommentDefinition {
+				#annotations : IdentityDictionary {
+					#isMeta : false,
+					#className : #ApricotTree
+				},
+				#parent : @6,
+				#content : ''
+			},
+			#classVariables : OrderedCollection [ ],
+			#package : RGPackageDefinition {
+				#name : #ProjectFruitTree,
+				#definedClasses : IdentityDictionary { },
+				#definedMethods : IdentityDictionary { },
+				#extensionMethods : IdentityDictionary { }
+			},
+			#packageTag : #Uncategorized,
+			#sharedPools : OrderedCollection [ ]
+		},
+		#newClass : RGClassDefinition {
+			#annotations : IdentityDictionary {
+				#superclassName : #FruitTree,
+				#traitCompositionSource : '{}',
+				#definitionSource : 'FruitTree << #ApricotTree\r\tslots: { #wasFrost };\r\tpackage: \'ProjectFruitTree\''
+			},
+			#name : #ApricotTree,
+			#methods : IdentityDictionary { },
+			#protocols : Set [ ],
+			#instanceVariables : OrderedCollection [
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#isMeta : false,
+						#className : #ApricotTree
+					},
+					#name : #wasFrost,
+					#parent : @24
+				}
+			],
+			#metaClass : RGMetaclassDefinition {
+				#annotations : IdentityDictionary {
+					#traitCompositionSource : '{}',
+					#definitionSource : 'FruitTree class << ApricotTree class\r\tslots: {}'
+				},
+				#name : #'ApricotTree class',
+				#methods : IdentityDictionary { },
+				#protocols : Set [ ],
+				#instanceVariables : OrderedCollection [ ],
+				#baseClass : @24
+			},
+			#comment : RGCommentDefinition {
+				#annotations : IdentityDictionary {
+					#isMeta : false,
+					#className : #ApricotTree
+				},
+				#parent : @24,
+				#content : ''
+			},
+			#classVariables : OrderedCollection [ ],
+			#package : RGPackageDefinition {
+				#name : #ProjectFruitTree,
+				#definedClasses : IdentityDictionary { },
+				#definedMethods : IdentityDictionary { },
+				#extensionMethods : IdentityDictionary { }
+			},
+			#packageTag : #Uncategorized,
+			#sharedPools : OrderedCollection [ ]
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '40' ],
+		#self : OmReference [ '41' ]
+	},
+	#content : EpProtocolAddition {
+		#behavior : RGClassDefinition {
+			#annotations : IdentityDictionary {
+				#superclassName : #FruitTree,
+				#traitCompositionSource : '{}',
+				#definitionSource : 'FruitTree << #ApricotTree\r\tslots: { #wasFrost };\r\tpackage: \'ProjectFruitTree\''
+			},
+			#name : #ApricotTree,
+			#methods : IdentityDictionary { },
+			#protocols : Set [ ],
+			#instanceVariables : OrderedCollection [
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#isMeta : false,
+						#className : #ApricotTree
+					},
+					#name : #wasFrost,
+					#parent : @6
+				}
+			],
+			#metaClass : RGMetaclassDefinition {
+				#annotations : IdentityDictionary {
+					#traitCompositionSource : '{}',
+					#definitionSource : 'FruitTree class << ApricotTree class\r\tslots: {}'
+				},
+				#name : #'ApricotTree class',
+				#methods : IdentityDictionary { },
+				#protocols : Set [ ],
+				#instanceVariables : OrderedCollection [ ],
+				#baseClass : @6
+			},
+			#comment : RGCommentDefinition {
+				#annotations : IdentityDictionary {
+					#isMeta : false,
+					#className : #ApricotTree
+				},
+				#parent : @6,
+				#content : ''
+			},
+			#classVariables : OrderedCollection [ ],
+			#package : RGPackageDefinition {
+				#name : #ProjectFruitTree,
+				#definedClasses : IdentityDictionary { },
+				#definedMethods : IdentityDictionary { },
+				#extensionMethods : IdentityDictionary { }
+			},
+			#packageTag : #Uncategorized,
+			#sharedPools : OrderedCollection [ ]
+		},
+		#protocol : #'as yet unclassified'
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '41' ],
+		#self : OmReference [ '42' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #ApricotTree
+			},
+			#name : #'initializeTree:age:height:yield:fruitingAge:wasFrost:',
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'initializeTree: aSpecies age: anAge height: aHeight yield: aYield fruitingAge: aFruitingAge wasFrost: aWasFrost [\r    super initializeTree: aSpecies age: anAge height: aHeight yield: aYield fruitingAge: aFruitingAge.\r    wasFrost := aWasFrost.\r]',
+			#stamp : '10/9/2024 19:58',
+			#package : #ProjectFruitTree
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '42' ],
+		#self : OmReference [ '43' ]
+	},
+	#content : EpProtocolAddition {
+		#behavior : RGClassDefinition {
+			#annotations : IdentityDictionary {
+				#superclassName : #FruitTree,
+				#traitCompositionSource : '{}',
+				#definitionSource : 'FruitTree << #ApricotTree\r\tslots: { #wasFrost };\r\tpackage: \'ProjectFruitTree\''
+			},
+			#name : #ApricotTree,
+			#methods : IdentityDictionary { },
+			#protocols : Set [ ],
+			#instanceVariables : OrderedCollection [
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#isMeta : false,
+						#className : #ApricotTree
+					},
+					#name : #wasFrost,
+					#parent : @6
+				}
+			],
+			#metaClass : RGMetaclassDefinition {
+				#annotations : IdentityDictionary {
+					#traitCompositionSource : '{}',
+					#definitionSource : 'FruitTree class << ApricotTree class\r\tslots: {}'
+				},
+				#name : #'ApricotTree class',
+				#methods : IdentityDictionary { },
+				#protocols : Set [ ],
+				#instanceVariables : OrderedCollection [ ],
+				#baseClass : @6
+			},
+			#comment : RGCommentDefinition {
+				#annotations : IdentityDictionary {
+					#isMeta : false,
+					#className : #ApricotTree
+				},
+				#parent : @6,
+				#content : ''
+			},
+			#classVariables : OrderedCollection [ ],
+			#package : RGPackageDefinition {
+				#name : #ProjectFruitTree,
+				#definedClasses : IdentityDictionary { },
+				#definedMethods : IdentityDictionary { },
+				#extensionMethods : IdentityDictionary { }
+			},
+			#packageTag : #Uncategorized,
+			#sharedPools : OrderedCollection [ ]
+		},
+		#protocol : #initialization
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '43' ],
+		#self : OmReference [ '44' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #ApricotTree
+			},
+			#name : #'initializeTree:age:height:yield:fruitingAge:wasFrost:',
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'initializeTree: aSpecies age: anAge height: aHeight yield: aYield fruitingAge: aFruitingAge wasFrost: aWasFrost [\r    super initializeTree: aSpecies age: anAge height: aHeight yield: aYield fruitingAge: aFruitingAge.\r    wasFrost := aWasFrost.\r]',
+			#stamp : '10/9/2024 19:58',
+			#package : #ProjectFruitTree
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #ApricotTree
+			},
+			#name : #'initializeTree:age:height:yield:fruitingAge:wasFrost:',
+			#protocol : #initialization,
+			#sourceCode : 'initializeTree: aSpecies age: anAge height: aHeight yield: aYield fruitingAge: aFruitingAge wasFrost: aWasFrost [\r    super initializeTree: aSpecies age: anAge height: aHeight yield: aYield fruitingAge: aFruitingAge.\r    wasFrost := aWasFrost.\r]',
+			#stamp : '10/9/2024 19:58',
+			#package : #ProjectFruitTree
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '44' ],
+		#self : OmReference [ '45' ]
+	},
+	#content : EpProtocolAddition {
+		#behavior : RGClassDefinition {
+			#annotations : IdentityDictionary {
+				#superclassName : #FruitTree,
+				#traitCompositionSource : '{}',
+				#definitionSource : 'FruitTree << #ApricotTree\r\tslots: { #wasFrost };\r\tpackage: \'ProjectFruitTree\''
+			},
+			#name : #ApricotTree,
+			#methods : IdentityDictionary { },
+			#protocols : Set [ ],
+			#instanceVariables : OrderedCollection [
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#isMeta : false,
+						#className : #ApricotTree
+					},
+					#name : #wasFrost,
+					#parent : @6
+				}
+			],
+			#metaClass : RGMetaclassDefinition {
+				#annotations : IdentityDictionary {
+					#traitCompositionSource : '{}',
+					#definitionSource : 'FruitTree class << ApricotTree class\r\tslots: {}'
+				},
+				#name : #'ApricotTree class',
+				#methods : IdentityDictionary { },
+				#protocols : Set [ ],
+				#instanceVariables : OrderedCollection [ ],
+				#baseClass : @6
+			},
+			#comment : RGCommentDefinition {
+				#annotations : IdentityDictionary {
+					#isMeta : false,
+					#className : #ApricotTree
+				},
+				#parent : @6,
+				#content : ''
+			},
+			#classVariables : OrderedCollection [ ],
+			#package : RGPackageDefinition {
+				#name : #ProjectFruitTree,
+				#definedClasses : IdentityDictionary { },
+				#definedMethods : IdentityDictionary { },
+				#extensionMethods : IdentityDictionary { }
+			},
+			#packageTag : #Uncategorized,
+			#sharedPools : OrderedCollection [ ]
+		},
+		#protocol : #'as yet unclassified'
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '45' ],
+		#self : OmReference [ '46' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #ApricotTree
+			},
+			#name : #growOneYear,
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'growOneYear [\r    age := age + 1.\r    height := height + 0.5.\r\r    (age >= fruitingAge) ifTrue: [\r        wasFrost ifTrue: [self decreaseYield].\r        wasFrost ifFalse: [self increaseYield].\r    ].\r]',
+			#stamp : '10/9/2024 19:58',
+			#package : #ProjectFruitTree
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '46' ],
+		#self : OmReference [ '47' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #ApricotTree
+			},
+			#name : #decreaseYield,
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'decreaseYield [\r    yield := yield * 0.2. "yield decreased to 20% when tree was frozen"\r]',
+			#stamp : '10/9/2024 19:59',
+			#package : #ProjectFruitTree
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '47' ],
+		#self : OmReference [ '48' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #ApricotTree
+			},
+			#name : #'printOn:',
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'printOn: aStream [\r    super printOn: aStream.\r    aStream\r        cr;\r        nextPutAll: \'Was there frost during flowering: \', wasFrost asString.\r]',
+			#stamp : '10/9/2024 19:59',
+			#package : #ProjectFruitTree
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '48' ],
+		#self : OmReference [ '49' ]
+	},
+	#content : EpProtocolAddition {
+		#behavior : RGClassDefinition {
+			#annotations : IdentityDictionary {
+				#superclassName : #FruitTree,
+				#traitCompositionSource : '{}',
+				#definitionSource : 'FruitTree << #ApricotTree\r\tslots: { #wasFrost };\r\tpackage: \'ProjectFruitTree\''
+			},
+			#name : #ApricotTree,
+			#methods : IdentityDictionary { },
+			#protocols : Set [ ],
+			#instanceVariables : OrderedCollection [
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#isMeta : false,
+						#className : #ApricotTree
+					},
+					#name : #wasFrost,
+					#parent : @6
+				}
+			],
+			#metaClass : RGMetaclassDefinition {
+				#annotations : IdentityDictionary {
+					#traitCompositionSource : '{}',
+					#definitionSource : 'FruitTree class << ApricotTree class\r\tslots: {}'
+				},
+				#name : #'ApricotTree class',
+				#methods : IdentityDictionary { },
+				#protocols : Set [ ],
+				#instanceVariables : OrderedCollection [ ],
+				#baseClass : @6
+			},
+			#comment : RGCommentDefinition {
+				#annotations : IdentityDictionary {
+					#isMeta : false,
+					#className : #ApricotTree
+				},
+				#parent : @6,
+				#content : ''
+			},
+			#classVariables : OrderedCollection [ ],
+			#package : RGPackageDefinition {
+				#name : #ProjectFruitTree,
+				#definedClasses : IdentityDictionary { },
+				#definedMethods : IdentityDictionary { },
+				#extensionMethods : IdentityDictionary { }
+			},
+			#packageTag : #Uncategorized,
+			#sharedPools : OrderedCollection [ ]
+		},
+		#protocol : #printing
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '49' ],
+		#self : OmReference [ '50' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #ApricotTree
+			},
+			#name : #'printOn:',
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'printOn: aStream [\r    super printOn: aStream.\r    aStream\r        cr;\r        nextPutAll: \'Was there frost during flowering: \', wasFrost asString.\r]',
+			#stamp : '10/9/2024 19:59',
+			#package : #ProjectFruitTree
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #ApricotTree
+			},
+			#name : #'printOn:',
+			#protocol : #printing,
+			#sourceCode : 'printOn: aStream [\r    super printOn: aStream.\r    aStream\r        cr;\r        nextPutAll: \'Was there frost during flowering: \', wasFrost asString.\r]',
+			#stamp : '10/9/2024 19:59',
+			#package : #ProjectFruitTree
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '50' ],
+		#self : OmReference [ '51' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #FruitTree
+			},
+			#name : #initialize,
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'initialize [\r    species := \'Fig\'.\r    age := 0.\r    height := 1.0.\r    yield := 3.\r    fruitingAge := 1. "Плодоношення починається з 3 років за замовчуванням"\r]',
+			#stamp : '10/9/2024 20:05',
+			#package : #ProjectFruitTree
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '51' ],
+		#self : OmReference [ '52' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #FruitTree
+			},
+			#name : #initialize,
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'initialize [\r    species := \'Fig\'.\r    age := 0.\r    height := 1.0.\r    yield := 3.\r    fruitingAge := 1. "Плодоношення починається з 3 років за замовчуванням"\r]',
+			#stamp : '10/9/2024 20:05',
+			#package : #ProjectFruitTree
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #FruitTree
+			},
+			#name : #initialize,
+			#protocol : #initialization,
+			#sourceCode : 'initialize [\r    species := \'Fig\'.\r    age := 0.\r    height := 1.0.\r    yield := 3.\r    fruitingAge := 1. "Плодоношення починається з 3 років за замовчуванням"\r]',
+			#stamp : '10/9/2024 20:05',
+			#package : #ProjectFruitTree
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '52' ],
+		#self : OmReference [ '53' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #FruitTree
+			},
+			#name : #initialize,
+			#protocol : #initialization,
+			#sourceCode : 'initialize [\r    species := \'Fig\'.\r    age := 0.\r    height := 1.0.\r    yield := 3.\r    fruitingAge := 1. "Плодоношення починається з 3 років за замовчуванням"\r]',
+			#stamp : '10/9/2024 20:05',
+			#package : #ProjectFruitTree
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #FruitTree
+			},
+			#name : #initialize,
+			#protocol : #initialization,
+			#sourceCode : 'initialize [\r    species := \'Fig\'.\r    age := 0.\r    height := 1.0.\r    yield := 3.\r    fruitingAge := 1. \r]',
+			#stamp : '10/9/2024 20:06',
+			#package : #ProjectFruitTree
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '53' ],
+		#self : OmReference [ '54' ]
+	},
+	#content : EpSessionSnapshot {
+		#imageName : 'C:\\PharoProject\\ProjectFruitTree\\src\\ProjectTest\\ProjectTest.image'
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '54' ],
+		#self : OmReference [ '55' ]
+	},
+	#content : EpProtocolAddition {
+		#behavior : RGMetaclassDefinition {
+			#annotations : IdentityDictionary {
+				#traitCompositionSource : '{}',
+				#definitionSource : 'Object class << FruitTree class\r\tslots: {}'
+			},
+			#name : #'FruitTree class',
+			#methods : IdentityDictionary { },
+			#protocols : Set [ ],
+			#instanceVariables : OrderedCollection [ ],
+			#baseClass : RGClassDefinition {
+				#annotations : IdentityDictionary {
+					#superclassName : #Object,
+					#traitCompositionSource : '{}',
+					#definitionSource : 'Object << #FruitTree\r\tslots: { #species . #age . #height . #yield . #fruitingAge };\r\tpackage: \'ProjectFruitTree\''
+				},
+				#name : #FruitTree,
+				#methods : IdentityDictionary { },
+				#protocols : Set [ ],
+				#instanceVariables : OrderedCollection [
+					RGInstanceVariableDefinition {
+						#annotations : IdentityDictionary {
+							#isMeta : false,
+							#className : #FruitTree
+						},
+						#name : #species,
+						#parent : @11
+					},
+					RGInstanceVariableDefinition {
+						#annotations : IdentityDictionary {
+							#isMeta : false,
+							#className : #FruitTree
+						},
+						#name : #age,
+						#parent : @11
+					},
+					RGInstanceVariableDefinition {
+						#annotations : IdentityDictionary {
+							#isMeta : false,
+							#className : #FruitTree
+						},
+						#name : #height,
+						#parent : @11
+					},
+					RGInstanceVariableDefinition {
+						#annotations : IdentityDictionary {
+							#isMeta : false,
+							#className : #FruitTree
+						},
+						#name : #yield,
+						#parent : @11
+					},
+					RGInstanceVariableDefinition {
+						#annotations : IdentityDictionary {
+							#isMeta : false,
+							#className : #FruitTree
+						},
+						#name : #fruitingAge,
+						#parent : @11
+					}
+				],
+				#metaClass : @6,
+				#comment : RGCommentDefinition {
+					#annotations : IdentityDictionary {
+						#isMeta : false,
+						#className : #FruitTree
+					},
+					#parent : @11,
+					#content : ''
+				},
+				#classVariables : OrderedCollection [ ],
+				#package : RGPackageDefinition {
+					#name : #ProjectFruitTree,
+					#definedClasses : IdentityDictionary { },
+					#definedMethods : IdentityDictionary { },
+					#extensionMethods : IdentityDictionary { }
+				},
+				#packageTag : #Uncategorized,
+				#sharedPools : OrderedCollection [ ]
+			}
+		},
+		#protocol : #'as yet unclassified'
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '55' ],
+		#self : OmReference [ '56' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : true,
+				#className : #'FruitTree class'
+			},
+			#name : #newWithDefaults,
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'newWithDefaults [\r    ^self new initialize\r]',
+			#stamp : '10/9/2024 20:07',
+			#package : #ProjectFruitTree
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '56' ],
+		#self : OmReference [ '57' ]
+	},
+	#content : EpProtocolAddition {
+		#behavior : RGMetaclassDefinition {
+			#annotations : IdentityDictionary {
+				#traitCompositionSource : '{}',
+				#definitionSource : 'Object class << FruitTree class\r\tslots: {}'
+			},
+			#name : #'FruitTree class',
+			#methods : IdentityDictionary { },
+			#protocols : Set [ ],
+			#instanceVariables : OrderedCollection [ ],
+			#baseClass : RGClassDefinition {
+				#annotations : IdentityDictionary {
+					#superclassName : #Object,
+					#traitCompositionSource : '{}',
+					#definitionSource : 'Object << #FruitTree\r\tslots: { #species . #age . #height . #yield . #fruitingAge };\r\tpackage: \'ProjectFruitTree\''
+				},
+				#name : #FruitTree,
+				#methods : IdentityDictionary { },
+				#protocols : Set [ ],
+				#instanceVariables : OrderedCollection [
+					RGInstanceVariableDefinition {
+						#annotations : IdentityDictionary {
+							#isMeta : false,
+							#className : #FruitTree
+						},
+						#name : #species,
+						#parent : @11
+					},
+					RGInstanceVariableDefinition {
+						#annotations : IdentityDictionary {
+							#isMeta : false,
+							#className : #FruitTree
+						},
+						#name : #age,
+						#parent : @11
+					},
+					RGInstanceVariableDefinition {
+						#annotations : IdentityDictionary {
+							#isMeta : false,
+							#className : #FruitTree
+						},
+						#name : #height,
+						#parent : @11
+					},
+					RGInstanceVariableDefinition {
+						#annotations : IdentityDictionary {
+							#isMeta : false,
+							#className : #FruitTree
+						},
+						#name : #yield,
+						#parent : @11
+					},
+					RGInstanceVariableDefinition {
+						#annotations : IdentityDictionary {
+							#isMeta : false,
+							#className : #FruitTree
+						},
+						#name : #fruitingAge,
+						#parent : @11
+					}
+				],
+				#metaClass : @6,
+				#comment : RGCommentDefinition {
+					#annotations : IdentityDictionary {
+						#isMeta : false,
+						#className : #FruitTree
+					},
+					#parent : @11,
+					#content : ''
+				},
+				#classVariables : OrderedCollection [ ],
+				#package : RGPackageDefinition {
+					#name : #ProjectFruitTree,
+					#definedClasses : IdentityDictionary { },
+					#definedMethods : IdentityDictionary { },
+					#extensionMethods : IdentityDictionary { }
+				},
+				#packageTag : #Uncategorized,
+				#sharedPools : OrderedCollection [ ]
+			}
+		},
+		#protocol : #'instance creation'
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '57' ],
+		#self : OmReference [ '58' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : true,
+				#className : #'FruitTree class'
+			},
+			#name : #newWithDefaults,
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'newWithDefaults [\r    ^self new initialize\r]',
+			#stamp : '10/9/2024 20:07',
+			#package : #ProjectFruitTree
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : true,
+				#className : #'FruitTree class'
+			},
+			#name : #newWithDefaults,
+			#protocol : #'instance creation',
+			#sourceCode : 'newWithDefaults [\r    ^self new initialize\r]',
+			#stamp : '10/9/2024 20:07',
+			#package : #ProjectFruitTree
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '58' ],
+		#self : OmReference [ '59' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #FruitTree
+			},
+			#name : #'initializeTree:age:height:yield:fruitingAge:',
+			#protocol : #initialization,
+			#sourceCode : 'initializeTree: aSpecies age: anAge height: aHeight yield: aYield fruitingAge: aFruitingAge [\r    species := aSpecies.\r    age := anAge.\r    height := aHeight.\r    yield := aYield.\r    fruitingAge := aFruitingAge.\r]',
+			#stamp : '10/9/2024 19:22',
+			#package : #ProjectFruitTree
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #FruitTree
+			},
+			#name : #'initializeTree:age:height:yield:fruitingAge:',
+			#protocol : #initialization,
+			#sourceCode : 'initializeTree: aSpecies age: anAge height: aHeight yield: aYield fruitingAge: aFruitingAge [\r    species := aSpecies ifNil: [\'Fig\'].\r    age := anAge ifNil: [0].\r    height := aHeight ifNil: [1.0].\r    yield := aYield ifNil: [3].\r    fruitingAge := aFruitingAge ifNil: [1].\r]',
+			#stamp : '10/9/2024 20:10',
+			#package : #ProjectFruitTree
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '59' ],
+		#self : OmReference [ '60' ]
+	},
+	#content : EpSessionSnapshot {
+		#imageName : 'C:\\PharoProject\\ProjectFruitTree\\src\\ProjectTest\\ProjectTest.image'
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '60' ],
+		#self : OmReference [ '61' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #FruitTree
+			},
+			#name : #'growOneYear:',
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'growOneYear: frostOccurred [\r    age := age + 1.\r    height := height + 0.5. "Height increase"\r    (age >= fruitingAge) ifTrue: [\r        self increaseYield. "Increasing of yield after start of fruiting"\r    ].\r]',
+			#stamp : '10/9/2024 20:46',
+			#package : #ProjectFruitTree
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '61' ],
+		#self : OmReference [ '62' ]
+	},
+	#content : EpClassAddition {
+		#class : RGClassDefinition {
+			#annotations : IdentityDictionary {
+				#superclassName : #FruitTree,
+				#traitCompositionSource : '{}',
+				#definitionSource : 'FruitTree << #ApricotTree\r\tslots: {};\r\tpackage: \'ProjectFruitTree\''
+			},
+			#name : #ApricotTree,
+			#methods : IdentityDictionary { },
+			#protocols : Set [ ],
+			#instanceVariables : OrderedCollection [ ],
+			#metaClass : RGMetaclassDefinition {
+				#annotations : IdentityDictionary {
+					#traitCompositionSource : '{}',
+					#definitionSource : 'FruitTree class << ApricotTree class\r\tslots: {}'
+				},
+				#name : #'ApricotTree class',
+				#methods : IdentityDictionary { },
+				#protocols : Set [ ],
+				#instanceVariables : OrderedCollection [ ],
+				#baseClass : @6
+			},
+			#comment : RGCommentDefinition {
+				#annotations : IdentityDictionary {
+					#isMeta : false,
+					#className : #ApricotTree
+				},
+				#parent : @6,
+				#content : ''
+			},
+			#classVariables : OrderedCollection [ ],
+			#package : RGPackageDefinition {
+				#name : #ProjectFruitTree,
+				#definedClasses : IdentityDictionary { },
+				#definedMethods : IdentityDictionary { },
+				#extensionMethods : IdentityDictionary { }
+			},
+			#packageTag : #Uncategorized,
+			#sharedPools : OrderedCollection [ ]
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '62' ],
+		#self : OmReference [ '63' ]
+	},
+	#content : EpClassModification {
+		#oldClass : RGClassDefinition {
+			#annotations : IdentityDictionary {
+				#superclassName : #FruitTree,
+				#traitCompositionSource : '{}',
+				#definitionSource : 'FruitTree << #ApricotTree\r\tslots: { #wasFrost };\r\tpackage: \'ProjectFruitTree\''
+			},
+			#name : #ApricotTree,
+			#methods : IdentityDictionary { },
+			#protocols : Set [ ],
+			#instanceVariables : OrderedCollection [
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#isMeta : false,
+						#className : #ApricotTree
+					},
+					#name : #wasFrost,
+					#parent : @6
+				}
+			],
+			#metaClass : RGMetaclassDefinition {
+				#annotations : IdentityDictionary {
+					#traitCompositionSource : '{}',
+					#definitionSource : 'FruitTree class << ApricotTree class\r\tslots: {}'
+				},
+				#name : #'ApricotTree class',
+				#methods : IdentityDictionary { },
+				#protocols : Set [ ],
+				#instanceVariables : OrderedCollection [ ],
+				#baseClass : @6
+			},
+			#comment : RGCommentDefinition {
+				#annotations : IdentityDictionary {
+					#isMeta : false,
+					#className : #ApricotTree
+				},
+				#parent : @6,
+				#content : ''
+			},
+			#classVariables : OrderedCollection [ ],
+			#package : RGPackageDefinition {
+				#name : #ProjectFruitTree,
+				#definedClasses : IdentityDictionary { },
+				#definedMethods : IdentityDictionary { },
+				#extensionMethods : IdentityDictionary { }
+			},
+			#packageTag : #Uncategorized,
+			#sharedPools : OrderedCollection [ ]
+		},
+		#newClass : RGClassDefinition {
+			#annotations : IdentityDictionary {
+				#superclassName : #FruitTree,
+				#traitCompositionSource : '{}',
+				#definitionSource : 'FruitTree << #ApricotTree\r\tslots: {};\r\tpackage: \'ProjectFruitTree\''
+			},
+			#name : #ApricotTree,
+			#methods : IdentityDictionary { },
+			#protocols : Set [ ],
+			#instanceVariables : OrderedCollection [ ],
+			#metaClass : RGMetaclassDefinition {
+				#annotations : IdentityDictionary {
+					#traitCompositionSource : '{}',
+					#definitionSource : 'FruitTree class << ApricotTree class\r\tslots: {}'
+				},
+				#name : #'ApricotTree class',
+				#methods : IdentityDictionary { },
+				#protocols : Set [ ],
+				#instanceVariables : OrderedCollection [ ],
+				#baseClass : @26
+			},
+			#comment : RGCommentDefinition {
+				#annotations : IdentityDictionary {
+					#isMeta : false,
+					#className : #ApricotTree
+				},
+				#parent : @26,
+				#content : ''
+			},
+			#classVariables : OrderedCollection [ ],
+			#package : RGPackageDefinition {
+				#name : #ProjectFruitTree,
+				#definedClasses : IdentityDictionary { },
+				#definedMethods : IdentityDictionary { },
+				#extensionMethods : IdentityDictionary { }
+			},
+			#packageTag : #Uncategorized,
+			#sharedPools : OrderedCollection [ ]
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '63' ],
+		#self : OmReference [ '64' ]
+	},
+	#content : EpClassAddition {
+		#class : RGClassDefinition {
+			#annotations : IdentityDictionary {
+				#superclassName : #FruitTree,
+				#traitCompositionSource : '{}',
+				#definitionSource : 'FruitTree << #AppleTree\r\tslots: { #isFruitYear . #fruitColor };\r\tpackage: \'ProjectFruitTree\''
+			},
+			#name : #AppleTree,
+			#methods : IdentityDictionary { },
+			#protocols : Set [ ],
+			#instanceVariables : OrderedCollection [
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#isMeta : false,
+						#className : #AppleTree
+					},
+					#name : #isFruitYear,
+					#parent : @6
+				},
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#isMeta : false,
+						#className : #AppleTree
+					},
+					#name : #fruitColor,
+					#parent : @6
+				}
+			],
+			#metaClass : RGMetaclassDefinition {
+				#annotations : IdentityDictionary {
+					#traitCompositionSource : '{}',
+					#definitionSource : 'FruitTree class << AppleTree class\r\tslots: {}'
+				},
+				#name : #'AppleTree class',
+				#methods : IdentityDictionary { },
+				#protocols : Set [ ],
+				#instanceVariables : OrderedCollection [ ],
+				#baseClass : @6
+			},
+			#comment : RGCommentDefinition {
+				#annotations : IdentityDictionary {
+					#isMeta : false,
+					#className : #AppleTree
+				},
+				#parent : @6,
+				#content : ''
+			},
+			#classVariables : OrderedCollection [ ],
+			#package : RGPackageDefinition {
+				#name : #ProjectFruitTree,
+				#definedClasses : IdentityDictionary { },
+				#definedMethods : IdentityDictionary { },
+				#extensionMethods : IdentityDictionary { }
+			},
+			#packageTag : #Uncategorized,
+			#sharedPools : OrderedCollection [ ]
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '64' ],
+		#self : OmReference [ '65' ]
+	},
+	#content : EpClassAddition {
+		#class : RGClassDefinition {
+			#annotations : IdentityDictionary {
+				#superclassName : #FruitTree,
+				#traitCompositionSource : '{}',
+				#definitionSource : 'FruitTree << #ApricotTree\r\tslots: {};\r\tpackage: \'ProjectFruitTree\''
+			},
+			#name : #ApricotTree,
+			#methods : IdentityDictionary { },
+			#protocols : Set [ ],
+			#instanceVariables : OrderedCollection [ ],
+			#metaClass : RGMetaclassDefinition {
+				#annotations : IdentityDictionary {
+					#traitCompositionSource : '{}',
+					#definitionSource : 'FruitTree class << ApricotTree class\r\tslots: {}'
+				},
+				#name : #'ApricotTree class',
+				#methods : IdentityDictionary { },
+				#protocols : Set [ ],
+				#instanceVariables : OrderedCollection [ ],
+				#baseClass : @6
+			},
+			#comment : RGCommentDefinition {
+				#annotations : IdentityDictionary {
+					#isMeta : false,
+					#className : #ApricotTree
+				},
+				#parent : @6,
+				#content : ''
+			},
+			#classVariables : OrderedCollection [ ],
+			#package : RGPackageDefinition {
+				#name : #ProjectFruitTree,
+				#definedClasses : IdentityDictionary { },
+				#definedMethods : IdentityDictionary { },
+				#extensionMethods : IdentityDictionary { }
+			},
+			#packageTag : #Uncategorized,
+			#sharedPools : OrderedCollection [ ]
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '65' ],
+		#self : OmReference [ '66' ]
+	},
+	#content : EpClassAddition {
+		#class : RGClassDefinition {
+			#annotations : IdentityDictionary {
+				#superclassName : #Object,
+				#traitCompositionSource : '{}',
+				#definitionSource : 'Object << #FruitTree\r\tslots: { #species . #age . #height . #yield . #fruitingAge . #wasFrost };\r\tpackage: \'ProjectFruitTree\''
+			},
+			#name : #FruitTree,
+			#methods : IdentityDictionary { },
+			#protocols : Set [ ],
+			#instanceVariables : OrderedCollection [
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#isMeta : false,
+						#className : #FruitTree
+					},
+					#name : #species,
+					#parent : @6
+				},
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#isMeta : false,
+						#className : #FruitTree
+					},
+					#name : #age,
+					#parent : @6
+				},
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#isMeta : false,
+						#className : #FruitTree
+					},
+					#name : #height,
+					#parent : @6
+				},
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#isMeta : false,
+						#className : #FruitTree
+					},
+					#name : #yield,
+					#parent : @6
+				},
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#isMeta : false,
+						#className : #FruitTree
+					},
+					#name : #fruitingAge,
+					#parent : @6
+				},
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#isMeta : false,
+						#className : #FruitTree
+					},
+					#name : #wasFrost,
+					#parent : @6
+				}
+			],
+			#metaClass : RGMetaclassDefinition {
+				#annotations : IdentityDictionary {
+					#traitCompositionSource : '{}',
+					#definitionSource : 'Object class << FruitTree class\r\tslots: {}'
+				},
+				#name : #'FruitTree class',
+				#methods : IdentityDictionary { },
+				#protocols : Set [ ],
+				#instanceVariables : OrderedCollection [ ],
+				#baseClass : @6
+			},
+			#comment : RGCommentDefinition {
+				#annotations : IdentityDictionary {
+					#isMeta : false,
+					#className : #FruitTree
+				},
+				#parent : @6,
+				#content : ''
+			},
+			#classVariables : OrderedCollection [ ],
+			#package : RGPackageDefinition {
+				#name : #ProjectFruitTree,
+				#definedClasses : IdentityDictionary { },
+				#definedMethods : IdentityDictionary { },
+				#extensionMethods : IdentityDictionary { }
+			},
+			#packageTag : #Uncategorized,
+			#sharedPools : OrderedCollection [ ]
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '66' ],
+		#self : OmReference [ '67' ]
+	},
+	#content : EpClassModification {
+		#oldClass : RGClassDefinition {
+			#annotations : IdentityDictionary {
+				#superclassName : #Object,
+				#traitCompositionSource : '{}',
+				#definitionSource : 'Object << #FruitTree\r\tslots: { #species . #age . #height . #yield . #fruitingAge };\r\tpackage: \'ProjectFruitTree\''
+			},
+			#name : #FruitTree,
+			#methods : IdentityDictionary { },
+			#protocols : Set [ ],
+			#instanceVariables : OrderedCollection [
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#isMeta : false,
+						#className : #FruitTree
+					},
+					#name : #species,
+					#parent : @6
+				},
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#isMeta : false,
+						#className : #FruitTree
+					},
+					#name : #age,
+					#parent : @6
+				},
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#isMeta : false,
+						#className : #FruitTree
+					},
+					#name : #height,
+					#parent : @6
+				},
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#isMeta : false,
+						#className : #FruitTree
+					},
+					#name : #yield,
+					#parent : @6
+				},
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#isMeta : false,
+						#className : #FruitTree
+					},
+					#name : #fruitingAge,
+					#parent : @6
+				}
+			],
+			#metaClass : RGMetaclassDefinition {
+				#annotations : IdentityDictionary {
+					#traitCompositionSource : '{}',
+					#definitionSource : 'Object class << FruitTree class\r\tslots: {}'
+				},
+				#name : #'FruitTree class',
+				#methods : IdentityDictionary { },
+				#protocols : Set [ ],
+				#instanceVariables : OrderedCollection [ ],
+				#baseClass : @6
+			},
+			#comment : RGCommentDefinition {
+				#annotations : IdentityDictionary {
+					#isMeta : false,
+					#className : #FruitTree
+				},
+				#parent : @6,
+				#content : ''
+			},
+			#classVariables : OrderedCollection [ ],
+			#package : RGPackageDefinition {
+				#name : #ProjectFruitTree,
+				#definedClasses : IdentityDictionary { },
+				#definedMethods : IdentityDictionary { },
+				#extensionMethods : IdentityDictionary { }
+			},
+			#packageTag : #Uncategorized,
+			#sharedPools : OrderedCollection [ ]
+		},
+		#newClass : RGClassDefinition {
+			#annotations : IdentityDictionary {
+				#superclassName : #Object,
+				#traitCompositionSource : '{}',
+				#definitionSource : 'Object << #FruitTree\r\tslots: { #species . #age . #height . #yield . #fruitingAge . #wasFrost };\r\tpackage: \'ProjectFruitTree\''
+			},
+			#name : #FruitTree,
+			#methods : IdentityDictionary { },
+			#protocols : Set [ ],
+			#instanceVariables : OrderedCollection [
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#isMeta : false,
+						#className : #FruitTree
+					},
+					#name : #species,
+					#parent : @34
+				},
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#isMeta : false,
+						#className : #FruitTree
+					},
+					#name : #age,
+					#parent : @34
+				},
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#isMeta : false,
+						#className : #FruitTree
+					},
+					#name : #height,
+					#parent : @34
+				},
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#isMeta : false,
+						#className : #FruitTree
+					},
+					#name : #yield,
+					#parent : @34
+				},
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#isMeta : false,
+						#className : #FruitTree
+					},
+					#name : #fruitingAge,
+					#parent : @34
+				},
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#isMeta : false,
+						#className : #FruitTree
+					},
+					#name : #wasFrost,
+					#parent : @34
+				}
+			],
+			#metaClass : RGMetaclassDefinition {
+				#annotations : IdentityDictionary {
+					#traitCompositionSource : '{}',
+					#definitionSource : 'Object class << FruitTree class\r\tslots: {}'
+				},
+				#name : #'FruitTree class',
+				#methods : IdentityDictionary { },
+				#protocols : Set [ ],
+				#instanceVariables : OrderedCollection [ ],
+				#baseClass : @34
+			},
+			#comment : RGCommentDefinition {
+				#annotations : IdentityDictionary {
+					#isMeta : false,
+					#className : #FruitTree
+				},
+				#parent : @34,
+				#content : ''
+			},
+			#classVariables : OrderedCollection [ ],
+			#package : RGPackageDefinition {
+				#name : #ProjectFruitTree,
+				#definedClasses : IdentityDictionary { },
+				#definedMethods : IdentityDictionary { },
+				#extensionMethods : IdentityDictionary { }
+			},
+			#packageTag : #Uncategorized,
+			#sharedPools : OrderedCollection [ ]
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '67' ],
+		#self : OmReference [ '68' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #FruitTree
+			},
+			#name : #initialize,
+			#protocol : #initialization,
+			#sourceCode : 'initialize [\r    species := \'Fig\'.\r    age := 0.\r    height := 1.0.\r    yield := 3.\r    fruitingAge := 1. \r]',
+			#stamp : '10/9/2024 20:06',
+			#package : #ProjectFruitTree
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #FruitTree
+			},
+			#name : #initialize,
+			#protocol : #initialization,
+			#sourceCode : 'initialize [\r    species := \'Fig\'.\r    age := 0.\r    height := 1.0.\r    yield := 3.\r    fruitingAge := 1. \r\t wasFrost := false.\r]',
+			#stamp : '10/9/2024 20:50',
+			#package : #ProjectFruitTree
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '68' ],
+		#self : OmReference [ '69' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #FruitTree
+			},
+			#name : #'initializeTree:age:height:yield:fruitingAge:wasFrost:',
+			#protocol : #initialization,
+			#sourceCode : 'initializeTree: aSpecies age: anAge height: aHeight yield: aYield fruitingAge: aFruitingAge wasFrost: awasFrost [\r    species := aSpecies ifNil: [\'Fig\'].\r    age := anAge ifNil: [0].\r    height := aHeight ifNil: [1.0].\r    yield := aYield ifNil: [3].\r    fruitingAge := aFruitingAge ifNil: [1].\r]',
+			#stamp : '10/9/2024 20:50',
+			#package : #ProjectFruitTree
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '69' ],
+		#self : OmReference [ '70' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #FruitTree
+			},
+			#name : #'initializeTree:age:height:yield:fruitingAge:frostOccured:',
+			#protocol : #initialization,
+			#sourceCode : 'initializeTree: aSpecies age: anAge height: aHeight yield: aYield fruitingAge: aFruitingAge frostOccured: afrostOccured [\r    species := aSpecies ifNil: [\'Fig\'].\r    age := anAge ifNil: [0].\r    height := aHeight ifNil: [1.0].\r    yield := aYield ifNil: [3].\r    fruitingAge := aFruitingAge ifNil: [1].\r]',
+			#stamp : '10/9/2024 20:51',
+			#package : #ProjectFruitTree
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '70' ],
+		#self : OmReference [ '71' ]
+	},
+	#content : EpClassAddition {
+		#class : RGClassDefinition {
+			#annotations : IdentityDictionary {
+				#superclassName : #FruitTree,
+				#traitCompositionSource : '{}',
+				#definitionSource : 'FruitTree << #AppleTree\r\tslots: { #isFruitYear . #fruitColor };\r\tpackage: \'ProjectFruitTree\''
+			},
+			#name : #AppleTree,
+			#methods : IdentityDictionary { },
+			#protocols : Set [ ],
+			#instanceVariables : OrderedCollection [
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#isMeta : false,
+						#className : #AppleTree
+					},
+					#name : #isFruitYear,
+					#parent : @6
+				},
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#isMeta : false,
+						#className : #AppleTree
+					},
+					#name : #fruitColor,
+					#parent : @6
+				}
+			],
+			#metaClass : RGMetaclassDefinition {
+				#annotations : IdentityDictionary {
+					#traitCompositionSource : '{}',
+					#definitionSource : 'FruitTree class << AppleTree class\r\tslots: {}'
+				},
+				#name : #'AppleTree class',
+				#methods : IdentityDictionary { },
+				#protocols : Set [ ],
+				#instanceVariables : OrderedCollection [ ],
+				#baseClass : @6
+			},
+			#comment : RGCommentDefinition {
+				#annotations : IdentityDictionary {
+					#isMeta : false,
+					#className : #AppleTree
+				},
+				#parent : @6,
+				#content : ''
+			},
+			#classVariables : OrderedCollection [ ],
+			#package : RGPackageDefinition {
+				#name : #ProjectFruitTree,
+				#definedClasses : IdentityDictionary { },
+				#definedMethods : IdentityDictionary { },
+				#extensionMethods : IdentityDictionary { }
+			},
+			#packageTag : #Uncategorized,
+			#sharedPools : OrderedCollection [ ]
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '71' ],
+		#self : OmReference [ '72' ]
+	},
+	#content : EpClassAddition {
+		#class : RGClassDefinition {
+			#annotations : IdentityDictionary {
+				#superclassName : #FruitTree,
+				#traitCompositionSource : '{}',
+				#definitionSource : 'FruitTree << #ApricotTree\r\tslots: {};\r\tpackage: \'ProjectFruitTree\''
+			},
+			#name : #ApricotTree,
+			#methods : IdentityDictionary { },
+			#protocols : Set [ ],
+			#instanceVariables : OrderedCollection [ ],
+			#metaClass : RGMetaclassDefinition {
+				#annotations : IdentityDictionary {
+					#traitCompositionSource : '{}',
+					#definitionSource : 'FruitTree class << ApricotTree class\r\tslots: {}'
+				},
+				#name : #'ApricotTree class',
+				#methods : IdentityDictionary { },
+				#protocols : Set [ ],
+				#instanceVariables : OrderedCollection [ ],
+				#baseClass : @6
+			},
+			#comment : RGCommentDefinition {
+				#annotations : IdentityDictionary {
+					#isMeta : false,
+					#className : #ApricotTree
+				},
+				#parent : @6,
+				#content : ''
+			},
+			#classVariables : OrderedCollection [ ],
+			#package : RGPackageDefinition {
+				#name : #ProjectFruitTree,
+				#definedClasses : IdentityDictionary { },
+				#definedMethods : IdentityDictionary { },
+				#extensionMethods : IdentityDictionary { }
+			},
+			#packageTag : #Uncategorized,
+			#sharedPools : OrderedCollection [ ]
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '72' ],
+		#self : OmReference [ '73' ]
+	},
+	#content : EpClassAddition {
+		#class : RGClassDefinition {
+			#annotations : IdentityDictionary {
+				#superclassName : #Object,
+				#traitCompositionSource : '{}',
+				#definitionSource : 'Object << #FruitTree\r\tslots: { #species . #age . #height . #yield . #fruitingAge . #frostOccured };\r\tpackage: \'ProjectFruitTree\''
+			},
+			#name : #FruitTree,
+			#methods : IdentityDictionary { },
+			#protocols : Set [ ],
+			#instanceVariables : OrderedCollection [
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#isMeta : false,
+						#className : #FruitTree
+					},
+					#name : #species,
+					#parent : @6
+				},
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#isMeta : false,
+						#className : #FruitTree
+					},
+					#name : #age,
+					#parent : @6
+				},
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#isMeta : false,
+						#className : #FruitTree
+					},
+					#name : #height,
+					#parent : @6
+				},
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#isMeta : false,
+						#className : #FruitTree
+					},
+					#name : #yield,
+					#parent : @6
+				},
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#isMeta : false,
+						#className : #FruitTree
+					},
+					#name : #fruitingAge,
+					#parent : @6
+				},
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#isMeta : false,
+						#className : #FruitTree
+					},
+					#name : #frostOccured,
+					#parent : @6
+				}
+			],
+			#metaClass : RGMetaclassDefinition {
+				#annotations : IdentityDictionary {
+					#traitCompositionSource : '{}',
+					#definitionSource : 'Object class << FruitTree class\r\tslots: {}'
+				},
+				#name : #'FruitTree class',
+				#methods : IdentityDictionary { },
+				#protocols : Set [ ],
+				#instanceVariables : OrderedCollection [ ],
+				#baseClass : @6
+			},
+			#comment : RGCommentDefinition {
+				#annotations : IdentityDictionary {
+					#isMeta : false,
+					#className : #FruitTree
+				},
+				#parent : @6,
+				#content : ''
+			},
+			#classVariables : OrderedCollection [ ],
+			#package : RGPackageDefinition {
+				#name : #ProjectFruitTree,
+				#definedClasses : IdentityDictionary { },
+				#definedMethods : IdentityDictionary { },
+				#extensionMethods : IdentityDictionary { }
+			},
+			#packageTag : #Uncategorized,
+			#sharedPools : OrderedCollection [ ]
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '73' ],
+		#self : OmReference [ '74' ]
+	},
+	#content : EpClassModification {
+		#oldClass : RGClassDefinition {
+			#annotations : IdentityDictionary {
+				#superclassName : #Object,
+				#traitCompositionSource : '{}',
+				#definitionSource : 'Object << #FruitTree\r\tslots: { #species . #age . #height . #yield . #fruitingAge . #wasFrost };\r\tpackage: \'ProjectFruitTree\''
+			},
+			#name : #FruitTree,
+			#methods : IdentityDictionary { },
+			#protocols : Set [ ],
+			#instanceVariables : OrderedCollection [
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#isMeta : false,
+						#className : #FruitTree
+					},
+					#name : #species,
+					#parent : @6
+				},
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#isMeta : false,
+						#className : #FruitTree
+					},
+					#name : #age,
+					#parent : @6
+				},
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#isMeta : false,
+						#className : #FruitTree
+					},
+					#name : #height,
+					#parent : @6
+				},
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#isMeta : false,
+						#className : #FruitTree
+					},
+					#name : #yield,
+					#parent : @6
+				},
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#isMeta : false,
+						#className : #FruitTree
+					},
+					#name : #fruitingAge,
+					#parent : @6
+				},
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#isMeta : false,
+						#className : #FruitTree
+					},
+					#name : #wasFrost,
+					#parent : @6
+				}
+			],
+			#metaClass : RGMetaclassDefinition {
+				#annotations : IdentityDictionary {
+					#traitCompositionSource : '{}',
+					#definitionSource : 'Object class << FruitTree class\r\tslots: {}'
+				},
+				#name : #'FruitTree class',
+				#methods : IdentityDictionary { },
+				#protocols : Set [ ],
+				#instanceVariables : OrderedCollection [ ],
+				#baseClass : @6
+			},
+			#comment : RGCommentDefinition {
+				#annotations : IdentityDictionary {
+					#isMeta : false,
+					#className : #FruitTree
+				},
+				#parent : @6,
+				#content : ''
+			},
+			#classVariables : OrderedCollection [ ],
+			#package : RGPackageDefinition {
+				#name : #ProjectFruitTree,
+				#definedClasses : IdentityDictionary { },
+				#definedMethods : IdentityDictionary { },
+				#extensionMethods : IdentityDictionary { }
+			},
+			#packageTag : #Uncategorized,
+			#sharedPools : OrderedCollection [ ]
+		},
+		#newClass : RGClassDefinition {
+			#annotations : IdentityDictionary {
+				#superclassName : #Object,
+				#traitCompositionSource : '{}',
+				#definitionSource : 'Object << #FruitTree\r\tslots: { #species . #age . #height . #yield . #fruitingAge . #frostOccured };\r\tpackage: \'ProjectFruitTree\''
+			},
+			#name : #FruitTree,
+			#methods : IdentityDictionary { },
+			#protocols : Set [ ],
+			#instanceVariables : OrderedCollection [
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#isMeta : false,
+						#className : #FruitTree
+					},
+					#name : #species,
+					#parent : @36
+				},
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#isMeta : false,
+						#className : #FruitTree
+					},
+					#name : #age,
+					#parent : @36
+				},
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#isMeta : false,
+						#className : #FruitTree
+					},
+					#name : #height,
+					#parent : @36
+				},
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#isMeta : false,
+						#className : #FruitTree
+					},
+					#name : #yield,
+					#parent : @36
+				},
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#isMeta : false,
+						#className : #FruitTree
+					},
+					#name : #fruitingAge,
+					#parent : @36
+				},
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#isMeta : false,
+						#className : #FruitTree
+					},
+					#name : #frostOccured,
+					#parent : @36
+				}
+			],
+			#metaClass : RGMetaclassDefinition {
+				#annotations : IdentityDictionary {
+					#traitCompositionSource : '{}',
+					#definitionSource : 'Object class << FruitTree class\r\tslots: {}'
+				},
+				#name : #'FruitTree class',
+				#methods : IdentityDictionary { },
+				#protocols : Set [ ],
+				#instanceVariables : OrderedCollection [ ],
+				#baseClass : @36
+			},
+			#comment : RGCommentDefinition {
+				#annotations : IdentityDictionary {
+					#isMeta : false,
+					#className : #FruitTree
+				},
+				#parent : @36,
+				#content : ''
+			},
+			#classVariables : OrderedCollection [ ],
+			#package : RGPackageDefinition {
+				#name : #ProjectFruitTree,
+				#definedClasses : IdentityDictionary { },
+				#definedMethods : IdentityDictionary { },
+				#extensionMethods : IdentityDictionary { }
+			},
+			#packageTag : #Uncategorized,
+			#sharedPools : OrderedCollection [ ]
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '74' ],
+		#self : OmReference [ '75' ]
+	},
+	#content : EpMethodRemoval {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #FruitTree
+			},
+			#name : #'initializeTree:age:height:yield:fruitingAge:wasFrost:',
+			#protocol : #initialization,
+			#sourceCode : 'initializeTree: aSpecies age: anAge height: aHeight yield: aYield fruitingAge: aFruitingAge wasFrost: awasFrost [\r    species := aSpecies ifNil: [\'Fig\'].\r    age := anAge ifNil: [0].\r    height := aHeight ifNil: [1.0].\r    yield := aYield ifNil: [3].\r    fruitingAge := aFruitingAge ifNil: [1].\r]',
+			#stamp : '10/9/2024 20:50',
+			#package : #ProjectFruitTree
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '75' ],
+		#self : OmReference [ '76' ]
+	},
+	#content : EpMethodRemoval {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #FruitTree
+			},
+			#name : #'initializeTree:age:height:yield:fruitingAge:',
+			#protocol : #initialization,
+			#sourceCode : 'initializeTree: aSpecies age: anAge height: aHeight yield: aYield fruitingAge: aFruitingAge [\r    species := aSpecies ifNil: [\'Fig\'].\r    age := anAge ifNil: [0].\r    height := aHeight ifNil: [1.0].\r    yield := aYield ifNil: [3].\r    fruitingAge := aFruitingAge ifNil: [1].\r]',
+			#stamp : '10/9/2024 20:10',
+			#package : #ProjectFruitTree
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '76' ],
+		#self : OmReference [ '77' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #FruitTree
+			},
+			#name : #initialize,
+			#protocol : #initialization,
+			#sourceCode : 'initialize [\r    species := \'Fig\'.\r    age := 0.\r    height := 1.0.\r    yield := 3.\r    fruitingAge := 1. \r\t wasFrost := false.\r]',
+			#stamp : '10/9/2024 20:50',
+			#package : #ProjectFruitTree
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #FruitTree
+			},
+			#name : #initialize,
+			#protocol : #initialization,
+			#sourceCode : 'initialize [\r    species := \'Fig\'.\r    age := 0.\r    height := 1.0.\r    yield := 3.\r    fruitingAge := 1. \r\t frostOccured := false.\r]',
+			#stamp : '10/9/2024 20:52',
+			#package : #ProjectFruitTree
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '77' ],
+		#self : OmReference [ '78' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #FruitTree
+			},
+			#name : #'initializeTree:age:height:yield:fruitingAge:frostOccured:',
+			#protocol : #initialization,
+			#sourceCode : 'initializeTree: aSpecies age: anAge height: aHeight yield: aYield fruitingAge: aFruitingAge frostOccured: afrostOccured [\r    species := aSpecies ifNil: [\'Fig\'].\r    age := anAge ifNil: [0].\r    height := aHeight ifNil: [1.0].\r    yield := aYield ifNil: [3].\r    fruitingAge := aFruitingAge ifNil: [1].\r]',
+			#stamp : '10/9/2024 20:51',
+			#package : #ProjectFruitTree
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #FruitTree
+			},
+			#name : #'initializeTree:age:height:yield:fruitingAge:frostOccured:',
+			#protocol : #initialization,
+			#sourceCode : 'initializeTree: aSpecies age: anAge height: aHeight yield: aYield fruitingAge: aFruitingAge frostOccured: afrostOccured [\r    species := aSpecies ifNil: [\'Fig\'].\r    age := anAge ifNil: [0].\r    height := aHeight ifNil: [1.0].\r    yield := aYield ifNil: [3].\r    fruitingAge := aFruitingAge ifNil: [1].\r\t frostOccured := afrostOccured ifNil: [false].\r]',
+			#stamp : '10/9/2024 20:53',
+			#package : #ProjectFruitTree
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '78' ],
+		#self : OmReference [ '79' ]
+	},
+	#content : EpMethodRemoval {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #FruitTree
+			},
+			#name : #growOneYear,
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'growOneYear [\r    age := age + 1.\r    height := height + 0.5. "Height increase"\r    (age >= fruitingAge) ifTrue: [\r        self increaseYield. "Increasing of yield after start of fruiting"\r    ].\r]',
+			#stamp : '10/9/2024 19:50',
+			#package : #ProjectFruitTree
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '79' ],
+		#self : OmReference [ '80' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #FruitTree
+			},
+			#name : #'growOneYear:',
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'growOneYear: frostOccurred [\r    age := age + 1.\r    height := height + 0.5. "Height increase"\r    (age >= fruitingAge) ifTrue: [\r        self increaseYield. "Increasing of yield after start of fruiting"\r    ].\r]',
+			#stamp : '10/9/2024 20:46',
+			#package : #ProjectFruitTree
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #FruitTree
+			},
+			#name : #'growOneYear:',
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'growOneYear: frostStatus [\r    age := age + 1.\r    height := height + 0.5. "Height increase"\r    (age >= fruitingAge) ifTrue: [\r        self increaseYield. "Increasing of yield after start of fruiting"\r    ].\r]',
+			#stamp : '10/9/2024 20:55',
+			#package : #ProjectFruitTree
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '80' ],
+		#self : OmReference [ '81' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #FruitTree
+			},
+			#name : #'growOneYear:',
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'growOneYear: frostStatus [\r    age := age + 1.\r    height := height + 0.5. "Height increase"\r    (age >= fruitingAge) ifTrue: [\r        self increaseYield. "Increasing of yield after start of fruiting"\r    ].\r]',
+			#stamp : '10/9/2024 20:55',
+			#package : #ProjectFruitTree
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #FruitTree
+			},
+			#name : #'growOneYear:',
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'growOneYear: frostStatus [\r    age := age + 1.\r    height := height + 0.5. "Height increase"\r    frostOccured := frostStatus.\r    (age >= fruitingAge) ifTrue: [\r        self increaseYield. "Increasing of yield after start of fruiting"\r    ].\r]',
+			#stamp : '10/9/2024 20:55',
+			#package : #ProjectFruitTree
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '81' ],
+		#self : OmReference [ '82' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #AppleTree
+			},
+			#name : #'growOneYear:',
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'growOneYear: frostStatus[\r    age := age + 1.\r    height := height + 0.5.\r    isFruitYear := isFruitYear not. "Yield after year"\r\r    (age >= fruitingAge and: [isFruitYear]) ifTrue: [\r        self increaseYield.\r    ].\r]',
+			#stamp : '10/9/2024 20:56',
+			#package : #ProjectFruitTree
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '82' ],
+		#self : OmReference [ '83' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #AppleTree
+			},
+			#name : #'growOneYear:',
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'growOneYear: frostStatus[\r    age := age + 1.\r    height := height + 0.5.\r    isFruitYear := isFruitYear not. "Yield after year"\r\r    (age >= fruitingAge and: [isFruitYear]) ifTrue: [\r        self increaseYield.\r    ].\r]',
+			#stamp : '10/9/2024 20:56',
+			#package : #ProjectFruitTree
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #AppleTree
+			},
+			#name : #'growOneYear:',
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'growOneYear: frostStatus[\r    age := age + 1.\r    height := height + 0.5.\r    isFruitYear := isFruitYear not. "Yield after year"\r\t frostOccured := frostStatus.\r\r    (age >= fruitingAge and: [isFruitYear]) ifTrue: [\r        self increaseYield.\r    ].\r]',
+			#stamp : '10/9/2024 20:56',
+			#package : #ProjectFruitTree
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '83' ],
+		#self : OmReference [ '84' ]
+	},
+	#content : EpMethodRemoval {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #AppleTree
+			},
+			#name : #growOneYear,
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'growOneYear [\r    age := age + 1.\r    height := height + 0.5.\r    isFruitYear := isFruitYear not. "Yield after year"\r\r    (age >= fruitingAge and: [isFruitYear]) ifTrue: [\r        self increaseYield.\r    ].\r]',
+			#stamp : '10/9/2024 19:48',
+			#package : #ProjectFruitTree
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '84' ],
+		#self : OmReference [ '85' ]
+	},
+	#content : EpSessionSnapshot {
+		#imageName : 'C:\\PharoProject\\ProjectFruitTree\\src\\ProjectTest\\ProjectTest.image'
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '85' ],
+		#self : OmReference [ '86' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #AppleTree
+			},
+			#name : #'initializeTree:age:height:yield:fruitingAge:fruitColor:frostOccured:',
+			#protocol : #initialization,
+			#sourceCode : 'initializeTree: aSpecies age: anAge height: aHeight yield: aYield fruitingAge: aFruitingAge fruitColor: aColor frostOccured: afrostOccured [\r    super initializeTree: aSpecies age: anAge height: aHeight yield: aYield fruitingAge: aFruitingAge.\r    fruitColor := aColor.\r    isFruitYear := true. "Apple tree gives fruits ine time per two years"\r    frostOccured := afrostOccured. \r]',
+			#stamp : '10/9/2024 20:58',
+			#package : #ProjectFruitTree
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '86' ],
+		#self : OmReference [ '87' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #AppleTree
+			},
+			#name : #'initializeTree:age:height:yield:fruitingAge:fruitColor:frostOccured:',
+			#protocol : #initialization,
+			#sourceCode : 'initializeTree: aSpecies age: anAge height: aHeight yield: aYield fruitingAge: aFruitingAge fruitColor: aColor frostOccured: afrostOccured [\r    super initializeTree: aSpecies age: anAge height: aHeight yield: aYield fruitingAge: aFruitingAge.\r    fruitColor := aColor.\r    isFruitYear := true. "Apple tree gives fruits ine time per two years"\r    frostOccured := afrostOccured. \r]',
+			#stamp : '10/9/2024 20:58',
+			#package : #ProjectFruitTree
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #AppleTree
+			},
+			#name : #'initializeTree:age:height:yield:fruitingAge:fruitColor:frostOccured:',
+			#protocol : #initialization,
+			#sourceCode : 'initializeTree: aSpecies age: anAge height: aHeight yield: aYield fruitingAge: aFruitingAge fruitColor: aColor frostOccured: afrostOccured [\r    super initializeTree: aSpecies age: anAge height: aHeight yield: aYield fruitingAge: aFruitingAge.\r    fruitColor := aColor.\r    isFruitYear := true. "Apple tree gives fruits ine time per two years"\r    \r]',
+			#stamp : '10/9/2024 20:58',
+			#package : #ProjectFruitTree
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '87' ],
+		#self : OmReference [ '88' ]
+	},
+	#content : EpMethodRemoval {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #AppleTree
+			},
+			#name : #'initializeTree:age:height:yield:fruitingAge:fruitColor:',
+			#protocol : #initialization,
+			#sourceCode : 'initializeTree: aSpecies age: anAge height: aHeight yield: aYield fruitingAge: aFruitingAge fruitColor: aColor [\r    super initializeTree: aSpecies age: anAge height: aHeight yield: aYield fruitingAge: aFruitingAge.\r    fruitColor := aColor.\r    isFruitYear := true. "Яблуня плодоносить раз на два роки"\r]',
+			#stamp : '10/9/2024 19:48',
+			#package : #ProjectFruitTree
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '88' ],
+		#self : OmReference [ '89' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #AppleTree
+			},
+			#name : #'initializeTree:age:height:yield:fruitingAge:frostOccured:fruitColor:',
+			#protocol : #initialization,
+			#sourceCode : 'initializeTree: aSpecies age: anAge height: aHeight yield: aYield fruitingAge: aFruitingAge frostOccured: afrostOccured fruitColor: aColor  [\r    super initializeTree: aSpecies age: anAge height: aHeight yield: aYield fruitingAge: aFruitingAge.\r    fruitColor := aColor.\r    isFruitYear := true. "Apple tree gives fruits ine time per two years"\r    \r]',
+			#stamp : '10/9/2024 20:59',
+			#package : #ProjectFruitTree
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '89' ],
+		#self : OmReference [ '90' ]
+	},
+	#content : EpMethodRemoval {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #AppleTree
+			},
+			#name : #'initializeTree:age:height:yield:fruitingAge:fruitColor:frostOccured:',
+			#protocol : #initialization,
+			#sourceCode : 'initializeTree: aSpecies age: anAge height: aHeight yield: aYield fruitingAge: aFruitingAge fruitColor: aColor frostOccured: afrostOccured [\r    super initializeTree: aSpecies age: anAge height: aHeight yield: aYield fruitingAge: aFruitingAge.\r    fruitColor := aColor.\r    isFruitYear := true. "Apple tree gives fruits ine time per two years"\r    \r]',
+			#stamp : '10/9/2024 20:58',
+			#package : #ProjectFruitTree
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '90' ],
+		#self : OmReference [ '91' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #AppleTree
+			},
+			#name : #'initializeTree:age:height:yield:fruitingAge:frostOccured:fruitColor:',
+			#protocol : #initialization,
+			#sourceCode : 'initializeTree: aSpecies age: anAge height: aHeight yield: aYield fruitingAge: aFruitingAge frostOccured: afrostOccured fruitColor: aColor  [\r    super initializeTree: aSpecies age: anAge height: aHeight yield: aYield fruitingAge: aFruitingAge.\r    fruitColor := aColor.\r    isFruitYear := true. "Apple tree gives fruits ine time per two years"\r    \r]',
+			#stamp : '10/9/2024 20:59',
+			#package : #ProjectFruitTree
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #AppleTree
+			},
+			#name : #'initializeTree:age:height:yield:fruitingAge:frostOccured:fruitColor:',
+			#protocol : #initialization,
+			#sourceCode : 'initializeTree: aSpecies age: anAge height: aHeight yield: aYield fruitingAge: aFruitingAge frostOccured: afrostOccured fruitColor: aColor  [\r    super initializeTree: aSpecies age: anAge height: aHeight yield: aYield fruitingAge: aFruitingAge frostOccured: afrostOccured.\r    fruitColor := aColor.\r    isFruitYear := true. "Apple tree gives fruits ine time per two years"\r    \r]',
+			#stamp : '10/9/2024 21:00',
+			#package : #ProjectFruitTree
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '91' ],
+		#self : OmReference [ '92' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #ApricotTree
+			},
+			#name : #'initializeTree:age:height:yield:fruitingAge:frostOccured:',
+			#protocol : #initialization,
+			#sourceCode : 'initializeTree: aSpecies age: anAge height: aHeight yield: aYield fruitingAge: aFruitingAge frostOccured: afrostOccured [\r    super initializeTree: aSpecies age: anAge height: aHeight yield: aYield fruitingAge: aFruitingAge frostOccured: afrostOccured .\r    \r]',
+			#stamp : '10/9/2024 21:02',
+			#package : #ProjectFruitTree
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '92' ],
+		#self : OmReference [ '93' ]
+	},
+	#content : EpMethodRemoval {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #ApricotTree
+			},
+			#name : #'initializeTree:age:height:yield:fruitingAge:wasFrost:',
+			#protocol : #initialization,
+			#sourceCode : 'initializeTree: aSpecies age: anAge height: aHeight yield: aYield fruitingAge: aFruitingAge wasFrost: aWasFrost [\r    super initializeTree: aSpecies age: anAge height: aHeight yield: aYield fruitingAge: aFruitingAge.\r    wasFrost := aWasFrost.\r]',
+			#stamp : '10/9/2024 19:58',
+			#package : #ProjectFruitTree
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '93' ],
+		#self : OmReference [ '94' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #ApricotTree
+			},
+			#name : #'growOneYear:',
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'growOneYear: frostStatus[\r    age := age + 1.\r    height := height + 0.5.\r\t frostOccured := frostStatus.\r\t \r    (age >= fruitingAge) ifTrue: [\r        frostOccured ifTrue: [self decreaseYield].\r        frostOccured ifFalse: [self increaseYield].\r    ].\r]',
+			#stamp : '10/9/2024 21:03',
+			#package : #ProjectFruitTree
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '94' ],
+		#self : OmReference [ '95' ]
+	},
+	#content : EpMethodRemoval {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #ApricotTree
+			},
+			#name : #growOneYear,
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'growOneYear [\r    age := age + 1.\r    height := height + 0.5.\r\r    (age >= fruitingAge) ifTrue: [\r        wasFrost ifTrue: [self decreaseYield].\r        wasFrost ifFalse: [self increaseYield].\r    ].\r]',
+			#stamp : '10/9/2024 19:58',
+			#package : #ProjectFruitTree
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '95' ],
+		#self : OmReference [ '96' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #ApricotTree
+			},
+			#name : #'printOn:',
+			#protocol : #printing,
+			#sourceCode : 'printOn: aStream [\r    super printOn: aStream.\r    aStream\r        cr;\r        nextPutAll: \'Was there frost during flowering: \', wasFrost asString.\r]',
+			#stamp : '10/9/2024 19:59',
+			#package : #ProjectFruitTree
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #ApricotTree
+			},
+			#name : #'printOn:',
+			#protocol : #printing,
+			#sourceCode : 'printOn: aStream [\r    super printOn: aStream.\r    aStream\r        cr;\r        nextPutAll: \'Was there frost during flowering: \', frostOccured asString.\r]',
+			#stamp : '10/9/2024 21:04',
+			#package : #ProjectFruitTree
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '96' ],
+		#self : OmReference [ '97' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #AppleTree
+			},
+			#name : #initialize,
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'initialize [\r    species := \'RedApple\'.\r    age := 0.\r    height := 2.0.\r    yield := 10.\r    fruitingAge := 1.\r\t isFruitYear := false.\r\t fruitColor:= \'Red\' .\r\t frostOccured := false.\r]',
+			#stamp : '10/9/2024 21:11',
+			#package : #ProjectFruitTree
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '97' ],
+		#self : OmReference [ '98' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #AppleTree
+			},
+			#name : #initialize,
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'initialize [\r    species := \'RedApple\'.\r    age := 0.\r    height := 2.0.\r    yield := 10.\r    fruitingAge := 1.\r\t isFruitYear := false.\r\t fruitColor:= \'Red\' .\r\t frostOccured := false.\r]',
+			#stamp : '10/9/2024 21:11',
+			#package : #ProjectFruitTree
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #AppleTree
+			},
+			#name : #initialize,
+			#protocol : #initialization,
+			#sourceCode : 'initialize [\r    species := \'RedApple\'.\r    age := 0.\r    height := 2.0.\r    yield := 10.\r    fruitingAge := 1.\r\t isFruitYear := false.\r\t fruitColor:= \'Red\' .\r\t frostOccured := false.\r]',
+			#stamp : '10/9/2024 21:11',
+			#package : #ProjectFruitTree
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '98' ],
+		#self : OmReference [ '99' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #ApricotTree
+			},
+			#name : #initialize,
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'initialize [\r    species := \'Apricot Tree\'.\r    age := 0.\r    height := 1.0.\r    yield := 0.\r    fruitingAge := 3. \r    frostOccured := false. \r]',
+			#stamp : '10/9/2024 21:12',
+			#package : #ProjectFruitTree
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '99' ],
+		#self : OmReference [ '100' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #ApricotTree
+			},
+			#name : #initialize,
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'initialize [\r    species := \'Apricot Tree\'.\r    age := 0.\r    height := 1.0.\r    yield := 0.\r    fruitingAge := 3. \r    frostOccured := false. \r]',
+			#stamp : '10/9/2024 21:12',
+			#package : #ProjectFruitTree
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #ApricotTree
+			},
+			#name : #initialize,
+			#protocol : #initialization,
+			#sourceCode : 'initialize [\r    species := \'Apricot Tree\'.\r    age := 0.\r    height := 1.0.\r    yield := 0.\r    fruitingAge := 3. \r    frostOccured := false. \r]',
+			#stamp : '10/9/2024 21:12',
+			#package : #ProjectFruitTree
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '100' ],
+		#self : OmReference [ '101' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #ApricotTree
+			},
+			#name : #initialize,
+			#protocol : #initialization,
+			#sourceCode : 'initialize [\r    species := \'Apricot Tree\'.\r    age := 0.\r    height := 1.0.\r    yield := 0.\r    fruitingAge := 3. \r    frostOccured := false. \r]',
+			#stamp : '10/9/2024 21:12',
+			#package : #ProjectFruitTree
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #ApricotTree
+			},
+			#name : #initialize,
+			#protocol : #initialization,
+			#sourceCode : 'initialize [\r    species := \'Apricot Tree\'.\r    age := 0.\r    height := 1.0.\r    yield := 10.\r    fruitingAge := 3. \r    frostOccured := false. \r]',
+			#stamp : '10/9/2024 21:12',
+			#package : #ProjectFruitTree
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '101' ],
+		#self : OmReference [ '102' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #AppleTree
+			},
+			#name : #initialize,
+			#protocol : #initialization,
+			#sourceCode : 'initialize [\r    species := \'RedApple\'.\r    age := 0.\r    height := 2.0.\r    yield := 10.\r    fruitingAge := 1.\r\t isFruitYear := false.\r\t fruitColor:= \'Red\' .\r\t frostOccured := false.\r]',
+			#stamp : '10/9/2024 21:11',
+			#package : #ProjectFruitTree
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #AppleTree
+			},
+			#name : #initialize,
+			#protocol : #initialization,
+			#sourceCode : 'initialize [\r    species := \'RedApple\'.\r    age := 0.\r    height := 2.0.\r    yield := 5.\r    fruitingAge := 1.\r\t isFruitYear := false.\r\t fruitColor:= \'Red\' .\r\t frostOccured := false.\r]',
+			#stamp : '10/9/2024 21:13',
+			#package : #ProjectFruitTree
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '102' ],
+		#self : OmReference [ '103' ]
+	},
+	#content : EpSessionSnapshot {
+		#imageName : 'C:\\PharoProject\\ProjectFruitTree\\src\\ProjectTest\\ProjectTest.image'
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '103' ],
+		#self : OmReference [ '104' ]
+	},
+	#content : EpProtocolAddition {
+		#behavior : RGMetaclassDefinition {
+			#annotations : IdentityDictionary {
+				#traitCompositionSource : '{}',
+				#definitionSource : 'FruitTree class << AppleTree class\r\tslots: {}'
+			},
+			#name : #'AppleTree class',
+			#methods : IdentityDictionary { },
+			#protocols : Set [ ],
+			#instanceVariables : OrderedCollection [ ],
+			#baseClass : RGClassDefinition {
+				#annotations : IdentityDictionary {
+					#superclassName : #FruitTree,
+					#traitCompositionSource : '{}',
+					#definitionSource : 'FruitTree << #AppleTree\r\tslots: { #isFruitYear . #fruitColor };\r\tpackage: \'ProjectFruitTree\''
+				},
+				#name : #AppleTree,
+				#methods : IdentityDictionary { },
+				#protocols : Set [ ],
+				#instanceVariables : OrderedCollection [
+					RGInstanceVariableDefinition {
+						#annotations : IdentityDictionary {
+							#isMeta : false,
+							#className : #AppleTree
+						},
+						#name : #isFruitYear,
+						#parent : @11
+					},
+					RGInstanceVariableDefinition {
+						#annotations : IdentityDictionary {
+							#isMeta : false,
+							#className : #AppleTree
+						},
+						#name : #fruitColor,
+						#parent : @11
+					}
+				],
+				#metaClass : @6,
+				#comment : RGCommentDefinition {
+					#annotations : IdentityDictionary {
+						#isMeta : false,
+						#className : #AppleTree
+					},
+					#parent : @11,
+					#content : ''
+				},
+				#classVariables : OrderedCollection [ ],
+				#package : RGPackageDefinition {
+					#name : #ProjectFruitTree,
+					#definedClasses : IdentityDictionary { },
+					#definedMethods : IdentityDictionary { },
+					#extensionMethods : IdentityDictionary { }
+				},
+				#packageTag : #Uncategorized,
+				#sharedPools : OrderedCollection [ ]
+			}
+		},
+		#protocol : #'as yet unclassified'
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '104' ],
+		#self : OmReference [ '105' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : true,
+				#className : #'AppleTree class'
+			},
+			#name : #newWithDefaults,
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'newWithDefaults [\r    ^self new initialize\r]',
+			#stamp : '10/9/2024 21:19',
+			#package : #ProjectFruitTree
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '105' ],
+		#self : OmReference [ '106' ]
+	},
+	#content : EpProtocolAddition {
+		#behavior : RGMetaclassDefinition {
+			#annotations : IdentityDictionary {
+				#traitCompositionSource : '{}',
+				#definitionSource : 'FruitTree class << AppleTree class\r\tslots: {}'
+			},
+			#name : #'AppleTree class',
+			#methods : IdentityDictionary { },
+			#protocols : Set [ ],
+			#instanceVariables : OrderedCollection [ ],
+			#baseClass : RGClassDefinition {
+				#annotations : IdentityDictionary {
+					#superclassName : #FruitTree,
+					#traitCompositionSource : '{}',
+					#definitionSource : 'FruitTree << #AppleTree\r\tslots: { #isFruitYear . #fruitColor };\r\tpackage: \'ProjectFruitTree\''
+				},
+				#name : #AppleTree,
+				#methods : IdentityDictionary { },
+				#protocols : Set [ ],
+				#instanceVariables : OrderedCollection [
+					RGInstanceVariableDefinition {
+						#annotations : IdentityDictionary {
+							#isMeta : false,
+							#className : #AppleTree
+						},
+						#name : #isFruitYear,
+						#parent : @11
+					},
+					RGInstanceVariableDefinition {
+						#annotations : IdentityDictionary {
+							#isMeta : false,
+							#className : #AppleTree
+						},
+						#name : #fruitColor,
+						#parent : @11
+					}
+				],
+				#metaClass : @6,
+				#comment : RGCommentDefinition {
+					#annotations : IdentityDictionary {
+						#isMeta : false,
+						#className : #AppleTree
+					},
+					#parent : @11,
+					#content : ''
+				},
+				#classVariables : OrderedCollection [ ],
+				#package : RGPackageDefinition {
+					#name : #ProjectFruitTree,
+					#definedClasses : IdentityDictionary { },
+					#definedMethods : IdentityDictionary { },
+					#extensionMethods : IdentityDictionary { }
+				},
+				#packageTag : #Uncategorized,
+				#sharedPools : OrderedCollection [ ]
+			}
+		},
+		#protocol : #'instance creation'
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '106' ],
+		#self : OmReference [ '107' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : true,
+				#className : #'AppleTree class'
+			},
+			#name : #newWithDefaults,
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'newWithDefaults [\r    ^self new initialize\r]',
+			#stamp : '10/9/2024 21:19',
+			#package : #ProjectFruitTree
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : true,
+				#className : #'AppleTree class'
+			},
+			#name : #newWithDefaults,
+			#protocol : #'instance creation',
+			#sourceCode : 'newWithDefaults [\r    ^self new initialize\r]',
+			#stamp : '10/9/2024 21:19',
+			#package : #ProjectFruitTree
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '107' ],
+		#self : OmReference [ '108' ]
+	},
+	#content : EpProtocolAddition {
+		#behavior : RGMetaclassDefinition {
+			#annotations : IdentityDictionary {
+				#traitCompositionSource : '{}',
+				#definitionSource : 'FruitTree class << ApricotTree class\r\tslots: {}'
+			},
+			#name : #'ApricotTree class',
+			#methods : IdentityDictionary { },
+			#protocols : Set [ ],
+			#instanceVariables : OrderedCollection [ ],
+			#baseClass : RGClassDefinition {
+				#annotations : IdentityDictionary {
+					#superclassName : #FruitTree,
+					#traitCompositionSource : '{}',
+					#definitionSource : 'FruitTree << #ApricotTree\r\tslots: {};\r\tpackage: \'ProjectFruitTree\''
+				},
+				#name : #ApricotTree,
+				#methods : IdentityDictionary { },
+				#protocols : Set [ ],
+				#instanceVariables : OrderedCollection [ ],
+				#metaClass : @6,
+				#comment : RGCommentDefinition {
+					#annotations : IdentityDictionary {
+						#isMeta : false,
+						#className : #ApricotTree
+					},
+					#parent : @11,
+					#content : ''
+				},
+				#classVariables : OrderedCollection [ ],
+				#package : RGPackageDefinition {
+					#name : #ProjectFruitTree,
+					#definedClasses : IdentityDictionary { },
+					#definedMethods : IdentityDictionary { },
+					#extensionMethods : IdentityDictionary { }
+				},
+				#packageTag : #Uncategorized,
+				#sharedPools : OrderedCollection [ ]
+			}
+		},
+		#protocol : #'as yet unclassified'
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '108' ],
+		#self : OmReference [ '109' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : true,
+				#className : #'ApricotTree class'
+			},
+			#name : #newWithDefaults,
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'newWithDefaults [\r    ^self new initialize\r]',
+			#stamp : '10/9/2024 21:20',
+			#package : #ProjectFruitTree
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '109' ],
+		#self : OmReference [ '110' ]
+	},
+	#content : EpProtocolAddition {
+		#behavior : RGMetaclassDefinition {
+			#annotations : IdentityDictionary {
+				#traitCompositionSource : '{}',
+				#definitionSource : 'FruitTree class << ApricotTree class\r\tslots: {}'
+			},
+			#name : #'ApricotTree class',
+			#methods : IdentityDictionary { },
+			#protocols : Set [ ],
+			#instanceVariables : OrderedCollection [ ],
+			#baseClass : RGClassDefinition {
+				#annotations : IdentityDictionary {
+					#superclassName : #FruitTree,
+					#traitCompositionSource : '{}',
+					#definitionSource : 'FruitTree << #ApricotTree\r\tslots: {};\r\tpackage: \'ProjectFruitTree\''
+				},
+				#name : #ApricotTree,
+				#methods : IdentityDictionary { },
+				#protocols : Set [ ],
+				#instanceVariables : OrderedCollection [ ],
+				#metaClass : @6,
+				#comment : RGCommentDefinition {
+					#annotations : IdentityDictionary {
+						#isMeta : false,
+						#className : #ApricotTree
+					},
+					#parent : @11,
+					#content : ''
+				},
+				#classVariables : OrderedCollection [ ],
+				#package : RGPackageDefinition {
+					#name : #ProjectFruitTree,
+					#definedClasses : IdentityDictionary { },
+					#definedMethods : IdentityDictionary { },
+					#extensionMethods : IdentityDictionary { }
+				},
+				#packageTag : #Uncategorized,
+				#sharedPools : OrderedCollection [ ]
+			}
+		},
+		#protocol : #'instance creation'
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '110' ],
+		#self : OmReference [ '111' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : true,
+				#className : #'ApricotTree class'
+			},
+			#name : #newWithDefaults,
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'newWithDefaults [\r    ^self new initialize\r]',
+			#stamp : '10/9/2024 21:20',
+			#package : #ProjectFruitTree
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : true,
+				#className : #'ApricotTree class'
+			},
+			#name : #newWithDefaults,
+			#protocol : #'instance creation',
+			#sourceCode : 'newWithDefaults [\r    ^self new initialize\r]',
+			#stamp : '10/9/2024 21:20',
+			#package : #ProjectFruitTree
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '111' ],
+		#self : OmReference [ '112' ]
+	},
+	#content : EpSessionSnapshot {
+		#imageName : 'C:\\PharoProject\\ProjectFruitTree\\src\\ProjectTest\\ProjectTest.image'
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '112' ],
+		#self : OmReference [ '113' ]
+	},
+	#content : EpSessionSnapshot {
+		#imageName : 'C:\\PharoProject\\ProjectFruitTree\\src\\ProjectTest\\ProjectTest.image'
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '113' ],
+		#self : OmReference [ '114' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #AppleTree
+			},
+			#name : #'growOneYear:',
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'growOneYear: frostStatus[\r    age := age + 1.\r    height := height + 0.5.\r    isFruitYear := isFruitYear not. "Yield after year"\r\t frostOccured := frostStatus.\r\r    (age >= fruitingAge and: [isFruitYear]) ifTrue: [\r        self increaseYield.\r    ].\r]',
+			#stamp : '10/9/2024 20:56',
+			#package : #ProjectFruitTree
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #AppleTree
+			},
+			#name : #'growOneYear:',
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'growOneYear: frostStatus [\r    age := age + 1.\r    height := height + 0.5.\r    isFruitYear := isFruitYear not. "Yield after year"\r\t frostOccured := frostStatus.\r\r    (age >= fruitingAge and: [isFruitYear]) ifTrue: [\r        self increaseYield.\r    ].\r]',
+			#stamp : '10/9/2024 21:27',
+			#package : #ProjectFruitTree
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '114' ],
+		#self : OmReference [ '115' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #ApricotTree
+			},
+			#name : #'growOneYear:',
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'growOneYear: frostStatus[\r    age := age + 1.\r    height := height + 0.5.\r\t frostOccured := frostStatus.\r\t \r    (age >= fruitingAge) ifTrue: [\r        frostOccured ifTrue: [self decreaseYield].\r        frostOccured ifFalse: [self increaseYield].\r    ].\r]',
+			#stamp : '10/9/2024 21:03',
+			#package : #ProjectFruitTree
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #ApricotTree
+			},
+			#name : #'growOneYear:',
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'growOneYear: frostStatus [\r    age := age + 1.\r    height := height + 0.5.\r\t frostOccured := frostStatus.\r\t \r    (age >= fruitingAge) ifTrue: [\r        frostOccured ifTrue: [self decreaseYield].\r        frostOccured ifFalse: [self increaseYield].\r    ].\r]',
+			#stamp : '10/9/2024 21:27',
+			#package : #ProjectFruitTree
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '115' ],
+		#self : OmReference [ '116' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #FruitTree
+			},
+			#name : #'printTree:',
+			#protocol : #printing,
+			#sourceCode : 'printTree: aStream [\r    aStream\r        nextPutAll: \'Species: \', species;\r        cr;\r        nextPutAll: \'Age: \', age asString;\r        cr;\r        nextPutAll: \'Height: \', height asString;\r        cr;\r        nextPutAll: \'Yield: \', yield asString.\r]',
+			#stamp : '10/9/2024 21:36',
+			#package : #ProjectFruitTree
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '116' ],
+		#self : OmReference [ '117' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #AppleTree
+			},
+			#name : #'printTree:',
+			#protocol : #printing,
+			#sourceCode : 'printTree: aStream [\r    super printOn: aStream.\r    aStream\r        cr;\r        nextPutAll: \'Fruit Color: \', fruitColor.\r]',
+			#stamp : '10/9/2024 21:36',
+			#package : #ProjectFruitTree
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '117' ],
+		#self : OmReference [ '118' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #ApricotTree
+			},
+			#name : #'printtree:',
+			#protocol : #printing,
+			#sourceCode : 'printtree: aStream [\r    super printOn: aStream.\r    aStream\r        cr;\r        nextPutAll: \'Was there frost during flowering: \', frostOccured asString.\r]',
+			#stamp : '10/9/2024 21:36',
+			#package : #ProjectFruitTree
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '118' ],
+		#self : OmReference [ '119' ]
+	},
+	#content : EpMethodRemoval {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #FruitTree
+			},
+			#name : #'printOn:',
+			#protocol : #printing,
+			#sourceCode : 'printOn: aStream [\r    aStream\r        nextPutAll: \'Species: \', species;\r        cr;\r        nextPutAll: \'Age: \', age asString;\r        cr;\r        nextPutAll: \'Height: \', height asString;\r        cr;\r        nextPutAll: \'Yield: \', yield asString.\r]',
+			#stamp : '10/9/2024 19:30',
+			#package : #ProjectFruitTree
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '119' ],
+		#self : OmReference [ '120' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #FruitTree
+			},
+			#name : #'printTree:',
+			#protocol : #printing,
+			#sourceCode : 'printTree: aStream [\r    aStream\r        nextPutAll: \'Species: \', species;\r        cr;\r        nextPutAll: \'Age: \', age asString;\r        cr;\r        nextPutAll: \'Height: \', height asString;\r        cr;\r        nextPutAll: \'Yield: \', yield asString.\r]',
+			#stamp : '10/9/2024 21:36',
+			#package : #ProjectFruitTree
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #FruitTree
+			},
+			#name : #'printTree:',
+			#protocol : #printing,
+			#sourceCode : 'printTree: aTranscript [\r    aTranscript\r        show: \'Species: \', species;\r        show: \', Age: \', age printString;\r        show: \', Height: \', height printString;\r        show: \', Yield: \', yield printString;\r        show: \', Fruiting Age: \', fruitingAge printString;\r        show: \', Frost Occurred: \', frostOccured printString;\r        cr.  "New line"\r]',
+			#stamp : '10/9/2024 21:55',
+			#package : #ProjectFruitTree
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '120' ],
+		#self : OmReference [ '121' ]
+	},
+	#content : EpSessionSnapshot {
+		#imageName : 'C:\\PharoProject\\ProjectFruitTree\\src\\ProjectTest\\ProjectTest.image'
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '121' ],
+		#self : OmReference [ '122' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #FruitTree
+			},
+			#name : #'printTree:',
+			#protocol : #printing,
+			#sourceCode : 'printTree: aTranscript [\r    aTranscript\r        show: \'Species: \', species;\r        show: \', Age: \', age printString;\r        show: \', Height: \', height printString;\r        show: \', Yield: \', yield printString;\r        show: \', Fruiting Age: \', fruitingAge printString;\r        show: \', Frost Occurred: \', frostOccured printString;\r        cr.  "New line"\r]',
+			#stamp : '10/9/2024 21:55',
+			#package : #ProjectFruitTree
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #FruitTree
+			},
+			#name : #'printTree:',
+			#protocol : #printing,
+			#sourceCode : 'printTree: aTranscript [\r    aTranscript\r\t\t  open\r        show: \'Species: \', species;\r        show: \', Age: \', age printString;\r        show: \', Height: \', height printString;\r        show: \', Yield: \', yield printString;\r        show: \', Fruiting Age: \', fruitingAge printString;\r        show: \', Frost Occurred: \', frostOccured printString;\r        cr.  "New line"\r]',
+			#stamp : '10/9/2024 22:08',
+			#package : #ProjectFruitTree
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '122' ],
+		#self : OmReference [ '123' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #FruitTree
+			},
+			#name : #'printTree:',
+			#protocol : #printing,
+			#sourceCode : 'printTree: aTranscript [\r    aTranscript\r\t\t  open\r        show: \'Species: \', species;\r        show: \', Age: \', age printString;\r        show: \', Height: \', height printString;\r        show: \', Yield: \', yield printString;\r        show: \', Fruiting Age: \', fruitingAge printString;\r        show: \', Frost Occurred: \', frostOccured printString;\r        cr.  "New line"\r]',
+			#stamp : '10/9/2024 22:08',
+			#package : #ProjectFruitTree
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #FruitTree
+			},
+			#name : #'printTree:',
+			#protocol : #printing,
+			#sourceCode : 'printTree: aTranscript [\r\t\r    aTranscript\r\t\t  open\r        show: \'Species: \', species;\r        show: \', Age: \', age printString;\r        show: \', Height: \', height printString;\r        show: \', Yield: \', yield printString;\r        show: \', Fruiting Age: \', fruitingAge printString;\r        show: \', Frost Occurred: \', frostOccured printString;\r        cr.  "New line"\r]',
+			#stamp : '10/9/2024 22:08',
+			#package : #ProjectFruitTree
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '123' ],
+		#self : OmReference [ '124' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #FruitTree
+			},
+			#name : #initialize,
+			#protocol : #initialization,
+			#sourceCode : 'initialize [\r    species := \'Fig\'.\r    age := 0.\r    height := 1.0.\r    yield := 3.\r    fruitingAge := 1. \r\t frostOccured := false.\r]',
+			#stamp : '10/9/2024 20:52',
+			#package : #ProjectFruitTree
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #FruitTree
+			},
+			#name : #initialize,
+			#protocol : #initialization,
+			#sourceCode : 'initialize \r    species := \'Fig\'.\r    age := 0.\r    height := 1.0.\r    yield := 3.\r    fruitingAge := 1. \r\t frostOccured := false.\r',
+			#stamp : '10/9/2024 22:10',
+			#package : #ProjectFruitTree
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '124' ],
+		#self : OmReference [ '125' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #FruitTree
+			},
+			#name : #'printTree:',
+			#protocol : #printing,
+			#sourceCode : 'printTree: aTranscript [\r\t\r    aTranscript\r\t\t  open\r        show: \'Species: \', species;\r        show: \', Age: \', age printString;\r        show: \', Height: \', height printString;\r        show: \', Yield: \', yield printString;\r        show: \', Fruiting Age: \', fruitingAge printString;\r        show: \', Frost Occurred: \', frostOccured printString;\r        cr.  "New line"\r]',
+			#stamp : '10/9/2024 22:08',
+			#package : #ProjectFruitTree
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #FruitTree
+			},
+			#name : #'printTree:',
+			#protocol : #printing,
+			#sourceCode : 'printTree: aTranscript \r\t\r    aTranscript\r\t\t  open\r        show: \'Species: \', species;\r        show: \', Age: \', age printString;\r        show: \', Height: \', height printString;\r        show: \', Yield: \', yield printString;\r        show: \', Fruiting Age: \', fruitingAge printString;\r        show: \', Frost Occurred: \', frostOccured printString;\r        cr.  "New line"\r',
+			#stamp : '10/9/2024 22:10',
+			#package : #ProjectFruitTree
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '125' ],
+		#self : OmReference [ '126' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #FruitTree
+			},
+			#name : #increaseYield,
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'increaseYield [\r    yield := yield + 10.\r]',
+			#stamp : '10/9/2024 19:49',
+			#package : #ProjectFruitTree
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #FruitTree
+			},
+			#name : #increaseYield,
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'increaseYield \r    yield := yield + 10.\r',
+			#stamp : '10/9/2024 22:10',
+			#package : #ProjectFruitTree
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '126' ],
+		#self : OmReference [ '127' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #FruitTree
+			},
+			#name : #'growOneYear:',
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'growOneYear: frostStatus [\r    age := age + 1.\r    height := height + 0.5. "Height increase"\r    frostOccured := frostStatus.\r    (age >= fruitingAge) ifTrue: [\r        self increaseYield. "Increasing of yield after start of fruiting"\r    ].\r]',
+			#stamp : '10/9/2024 20:55',
+			#package : #ProjectFruitTree
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #FruitTree
+			},
+			#name : #'growOneYear:',
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'growOneYear: frostStatus \r    age := age + 1.\r    height := height + 0.5. "Height increase"\r    frostOccured := frostStatus.\r    (age >= fruitingAge) ifTrue: [\r        self increaseYield. "Increasing of yield after start of fruiting"\r    ].\r',
+			#stamp : '10/9/2024 22:10',
+			#package : #ProjectFruitTree
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '127' ],
+		#self : OmReference [ '128' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #FruitTree
+			},
+			#name : #getYield,
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'getYield [\r    ^(age >= fruitingAge) ifTrue: [yield] ifFalse: [0].\r]',
+			#stamp : '10/9/2024 19:27',
+			#package : #ProjectFruitTree
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #FruitTree
+			},
+			#name : #getYield,
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'getYield \r    ^(age >= fruitingAge) ifTrue: [yield] ifFalse: [0].\r',
+			#stamp : '10/9/2024 22:11',
+			#package : #ProjectFruitTree
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '128' ],
+		#self : OmReference [ '129' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #FruitTree
+			},
+			#name : #'printTree:',
+			#protocol : #printing,
+			#sourceCode : 'printTree: aTranscript \r\t\r    aTranscript\r\t\t  open\r        show: \'Species: \', species;\r        show: \', Age: \', age printString;\r        show: \', Height: \', height printString;\r        show: \', Yield: \', yield printString;\r        show: \', Fruiting Age: \', fruitingAge printString;\r        show: \', Frost Occurred: \', frostOccured printString;\r        cr.  "New line"\r',
+			#stamp : '10/9/2024 22:10',
+			#package : #ProjectFruitTree
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #FruitTree
+			},
+			#name : #'printTree:',
+			#protocol : #printing,
+			#sourceCode : 'printTree: aTranscript \r\t\r    aTranscript\r        show: \'Species: \', species;\r        show: \', Age: \', age printString;\r        show: \', Height: \', height printString;\r        show: \', Yield: \', yield printString;\r        show: \', Fruiting Age: \', fruitingAge printString;\r        show: \', Frost Occurred: \', frostOccured printString;\r        cr.  "New line"\r',
+			#stamp : '10/9/2024 22:12',
+			#package : #ProjectFruitTree
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '129' ],
+		#self : OmReference [ '130' ]
+	},
+	#content : EpSessionSnapshot {
+		#imageName : 'C:\\PharoProject\\ProjectFruitTree\\src\\ProjectTest\\ProjectTest.image'
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '130' ],
+		#self : OmReference [ '131' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #AppleTree
+			},
+			#name : #'printTree:',
+			#protocol : #printing,
+			#sourceCode : 'printTree: aStream [\r    super printOn: aStream.\r    aStream\r        cr;\r        nextPutAll: \'Fruit Color: \', fruitColor.\r]',
+			#stamp : '10/9/2024 21:36',
+			#package : #ProjectFruitTree
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #AppleTree
+			},
+			#name : #'printTree:',
+			#protocol : #printing,
+			#sourceCode : 'printTree: aStream \r    super printOn: aStream.\r    aStream\r        cr;\r        nextPutAll: \'Fruit Color: \', fruitColor.\r',
+			#stamp : '10/9/2024 22:25',
+			#package : #ProjectFruitTree
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '131' ],
+		#self : OmReference [ '132' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #AppleTree
+			},
+			#name : #'printTree:',
+			#protocol : #printing,
+			#sourceCode : 'printTree: aStream \r    super printOn: aStream.\r    aStream\r        cr;\r        nextPutAll: \'Fruit Color: \', fruitColor.\r',
+			#stamp : '10/9/2024 22:25',
+			#package : #ProjectFruitTree
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #AppleTree
+			},
+			#name : #'printTree:',
+			#protocol : #printing,
+			#sourceCode : 'printTree: Transcript \r    super printOn: Transcript .\r    Transcript \r        cr;\r        nextPutAll: \'Fruit Color: \', fruitColor.\r',
+			#stamp : '10/9/2024 22:25',
+			#package : #ProjectFruitTree
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '132' ],
+		#self : OmReference [ '133' ]
+	},
+	#content : EpMethodRemoval {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #AppleTree
+			},
+			#name : #'printOn:',
+			#protocol : #printing,
+			#sourceCode : 'printOn: aStream [\r    super printOn: aStream.\r    aStream\r        cr;\r        nextPutAll: \'Fruit Color: \', fruitColor.\r]',
+			#stamp : '10/9/2024 19:54',
+			#package : #ProjectFruitTree
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '133' ],
+		#self : OmReference [ '134' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #AppleTree
+			},
+			#name : #'initializeTree:age:height:yield:fruitingAge:frostOccured:fruitColor:',
+			#protocol : #initialization,
+			#sourceCode : 'initializeTree: aSpecies age: anAge height: aHeight yield: aYield fruitingAge: aFruitingAge frostOccured: afrostOccured fruitColor: aColor  [\r    super initializeTree: aSpecies age: anAge height: aHeight yield: aYield fruitingAge: aFruitingAge frostOccured: afrostOccured.\r    fruitColor := aColor.\r    isFruitYear := true. "Apple tree gives fruits ine time per two years"\r    \r]',
+			#stamp : '10/9/2024 21:00',
+			#package : #ProjectFruitTree
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #AppleTree
+			},
+			#name : #'initializeTree:age:height:yield:fruitingAge:frostOccured:fruitColor:',
+			#protocol : #initialization,
+			#sourceCode : 'initializeTree: aSpecies age: anAge height: aHeight yield: aYield fruitingAge: aFruitingAge frostOccured: afrostOccured fruitColor: aColor  \r    super initializeTree: aSpecies age: anAge height: aHeight yield: aYield fruitingAge: aFruitingAge frostOccured: afrostOccured.\r    fruitColor := aColor.\r    isFruitYear := true. "Apple tree gives fruits ine time per two years"\r    \r',
+			#stamp : '10/9/2024 22:26',
+			#package : #ProjectFruitTree
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '134' ],
+		#self : OmReference [ '135' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #AppleTree
+			},
+			#name : #initialize,
+			#protocol : #initialization,
+			#sourceCode : 'initialize [\r    species := \'RedApple\'.\r    age := 0.\r    height := 2.0.\r    yield := 5.\r    fruitingAge := 1.\r\t isFruitYear := false.\r\t fruitColor:= \'Red\' .\r\t frostOccured := false.\r]',
+			#stamp : '10/9/2024 21:13',
+			#package : #ProjectFruitTree
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #AppleTree
+			},
+			#name : #initialize,
+			#protocol : #initialization,
+			#sourceCode : 'initialize \r    species := \'RedApple\'.\r    age := 0.\r    height := 2.0.\r    yield := 5.\r    fruitingAge := 1.\r\t isFruitYear := false.\r\t fruitColor:= \'Red\' .\r\t frostOccured := false.\r',
+			#stamp : '10/9/2024 22:26',
+			#package : #ProjectFruitTree
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '135' ],
+		#self : OmReference [ '136' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #AppleTree
+			},
+			#name : #'growOneYear:',
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'growOneYear: frostStatus [\r    age := age + 1.\r    height := height + 0.5.\r    isFruitYear := isFruitYear not. "Yield after year"\r\t frostOccured := frostStatus.\r\r    (age >= fruitingAge and: [isFruitYear]) ifTrue: [\r        self increaseYield.\r    ].\r]',
+			#stamp : '10/9/2024 21:27',
+			#package : #ProjectFruitTree
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #AppleTree
+			},
+			#name : #'growOneYear:',
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'growOneYear: frostStatus \r    age := age + 1.\r    height := height + 0.5.\r    isFruitYear := isFruitYear not. "Yield after year"\r\t frostOccured := frostStatus.\r\r    (age >= fruitingAge and: [isFruitYear]) ifTrue: [\r        self increaseYield.\r    ].\r',
+			#stamp : '10/9/2024 22:26',
+			#package : #ProjectFruitTree
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '136' ],
+		#self : OmReference [ '137' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #ApricotTree
+			},
+			#name : #decreaseYield,
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'decreaseYield [\r    yield := yield * 0.2. "yield decreased to 20% when tree was frozen"\r]',
+			#stamp : '10/9/2024 19:59',
+			#package : #ProjectFruitTree
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #ApricotTree
+			},
+			#name : #decreaseYield,
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'decreaseYield \r    yield := yield * 0.2. "yield decreased to 20% when tree was frozen"\r',
+			#stamp : '10/9/2024 22:26',
+			#package : #ProjectFruitTree
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '137' ],
+		#self : OmReference [ '138' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #ApricotTree
+			},
+			#name : #'growOneYear:',
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'growOneYear: frostStatus [\r    age := age + 1.\r    height := height + 0.5.\r\t frostOccured := frostStatus.\r\t \r    (age >= fruitingAge) ifTrue: [\r        frostOccured ifTrue: [self decreaseYield].\r        frostOccured ifFalse: [self increaseYield].\r    ].\r]',
+			#stamp : '10/9/2024 21:27',
+			#package : #ProjectFruitTree
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #ApricotTree
+			},
+			#name : #'growOneYear:',
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'growOneYear: frostStatus \r    age := age + 1.\r    height := height + 0.5.\r\t frostOccured := frostStatus.\r\t \r    (age >= fruitingAge) ifTrue: [\r        frostOccured ifTrue: [self decreaseYield].\r        frostOccured ifFalse: [self increaseYield].\r    ].\r',
+			#stamp : '10/9/2024 22:26',
+			#package : #ProjectFruitTree
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '138' ],
+		#self : OmReference [ '139' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #ApricotTree
+			},
+			#name : #initialize,
+			#protocol : #initialization,
+			#sourceCode : 'initialize [\r    species := \'Apricot Tree\'.\r    age := 0.\r    height := 1.0.\r    yield := 10.\r    fruitingAge := 3. \r    frostOccured := false. \r]',
+			#stamp : '10/9/2024 21:12',
+			#package : #ProjectFruitTree
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #ApricotTree
+			},
+			#name : #initialize,
+			#protocol : #initialization,
+			#sourceCode : 'initialize \r    species := \'Apricot Tree\'.\r    age := 0.\r    height := 1.0.\r    yield := 10.\r    fruitingAge := 3. \r    frostOccured := false. \r',
+			#stamp : '10/9/2024 22:26',
+			#package : #ProjectFruitTree
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '139' ],
+		#self : OmReference [ '140' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #ApricotTree
+			},
+			#name : #'initializeTree:age:height:yield:fruitingAge:frostOccured:',
+			#protocol : #initialization,
+			#sourceCode : 'initializeTree: aSpecies age: anAge height: aHeight yield: aYield fruitingAge: aFruitingAge frostOccured: afrostOccured [\r    super initializeTree: aSpecies age: anAge height: aHeight yield: aYield fruitingAge: aFruitingAge frostOccured: afrostOccured .\r    \r]',
+			#stamp : '10/9/2024 21:02',
+			#package : #ProjectFruitTree
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #ApricotTree
+			},
+			#name : #'initializeTree:age:height:yield:fruitingAge:frostOccured:',
+			#protocol : #initialization,
+			#sourceCode : 'initializeTree: aSpecies age: anAge height: aHeight yield: aYield fruitingAge: aFruitingAge frostOccured: afrostOccured \r    super initializeTree: aSpecies age: anAge height: aHeight yield: aYield fruitingAge: aFruitingAge frostOccured: afrostOccured .\r   \r',
+			#stamp : '10/9/2024 22:26',
+			#package : #ProjectFruitTree
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '140' ],
+		#self : OmReference [ '141' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #ApricotTree
+			},
+			#name : #'printOn:',
+			#protocol : #printing,
+			#sourceCode : 'printOn: aStream [\r    super printOn: aStream.\r    aStream\r        cr;\r        nextPutAll: \'Was there frost during flowering: \', frostOccured asString.\r]',
+			#stamp : '10/9/2024 21:04',
+			#package : #ProjectFruitTree
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #ApricotTree
+			},
+			#name : #'printOn:',
+			#protocol : #printing,
+			#sourceCode : 'printOn: aStream \r    super printOn: aStream.\r    aStream\r        cr;\r        nextPutAll: \'Was there frost during flowering: \', frostOccured asString.\r',
+			#stamp : '10/9/2024 22:26',
+			#package : #ProjectFruitTree
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '141' ],
+		#self : OmReference [ '142' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #ApricotTree
+			},
+			#name : #'printTree:',
+			#protocol : #printing,
+			#sourceCode : 'printTree: aTranscript \r    super printOn: Transcript .\r    Transcript \r        cr;\r        nextPutAll: \'Was there frost during flowering: \', frostOccured asString.\r',
+			#stamp : '10/9/2024 22:27',
+			#package : #ProjectFruitTree
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '142' ],
+		#self : OmReference [ '143' ]
+	},
+	#content : EpMethodRemoval {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #ApricotTree
+			},
+			#name : #'printtree:',
+			#protocol : #printing,
+			#sourceCode : 'printtree: aStream [\r    super printOn: aStream.\r    aStream\r        cr;\r        nextPutAll: \'Was there frost during flowering: \', frostOccured asString.\r]',
+			#stamp : '10/9/2024 21:36',
+			#package : #ProjectFruitTree
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '143' ],
+		#self : OmReference [ '144' ]
+	},
+	#content : EpMethodRemoval {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #ApricotTree
+			},
+			#name : #'printOn:',
+			#protocol : #printing,
+			#sourceCode : 'printOn: aStream \r    super printOn: aStream.\r    aStream\r        cr;\r        nextPutAll: \'Was there frost during flowering: \', frostOccured asString.\r',
+			#stamp : '10/9/2024 22:26',
+			#package : #ProjectFruitTree
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '144' ],
+		#self : OmReference [ '145' ]
+	},
+	#content : EpSessionSnapshot {
+		#imageName : 'C:\\PharoProject\\ProjectFruitTree\\src\\ProjectTest\\ProjectTest.image'
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '145' ],
+		#self : OmReference [ '146' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #AppleTree
+			},
+			#name : #'printTree:',
+			#protocol : #printing,
+			#sourceCode : 'printTree: Transcript \r    super printOn: Transcript .\r    Transcript \r        cr;\r        nextPutAll: \'Fruit Color: \', fruitColor.\r',
+			#stamp : '10/9/2024 22:25',
+			#package : #ProjectFruitTree
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #AppleTree
+			},
+			#name : #'printTree:',
+			#protocol : #printing,
+			#sourceCode : 'printTree: aTranscript \r    aTranscript\r        show: \'Species: \', species;\r        show: \', Age: \', age printString;\r        show: \', Height: \', height printString;\r        show: \', Yield: \', yield printString;\r        show: \', Fruiting Age: \', fruitingAge printString;\r        show: \', Frost Occurred: \', frostOccured printString;\r        nextPutAll: \'Fruit Color: \', fruitColor.\r',
+			#stamp : '10/9/2024 22:32',
+			#package : #ProjectFruitTree
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '146' ],
+		#self : OmReference [ '147' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #ApricotTree
+			},
+			#name : #'printTree:',
+			#protocol : #printing,
+			#sourceCode : 'printTree: aTranscript \r    super printOn: Transcript .\r    Transcript \r        cr;\r        nextPutAll: \'Was there frost during flowering: \', frostOccured asString.\r',
+			#stamp : '10/9/2024 22:27',
+			#package : #ProjectFruitTree
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #ApricotTree
+			},
+			#name : #'printTree:',
+			#protocol : #printing,
+			#sourceCode : 'printTree: aTranscript \r     aTranscript\r        show: \'Species: \', species;\r        show: \', Age: \', age printString;\r        show: \', Height: \', height printString;\r        show: \', Yield: \', yield printString;\r        show: \', Fruiting Age: \', fruitingAge printString;\r        show: \', Frost Occurred: \', frostOccured printString;\r        show: \'Was there frost during flowering: \', frostOccured asString.\r',
+			#stamp : '10/9/2024 22:33',
+			#package : #ProjectFruitTree
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '147' ],
+		#self : OmReference [ '148' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #AppleTree
+			},
+			#name : #'printTree:',
+			#protocol : #printing,
+			#sourceCode : 'printTree: aTranscript \r    aTranscript\r        show: \'Species: \', species;\r        show: \', Age: \', age printString;\r        show: \', Height: \', height printString;\r        show: \', Yield: \', yield printString;\r        show: \', Fruiting Age: \', fruitingAge printString;\r        show: \', Frost Occurred: \', frostOccured printString;\r        nextPutAll: \'Fruit Color: \', fruitColor.\r',
+			#stamp : '10/9/2024 22:32',
+			#package : #ProjectFruitTree
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #AppleTree
+			},
+			#name : #'printTree:',
+			#protocol : #printing,
+			#sourceCode : 'printTree: aTranscript \r    aTranscript\r        show: \'Species: \', species;\r        show: \', Age: \', age printString;\r        show: \', Height: \', height printString;\r        show: \', Yield: \', yield printString;\r        show: \', Fruiting Age: \', fruitingAge printString;\r        show: \', Frost Occurred: \', frostOccured printString;\r        show: \'Fruit Color: \', fruitColor.\r',
+			#stamp : '10/9/2024 22:34',
+			#package : #ProjectFruitTree
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '148' ],
+		#self : OmReference [ '149' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #AppleTree
+			},
+			#name : #'printTree:',
+			#protocol : #printing,
+			#sourceCode : 'printTree: aTranscript \r    aTranscript\r        show: \'Species: \', species;\r        show: \', Age: \', age printString;\r        show: \', Height: \', height printString;\r        show: \', Yield: \', yield printString;\r        show: \', Fruiting Age: \', fruitingAge printString;\r        show: \', Frost Occurred: \', frostOccured printString;\r        show: \'Fruit Color: \', fruitColor.\r',
+			#stamp : '10/9/2024 22:34',
+			#package : #ProjectFruitTree
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #AppleTree
+			},
+			#name : #'printTree:',
+			#protocol : #printing,
+			#sourceCode : 'printTree: aTranscript \r    aTranscript\r        show: \'Species: \', species;  cr;\r        show: \', Age: \', age printString;  cr;\r        show: \', Height: \', height printString;  cr;\r        show: \', Yield: \', yield printString;  cr;\r        show: \', Fruiting Age: \', fruitingAge printString;  cr;\r        show: \', Frost Occurred: \', frostOccured printString; cr;\r        show: \'Fruit Color: \', fruitColor; cr. \r',
+			#stamp : '10/9/2024 22:36',
+			#package : #ProjectFruitTree
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '149' ],
+		#self : OmReference [ '150' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #AppleTree
+			},
+			#name : #'printTree:',
+			#protocol : #printing,
+			#sourceCode : 'printTree: aTranscript \r    aTranscript\r        show: \'Species: \', species;  cr;\r        show: \', Age: \', age printString;  cr;\r        show: \', Height: \', height printString;  cr;\r        show: \', Yield: \', yield printString;  cr;\r        show: \', Fruiting Age: \', fruitingAge printString;  cr;\r        show: \', Frost Occurred: \', frostOccured printString; cr;\r        show: \'Fruit Color: \', fruitColor; cr. \r',
+			#stamp : '10/9/2024 22:36',
+			#package : #ProjectFruitTree
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #AppleTree
+			},
+			#name : #'printTree:',
+			#protocol : #printing,
+			#sourceCode : 'printTree: aTranscript \r    aTranscript\r        show: \'Species: \', species;  cr;\r        show: \'Age: \', age printString;  cr;\r        show: \'Height: \', height printString;  cr;\r        show: \'Yield: \', yield printString;  cr;\r        show: \'Fruiting Age: \', fruitingAge printString;  cr;\r        show: \'Frost Occurred: \', frostOccured printString; cr;\r        show: \'Fruit Color: \', fruitColor; cr. \r',
+			#stamp : '10/9/2024 22:38',
+			#package : #ProjectFruitTree
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '150' ],
+		#self : OmReference [ '151' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #ApricotTree
+			},
+			#name : #'printTree:',
+			#protocol : #printing,
+			#sourceCode : 'printTree: aTranscript \r     aTranscript\r        show: \'Species: \', species;\r        show: \', Age: \', age printString;\r        show: \', Height: \', height printString;\r        show: \', Yield: \', yield printString;\r        show: \', Fruiting Age: \', fruitingAge printString;\r        show: \', Frost Occurred: \', frostOccured printString;\r        show: \'Was there frost during flowering: \', frostOccured asString.\r',
+			#stamp : '10/9/2024 22:33',
+			#package : #ProjectFruitTree
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #ApricotTree
+			},
+			#name : #'printTree:',
+			#protocol : #printing,
+			#sourceCode : 'printTree: aTranscript \r     aTranscript\r        show: \'Species: \', species; cr;\r        show: \'Age: \', age printString; cr;\r        show: \'Height: \', height printString; cr;\r        show: \'Yield: \', yield printString; cr;\r        show: \'Fruiting Age: \', fruitingAge printString; cr;\r        show: \'Frost Occurred: \', frostOccured printString; cr.\r        \r',
+			#stamp : '10/9/2024 22:39',
+			#package : #ProjectFruitTree
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '151' ],
+		#self : OmReference [ '152' ]
+	},
+	#content : EpSessionSnapshot {
+		#imageName : 'C:\\PharoProject\\ProjectFruitTree\\src\\ProjectTest\\ProjectTest.image'
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '152' ],
+		#self : OmReference [ '153' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #FruitTree
+			},
+			#name : #initialize,
+			#protocol : #initialization,
+			#sourceCode : 'initialize \r    species := \'Fig\'.\r    age := 0.\r    height := 1.0.\r    yield := 3.\r    fruitingAge := 1. \r\t frostOccured := false.\r',
+			#stamp : '10/9/2024 22:10',
+			#package : #ProjectFruitTree
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #FruitTree
+			},
+			#name : #initialize,
+			#protocol : #initialization,
+			#sourceCode : 'initialize \r    species := \'Fig\'.\r    age := 0.\r    height := 1.0.\r    yield := 0.\r    fruitingAge := 1. \r\t frostOccured := false.\r',
+			#stamp : '10/9/2024 22:43',
+			#package : #ProjectFruitTree
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '153' ],
+		#self : OmReference [ '154' ]
+	},
+	#content : EpSessionSnapshot {
+		#imageName : 'C:\\PharoProject\\ProjectFruitTree\\src\\ProjectTest\\ProjectTest.image'
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '154' ],
+		#self : OmReference [ '155' ]
+	},
+	#content : EpSessionSnapshot {
+		#imageName : 'C:\\PharoProject\\ProjectFruitTree\\src\\ProjectTest\\ProjectTest.image'
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '155' ],
+		#self : OmReference [ '156' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #ApricotTree
+			},
+			#name : #initialize,
+			#protocol : #initialization,
+			#sourceCode : 'initialize \r    species := \'Apricot Tree\'.\r    age := 0.\r    height := 1.0.\r    yield := 10.\r    fruitingAge := 3. \r    frostOccured := false. \r',
+			#stamp : '10/9/2024 22:26',
+			#package : #ProjectFruitTree
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #ApricotTree
+			},
+			#name : #initialize,
+			#protocol : #initialization,
+			#sourceCode : 'initialize \r    species := \'Apricot Tree\'.\r    age := 0.\r    height := 1.0.\r    yield := 0.\r    fruitingAge := 3. \r    frostOccured := true. \r',
+			#stamp : '10/9/2024 22:47',
+			#package : #ProjectFruitTree
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '156' ],
+		#self : OmReference [ '157' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #ApricotTree
+			},
+			#name : #'growOneYear:',
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'growOneYear: frostStatus \r    age := age + 1.\r    height := height + 0.5.\r\t frostOccured := frostStatus.\r\t \r    (age >= fruitingAge) ifTrue: [\r        frostOccured ifTrue: [self decreaseYield].\r        frostOccured ifFalse: [self increaseYield].\r    ].\r',
+			#stamp : '10/9/2024 22:26',
+			#package : #ProjectFruitTree
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #ApricotTree
+			},
+			#name : #'growOneYear:',
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'growOneYear: frostStatus \r    age := age + 1.\r    height := height + 0.5.\r\t frostOccured := frostStatus.\r\t \r    (age >= fruitingAge) ifTrue: [\r        frostOccured ifTrue: [self decreaseYield].\r        frostOccured ifFalse: [self increaseYield].\r    ]\r\t\r',
+			#stamp : '10/9/2024 22:53',
+			#package : #ProjectFruitTree
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '157' ],
+		#self : OmReference [ '158' ]
+	},
+	#content : EpCompositeRefactoring {
+		#childrenRefactorings : [ ]
+	}
+}OmEntry {
+	#tags : {
+		#trigger : OmReference [ '158' ],
+		#prior : @3,
+		#self : OmReference [ '159' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #ApricotTree
+			},
+			#name : #'growOneYear:',
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'growOneYear: frostStatus \r    age := age + 1.\r    height := height + 0.5.\r\t frostOccured := frostStatus.\r\t \r    (age >= fruitingAge) ifTrue: [\r        frostOccured ifTrue: [self decreaseYield].\r        frostOccured ifFalse: [self increaseYield].\r    ]\r\t\r',
+			#stamp : '10/9/2024 22:53',
+			#package : #ProjectFruitTree
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #ApricotTree
+			},
+			#name : #'growOneYear:',
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'growOneYear: frostStatus\r\r\tage := age + 1.\r\theight := height + 0.5.\r\tfrostOccured := frostStatus.\r\r\tage >= fruitingAge ifFalse: [ ^ self ].\r\tfrostOccured ifTrue: [ self decreaseYield ].\r\tfrostOccured ifFalse: [ self increaseYield ]',
+			#stamp : '10/9/2024 22:53',
+			#package : #ProjectFruitTree
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '159' ],
+		#self : OmReference [ '160' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #ApricotTree
+			},
+			#name : #decreaseYield,
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'decreaseYield \r    yield := yield * 0.2. "yield decreased to 20% when tree was frozen"\r',
+			#stamp : '10/9/2024 22:41',
+			#package : #ProjectFruitTree
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #ApricotTree
+			},
+			#name : #decreaseYield,
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'decreaseYield \r    yield := yield + yield* 0.2. "yield decreased to 20% when tree was frozen"\r',
+			#stamp : '10/9/2024 22:55',
+			#package : #ProjectFruitTree
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '160' ],
+		#self : OmReference [ '161' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #ApricotTree
+			},
+			#name : #decreaseYield,
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'decreaseYield \r    yield := yield + yield* 0.2. "yield decreased to 20% when tree was frozen"\r',
+			#stamp : '10/9/2024 22:55',
+			#package : #ProjectFruitTree
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #ApricotTree
+			},
+			#name : #decreaseYield,
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'decreaseYield \r    yield := yield + yield * 0.2. "yield decreased to 20% when tree was frozen"\r',
+			#stamp : '10/9/2024 22:57',
+			#package : #ProjectFruitTree
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '161' ],
+		#self : OmReference [ '162' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #ApricotTree
+			},
+			#name : #decreaseYield,
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'decreaseYield \r    yield := yield + yield * 0.2. "yield decreased to 20% when tree was frozen"\r',
+			#stamp : '10/9/2024 22:57',
+			#package : #ProjectFruitTree
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #ApricotTree
+			},
+			#name : #decreaseYield,
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'decreaseYield \r    yield := yield* 1.2. "yield decreased to 20% when tree was frozen"\r',
+			#stamp : '10/9/2024 23:00',
+			#package : #ProjectFruitTree
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '162' ],
+		#self : OmReference [ '163' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #AppleTree
+			},
+			#name : #initialize,
+			#protocol : #initialization,
+			#sourceCode : 'initialize \r    species := \'RedApple\'.\r    age := 0.\r    height := 2.0.\r    yield := 5.\r    fruitingAge := 1.\r\t isFruitYear := false.\r\t fruitColor:= \'Red\' .\r\t frostOccured := false.\r',
+			#stamp : '10/9/2024 22:26',
+			#package : #ProjectFruitTree
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #AppleTree
+			},
+			#name : #initialize,
+			#protocol : #initialization,
+			#sourceCode : 'initialize \r    species := \'RedApple\'.\r    age := 0.\r    height := 2.0.\r    yield := 0.\r    fruitingAge := 1.\r\t isFruitYear := false.\r\t fruitColor:= \'Red\' .\r\t frostOccured := false.\r',
+			#stamp : '10/9/2024 23:01',
+			#package : #ProjectFruitTree
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '163' ],
+		#self : OmReference [ '164' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #AppleTree
+			},
+			#name : #initialize,
+			#protocol : #initialization,
+			#sourceCode : 'initialize \r    species := \'RedApple\'.\r    age := 0.\r    height := 2.0.\r    yield := 0.\r    fruitingAge := 1.\r\t isFruitYear := false.\r\t fruitColor:= \'Red\' .\r\t frostOccured := false.\r',
+			#stamp : '10/9/2024 23:01',
+			#package : #ProjectFruitTree
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #AppleTree
+			},
+			#name : #initialize,
+			#protocol : #initialization,
+			#sourceCode : 'initialize \r    species := \'RedApple\'.\r    age := 0.\r    height := 2.0.\r    yield := 0.\r    fruitingAge := 2.\r\t isFruitYear := false.\r\t fruitColor:= \'Red\' .\r\t frostOccured := false.\r',
+			#stamp : '10/9/2024 23:02',
+			#package : #ProjectFruitTree
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '164' ],
+		#self : OmReference [ '165' ]
+	},
+	#content : EpSessionSnapshot {
+		#imageName : 'C:\\PharoProject\\ProjectFruitTree\\src\\ProjectTest\\ProjectTest.image'
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '165' ],
+		#self : OmReference [ '166' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #AppleTree
+			},
+			#name : #initialize,
+			#protocol : #initialization,
+			#sourceCode : 'initialize \r    species := \'RedApple\'.\r    age := 0.\r    height := 2.0.\r    yield := 0.\r    fruitingAge := 2.\r\t isFruitYear := false.\r\t fruitColor:= \'Red\' .\r\t frostOccured := false.\r',
+			#stamp : '10/9/2024 23:02',
+			#package : #ProjectFruitTree
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #AppleTree
+			},
+			#name : #initialize,
+			#protocol : #initialization,
+			#sourceCode : 'initialize \r    species := \'RedApple\'.\r    age := 0.\r    height := 2.0.\r    yield := 0.\r    fruitingAge := 2.\r\t isFruitYear := true.\r\t fruitColor:= \'Red\' .\r\t frostOccured := false.\r',
+			#stamp : '10/9/2024 23:52',
+			#package : #ProjectFruitTree
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '166' ],
+		#self : OmReference [ '167' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #AppleTree
+			},
+			#name : #initialize,
+			#protocol : #initialization,
+			#sourceCode : 'initialize \r    species := \'RedApple\'.\r    age := 0.\r    height := 2.0.\r    yield := 0.\r    fruitingAge := 2.\r\t isFruitYear := true.\r\t fruitColor:= \'Red\' .\r\t frostOccured := false.\r',
+			#stamp : '10/9/2024 23:52',
+			#package : #ProjectFruitTree
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #AppleTree
+			},
+			#name : #initialize,
+			#protocol : #initialization,
+			#sourceCode : 'initialize \r    species := \'RedApple\'.\r    age := 0.\r    height := 2.0.\r    yield := 0.\r    fruitingAge := 0.\r\t isFruitYear := true.\r\t fruitColor:= \'Red\' .\r\t frostOccured := false.\r',
+			#stamp : '10/9/2024 23:54',
+			#package : #ProjectFruitTree
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '167' ],
+		#self : OmReference [ '168' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #AppleTree
+			},
+			#name : #'growOneYear:',
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'growOneYear: frostStatus \r    age := age + 1.\r    height := height + 0.5.\r    isFruitYear := isFruitYear not. "Yield after year"\r\t frostOccured := frostStatus.\r\r    (age >= fruitingAge and: [isFruitYear]) ifTrue: [\r        self increaseYield.\r    ].\r',
+			#stamp : '10/9/2024 22:26',
+			#package : #ProjectFruitTree
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #AppleTree
+			},
+			#name : #'growOneYear:',
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'growOneYear: frostStatus \r    age := age + 1.\r    height := height + 0.5.\r    isFruitYear := isFruitYear not. "Yield after year"\r\r    (age >= fruitingAge)\r\t\t\tifTrue:[  isFruitYear \r\t\t\t\t\t\tifTrue: [\r        self increaseYield.\r    ]].\r',
+			#stamp : '10/9/2024 23:56',
+			#package : #ProjectFruitTree
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '168' ],
+		#self : OmReference [ '169' ]
+	},
+	#content : EpSessionSnapshot {
+		#imageName : 'C:\\PharoProject\\ProjectFruitTree\\src\\ProjectTest\\ProjectTest.image'
+	}
+}

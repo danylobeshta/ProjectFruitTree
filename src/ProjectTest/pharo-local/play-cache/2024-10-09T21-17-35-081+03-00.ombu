@@ -1,0 +1,139 @@
+OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2024-10-09T21:17:39.821+03:00' ],
+		#self : OmReference [ '1' ]
+	},
+	#content : '| apple apricot |\r\r"Створюємо дерева яблуні та абрикоса з параметрами за замовчуванням"\rapple := AppleTree newWithDefaults.\rapricot := ApricotTree newWithDefaults.\r\r"Наступний рік без заморозків"\rapple growOneYearWithFrost: false.\rapricot growOneYearWithFrost: false.\r\r"Наступний рік із заморозками"\rapple growOneYearWithFrost: true. "Яблуня не реагує"\rapricot growOneYearWithFrost: true. "Урожайність абрикоса зменшується"\r\r"Виведення стану дерев після двох років"\rapple printString.\rapricot printString.\r'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2024-10-09T21:18:17.938+03:00' ],
+		#self : OmReference [ '2' ]
+	},
+	#content : '| apple apricot |\r\r"Створюємо дерева яблуні та абрикоса з параметрами за замовчуванням"\rapple := AppleTree newWithDefaults.\rapricot := ApricotTree newWithDefaults.\r\r"Наступний рік без заморозків"\rapple growOneYear false.\rapricot growOneYear false.\r\r"Наступний рік із заморозками"\rapple growOneYear true. "Яблуня не реагує"\rapricot growOneYear true. "Урожайність абрикоса зменшується"\r\r"Виведення стану дерев після двох років"\rapple printString.\rapricot printString.\r'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2024-10-09T21:18:49.46+03:00' ],
+		#self : OmReference [ '3' ]
+	},
+	#content : '| apple apricot |\r\r"Створюємо дерева яблуні та абрикоса з параметрами за замовчуванням"\rapple := AppleTree newWithDefaults.\rapricot := ApricotTree newWithDefaults.\r\r"Наступний рік без заморозків"\rapple growOneYear: false.\rapricot growOneYear: false.\r\r"Наступний рік із заморозками"\rapple growOneYear: true. "Яблуня не реагує"\rapricot growOneYear: true. "Урожайність абрикоса зменшується"\r\r"Виведення стану дерев після двох років"\rapple printString.\rapricot printString.\r'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2024-10-09T21:25:18.617+03:00' ],
+		#self : OmReference [ '4' ]
+	},
+	#content : '| apple apricot |\r\r"Створюємо дерева яблуні та абрикоса з параметрами за замовчуванням"\rapple := AppleTree newWithDefaults.\rapricot := ApricotTree newWithDefaults.\r\r"Наступний рік без заморозків"\rapple growOneYear: false.\rapricot growOneYear: false.\r\r"Наступний рік із заморозками"\rapple growOneYear: true. "Яблуня не реагує"\rapricot growOneYear: true. "Урожайність абрикоса зменшується"\r\r"Виведення стану дерев після двох років"\rapple printOn:\rapricot printString.\r'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2024-10-09T21:25:36.536+03:00' ],
+		#self : OmReference [ '5' ]
+	},
+	#content : '| apple apricot |\r\r"Створюємо дерева яблуні та абрикоса з параметрами за замовчуванням"\rapple := AppleTree newWithDefaults.\rapricot := ApricotTree newWithDefaults.\r\r"Наступний рік без заморозків"\rapple growOneYear: false.\rapricot growOneYear: false.\r\r"Наступний рік із заморозками"\rapple growOneYear: true. "Яблуня не реагує"\rapricot growOneYear: true. "Урожайність абрикоса зменшується"\r\r"Виведення стану дерев після двох років"\rapple printOn:\rapricot printOn: \r'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2024-10-09T21:30:25.654+03:00' ],
+		#self : OmReference [ '6' ]
+	},
+	#content : '| apple apricot |\r\r"Створюємо дерева яблуні та абрикоса з параметрами за замовчуванням"\rapple := FruitTree newWithDefaults.\rapricot := FruitTree newWithDefaults.\r\r"Наступний рік без заморозків"\rapple growOneYear: false.\rapricot growOneYear: false.\r\r"Наступний рік із заморозками"\rapple growOneYear: true. "Яблуня не реагує"\rapricot growOneYear: true. "Урожайність абрикоса зменшується"\r\r"Виведення стану дерев після двох років"\rapple printOn:\rapricot printOn: \r'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2024-10-09T21:31:37.464+03:00' ],
+		#self : OmReference [ '7' ]
+	},
+	#content : '| apple apricot |\r\r"Створюємо дерева яблуні та абрикоса з параметрами за замовчуванням"\rapple := FruitTree newWithDefaults.\rapricot := FruitTree newWithDefaults.\r\r"Наступний рік без заморозків"\rapple growOneYear\rapricot growOneYear: false.\r\r"Наступний рік із заморозками"\rapple growOneYear: true. "Яблуня не реагує"\rapricot growOneYear: true. "Урожайність абрикоса зменшується"\r\r"Виведення стану дерев після двох років"\rapple printOn:\rapricot printOn: \r'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2024-10-09T21:31:59.546+03:00' ],
+		#self : OmReference [ '8' ]
+	},
+	#content : '| apple apricot |\r\r"Створюємо дерева яблуні та абрикоса з параметрами за замовчуванням"\rapple := FruitTree newWithDefaults.\rapricot := FruitTree newWithDefaults.\r\r"Наступний рік без заморозків"\rapple growOneYear:false.\rapricot growOneYear: false.\r\r"Наступний рік із заморозками"\rapple growOneYear: true. "Яблуня не реагує"\rapricot growOneYear: true. "Урожайність абрикоса зменшується"\r\r"Виведення стану дерев після двох років"\rapple printOn:\rapricot printOn: \r'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2024-10-09T21:35:47.709+03:00' ],
+		#self : OmReference [ '9' ]
+	},
+	#content : '| apple apricot |\r\r"Створюємо дерева яблуні та абрикоса з параметрами за замовчуванням"\rapple := FruitTree newWithDefaults.\rapricot := FruitTree newWithDefaults.\r\r"Наступний рік без заморозків"\rapple growOneYear:false.\rapricot growOneYear: false.\r\r"Наступний рік із заморозками"\rapple growOneYear: true. "Яблуня не реагує"\rapricot growOneYear: true. "Урожайність абрикоса зменшується"\r\r"Виведення стану дерев після двох років"\rapple printOn: Transcript \rapricot printOn: \r'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2024-10-09T21:37:00.817+03:00' ],
+		#self : OmReference [ '10' ]
+	},
+	#content : '| apple apricot |\r\r"Створюємо дерева яблуні та абрикоса з параметрами за замовчуванням"\rapple := FruitTree newWithDefaults.\rapricot := FruitTree newWithDefaults.\r\r"Наступний рік без заморозків"\rapple growOneYear:false.\rapricot growOneYear: false.\r\r"Наступний рік із заморозками"\rapple growOneYear: true. "Яблуня не реагує"\rapricot growOneYear: true. "Урожайність абрикоса зменшується"\r\r"Виведення стану дерев після двох років"\rapple printTree: Transcript \rapricot printOn: \r'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2024-10-09T21:42:29.32+03:00' ],
+		#self : OmReference [ '11' ]
+	},
+	#content : '\r"Створюємо дерева яблуні та абрикоса з параметрами за замовчуванням"\rapple := FruitTree newWithDefaults.\rapricot := FruitTree newWithDefaults.\r\r"Наступний рік без заморозків"\rapple growOneYear:false.\rapricot growOneYear: false.\r\r"Наступний рік із заморозками"\rapple growOneYear: true. "Яблуня не реагує"\rapricot growOneYear: true. "Урожайність абрикоса зменшується"\r\r"Виведення стану дерев після двох років"\rapple printTree: Transcript \rapricot printOn: \r'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2024-10-09T21:42:58.853+03:00' ],
+		#self : OmReference [ '12' ]
+	},
+	#content : '\r"Створюємо дерева яблуні та абрикоса з параметрами за замовчуванням"\rapple := FruitTree newWithDefaults.\rapricot := FruitTree newWithDefaults.\r\r"Наступний рік без заморозків"\rapple growOneYear:false.\rapricot growOneYear: false.\r\r"Наступний рік із заморозками"\rapple growOneYear: true. "Яблуня не реагує"\rapricot growOneYear: true. "Урожайність абрикоса зменшується"\r\r"Виведення стану дерев після двох років"\rapple printTree: Transcript. \rapricot printOn: \r'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2024-10-09T21:46:22.57+03:00' ],
+		#self : OmReference [ '13' ]
+	},
+	#content : '\r"Створюємо дерева яблуні та абрикоса з параметрами за замовчуванням"\rapple := FruitTree initialize .\rapricot := FruitTree newWithDefaults.\r\r"Наступний рік без заморозків"\rapple growOneYear:false.\rapricot growOneYear: false.\r\r"Наступний рік із заморозками"\rapple growOneYear: true. "Яблуня не реагує"\rapricot growOneYear: true. "Урожайність абрикоса зменшується"\r\r"Виведення стану дерев після двох років"\rapple printTree: Transcript. \rapricot printOn: \r'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2024-10-09T21:46:59.354+03:00' ],
+		#self : OmReference [ '14' ]
+	},
+	#content : '\r"Створюємо дерева яблуні та абрикоса з параметрами за замовчуванням"\rapple := FruitTree initializeTree: \rapricot := FruitTree newWithDefaults.\r\r"Наступний рік без заморозків"\rapple growOneYear:false.\rapricot growOneYear: false.\r\r"Наступний рік із заморозками"\rapple growOneYear: true. "Яблуня не реагує"\rapricot growOneYear: true. "Урожайність абрикоса зменшується"\r\r"Виведення стану дерев після двох років"\rapple printTree: Transcript. \rapricot printOn: \r'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2024-10-09T21:50:03.13+03:00' ],
+		#self : OmReference [ '15' ]
+	},
+	#content : '\r"Створюємо дерева яблуні та абрикоса з параметрами за замовчуванням"\rapple := FruitTree new. \rapricot := FruitTree newWithDefaults.\r\r"Наступний рік без заморозків"\rapple growOneYear:false.\rapricot growOneYear: false.\r\r"Наступний рік із заморозками"\rapple growOneYear: true. "Яблуня не реагує"\rapricot growOneYear: true. "Урожайність абрикоса зменшується"\r\r"Виведення стану дерев після двох років"\rapple printTree: Transcript. \rapricot printOn: \r'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2024-10-09T21:50:54.492+03:00' ],
+		#self : OmReference [ '16' ]
+	},
+	#content : '\r"Створюємо дерева яблуні та абрикоса з параметрами за замовчуванням"\rapple := FruitTree new. \rapricot := FruitTree newWithDefaults.\r\r"Наступний рік без заморозків"\rapple growOneYear:false.\rapricot growOneYear: false.\r\r"Наступний рік із заморозками"\rapple growOneYear: true. "Яблуня не реагує"\rapricot growOneYear: true. "Урожайність абрикоса зменшується"\r\r"Виведення стану дерев після двох років"\rapple printtree: Transcript. \rapricot printOn: Transcript.\r'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2024-10-09T21:51:09.208+03:00' ],
+		#self : OmReference [ '17' ]
+	},
+	#content : '\r"Створюємо дерева яблуні та абрикоса з параметрами за замовчуванням"\rapple := FruitTree new. \rapricot := FruitTree newWithDefaults.\r\r"Наступний рік без заморозків"\rapple growOneYear:false.\rapricot growOneYear: false.\r\r"Наступний рік із заморозками"\rapple growOneYear: true. "Яблуня не реагує"\rapricot growOneYear: true. "Урожайність абрикоса зменшується"\r\r"Виведення стану дерев після двох років"\rapple printTree: Transcript. \rapricot printOn: Transcript.\r'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2024-10-09T21:51:38.581+03:00' ],
+		#self : OmReference [ '18' ]
+	},
+	#content : '\r"Створюємо дерева яблуні та абрикоса з параметрами за замовчуванням"\rapple := FruitTree new. \rapricot := FruitTree new.\r\r"Наступний рік без заморозків"\rapple growOneYear:false.\rapricot growOneYear: false.\r\r"Наступний рік із заморозками"\rapple growOneYear: true. "Яблуня не реагує"\rapricot growOneYear: true. "Урожайність абрикоса зменшується"\r\r"Виведення стану дерев після двох років"\rapple printTree: Transcript. \rapricot printOn: Transcript.\r'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2024-10-09T21:56:44.343+03:00' ],
+		#self : OmReference [ '19' ]
+	},
+	#content : '\r"Створюємо дерева яблуні та абрикоса з параметрами за замовчуванням"\rapple := FruitTree new. \rapricot := FruitTree new.\r\r"Наступний рік без заморозків"\rapple growOneYear:false.\rapricot growOneYear: false.\r\r"Наступний рік із заморозками"\rapple growOneYear: true. "Яблуня не реагує"\rapricot growOneYear: true. "Урожайність абрикоса зменшується"\rTranscript show: \'After two years: \'; cr.\r"Виведення стану дерев після двох років"\rapple printTree: Transcript. \rapricot printOn: Transcript.\r'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2024-10-09T21:57:35.84+03:00' ],
+		#self : OmReference [ '20' ]
+	},
+	#content : '\r"Створюємо дерева яблуні та абрикоса з параметрами за замовчуванням"\rapple := FruitTree new initialize. \rapricot := FruitTree new.\r\r"Наступний рік без заморозків"\rapple growOneYear:false.\rapricot growOneYear: false.\r\r"Наступний рік із заморозками"\rapple growOneYear: true. "Яблуня не реагує"\rapricot growOneYear: true. "Урожайність абрикоса зменшується"\rTranscript show: \'After two years: \'; cr.\r"Виведення стану дерев після двох років"\rapple printTree: Transcript. \rapricot printOn: Transcript.\r'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2024-10-09T22:00:13.223+03:00' ],
+		#self : OmReference [ '21' ]
+	},
+	#content : '\r"Створюємо дерева яблуні та абрикоса з параметрами за замовчуванням"\rapple := FruitTree new initialize. \rapricot := FruitTree new.\r\r"Наступний рік без заморозків"\rapple growOneYear:false.\rapricot growOneYear: false.\r\r"Наступний рік із заморозками"\rapple growOneYear: true. "Яблуня не реагує"\rapricot growOneYear: true. "Урожайність абрикоса зменшується"\rTranscript show.\r"Виведення стану дерев після двох років"\rapple printTree: Transcript. \rapricot printOn: Transcript.\r'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2024-10-09T22:00:41.238+03:00' ],
+		#self : OmReference [ '22' ]
+	},
+	#content : '\r"Створюємо дерева яблуні та абрикоса з параметрами за замовчуванням"\rapple := FruitTree new initialize. \rapricot := FruitTree new.\r\r"Наступний рік без заморозків"\rapple growOneYear:false.\rapricot growOneYear: false.\r\r"Наступний рік із заморозками"\rapple growOneYear: true. "Яблуня не реагує"\rapricot growOneYear: true. "Урожайність абрикоса зменшується"\rTranscript open.\r"Виведення стану дерев після двох років"\rapple printTree: Transcript. \rapricot printOn: Transcript.\r'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2024-10-09T22:01:07.077+03:00' ],
+		#self : OmReference [ '23' ]
+	},
+	#content : '\r"Створюємо дерева яблуні та абрикоса з параметрами за замовчуванням"\rapple := FruitTree new. \rapple initialize.\rapricot := FruitTree new.\r\r"Наступний рік без заморозків"\rapple growOneYear:false.\rapricot growOneYear: false.\r\r"Наступний рік із заморозками"\rapple growOneYear: true. "Яблуня не реагує"\rapricot growOneYear: true. "Урожайність абрикоса зменшується"\rTranscript open.\r"Виведення стану дерев після двох років"\rapple printTree: Transcript. \rapricot printOn: Transcript.\r'
+}
