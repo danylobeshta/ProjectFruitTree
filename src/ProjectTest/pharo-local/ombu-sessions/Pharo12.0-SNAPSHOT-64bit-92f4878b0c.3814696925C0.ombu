@@ -1,0 +1,1753 @@
+OmEntry {
+	#tags : {
+		#prior : OmReference [ 'Pharo12.0-SNAPSHOT-64bit-92f4878b0c.2EE5CAD18060', '1' ],
+		#self : OmReference [ '1' ]
+	},
+	#content : EpPackageAddition {
+		#packageName : #ProjectFruitTree
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '1' ],
+		#self : OmReference [ '2' ]
+	},
+	#content : EpPackageTagAddition {
+		#packageTagName : #Uncategorized,
+		#packageName : #ProjectFruitTree
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '2' ],
+		#self : OmReference [ '3' ]
+	},
+	#content : EpClassAddition {
+		#class : RGClassDefinition {
+			#annotations : IdentityDictionary {
+				#superclassName : #Object,
+				#traitCompositionSource : '{}',
+				#definitionSource : 'Object << #MyTestClass\r\tslots: {};\r\tpackage: \'ProjectFruitTree\''
+			},
+			#name : #MyTestClass,
+			#methods : IdentityDictionary { },
+			#protocols : Set [ ],
+			#instanceVariables : OrderedCollection [ ],
+			#metaClass : RGMetaclassDefinition {
+				#annotations : IdentityDictionary {
+					#traitCompositionSource : '{}',
+					#definitionSource : 'Object class << MyTestClass class\r\tslots: {}'
+				},
+				#name : #'MyTestClass class',
+				#methods : IdentityDictionary { },
+				#protocols : Set [ ],
+				#instanceVariables : OrderedCollection [ ],
+				#baseClass : @6
+			},
+			#comment : RGCommentDefinition {
+				#annotations : IdentityDictionary {
+					#isMeta : false,
+					#className : #MyTestClass
+				},
+				#parent : @6,
+				#content : ''
+			},
+			#classVariables : OrderedCollection [ ],
+			#package : RGPackageDefinition {
+				#name : #ProjectFruitTree,
+				#definedClasses : IdentityDictionary { },
+				#definedMethods : IdentityDictionary { },
+				#extensionMethods : IdentityDictionary { }
+			},
+			#packageTag : #Uncategorized,
+			#sharedPools : OrderedCollection [ ]
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '3' ],
+		#self : OmReference [ '4' ]
+	},
+	#content : EpSessionSnapshot {
+		#imageName : 'C:\\Users\\danyl\\Documents\\Pharo\\images\\ProjectTest\\ProjectTest.image'
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '4' ],
+		#self : OmReference [ '5' ]
+	},
+	#content : EpPackageAddition {
+		#packageName : #ProjectFruitTree-Tests
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '5' ],
+		#self : OmReference [ '6' ]
+	},
+	#content : EpPackageTagAddition {
+		#packageTagName : #Uncategorized,
+		#packageName : #ProjectFruitTree-Tests
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '6' ],
+		#self : OmReference [ '7' ]
+	},
+	#content : EpClassAddition {
+		#class : RGClassDefinition {
+			#annotations : IdentityDictionary {
+				#superclassName : #TestCase,
+				#traitCompositionSource : '{}',
+				#definitionSource : 'TestCase << #MyTestClassTest\r\tslots: {};\r\tpackage: \'ProjectFruitTree-Tests\''
+			},
+			#name : #MyTestClassTest,
+			#methods : IdentityDictionary { },
+			#protocols : Set [ ],
+			#instanceVariables : OrderedCollection [ ],
+			#metaClass : RGMetaclassDefinition {
+				#annotations : IdentityDictionary {
+					#traitCompositionSource : '{}',
+					#definitionSource : 'TestCase class << MyTestClassTest class\r\tslots: {}'
+				},
+				#name : #'MyTestClassTest class',
+				#methods : IdentityDictionary { },
+				#protocols : Set [ ],
+				#instanceVariables : OrderedCollection [ ],
+				#baseClass : @6
+			},
+			#comment : RGCommentDefinition {
+				#annotations : IdentityDictionary {
+					#isMeta : false,
+					#className : #MyTestClassTest
+				},
+				#parent : @6,
+				#content : ''
+			},
+			#classVariables : OrderedCollection [ ],
+			#package : RGPackageDefinition {
+				#name : #ProjectFruitTree-Tests,
+				#definedClasses : IdentityDictionary { },
+				#definedMethods : IdentityDictionary { },
+				#extensionMethods : IdentityDictionary { }
+			},
+			#packageTag : #Uncategorized,
+			#sharedPools : OrderedCollection [ ]
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '7' ],
+		#self : OmReference [ '8' ]
+	},
+	#content : EpBehaviorCommentChange {
+		#behavior : RGClassDefinition {
+			#annotations : IdentityDictionary {
+				#superclassName : #TestCase,
+				#traitCompositionSource : '{}',
+				#definitionSource : 'TestCase << #MyTestClassTest\r\tslots: {};\r\tpackage: \'ProjectFruitTree-Tests\''
+			},
+			#name : #MyTestClassTest,
+			#methods : IdentityDictionary { },
+			#protocols : Set [ ],
+			#instanceVariables : OrderedCollection [ ],
+			#metaClass : RGMetaclassDefinition {
+				#annotations : IdentityDictionary {
+					#traitCompositionSource : '{}',
+					#definitionSource : 'TestCase class << MyTestClassTest class\r\tslots: {}'
+				},
+				#name : #'MyTestClassTest class',
+				#methods : IdentityDictionary { },
+				#protocols : Set [ ],
+				#instanceVariables : OrderedCollection [ ],
+				#baseClass : @6
+			},
+			#comment : RGCommentDefinition {
+				#annotations : IdentityDictionary {
+					#isMeta : false,
+					#className : #MyTestClassTest
+				},
+				#parent : @6,
+				#content : 'A MyTestClassTest is a test class for testing the behavior of MyTestClass',
+				#stamp : '<historical>'
+			},
+			#classVariables : OrderedCollection [ ],
+			#package : RGPackageDefinition {
+				#name : #ProjectFruitTree-Tests,
+				#definedClasses : IdentityDictionary { },
+				#definedMethods : IdentityDictionary { },
+				#extensionMethods : IdentityDictionary { }
+			},
+			#packageTag : #Uncategorized,
+			#sharedPools : OrderedCollection [ ]
+		},
+		#oldComment : '',
+		#newComment : 'A MyTestClassTest is a test class for testing the behavior of MyTestClass',
+		#oldStamp : '',
+		#newStamp : '<historical>'
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '8' ],
+		#self : OmReference [ '9' ]
+	},
+	#content : EpProtocolAddition {
+		#behavior : RGClassDefinition {
+			#annotations : IdentityDictionary {
+				#superclassName : #TestCase,
+				#traitCompositionSource : '{}',
+				#definitionSource : 'TestCase << #MyTestClassTest\r\tslots: {};\r\tpackage: \'ProjectFruitTree-Tests\''
+			},
+			#name : #MyTestClassTest,
+			#methods : IdentityDictionary { },
+			#protocols : Set [ ],
+			#instanceVariables : OrderedCollection [ ],
+			#metaClass : RGMetaclassDefinition {
+				#annotations : IdentityDictionary {
+					#traitCompositionSource : '{}',
+					#definitionSource : 'TestCase class << MyTestClassTest class\r\tslots: {}'
+				},
+				#name : #'MyTestClassTest class',
+				#methods : IdentityDictionary { },
+				#protocols : Set [ ],
+				#instanceVariables : OrderedCollection [ ],
+				#baseClass : @6
+			},
+			#comment : RGCommentDefinition {
+				#annotations : IdentityDictionary {
+					#isMeta : false,
+					#className : #MyTestClassTest
+				},
+				#parent : @6,
+				#content : 'A MyTestClassTest is a test class for testing the behavior of MyTestClass',
+				#stamp : '<historical>'
+			},
+			#classVariables : OrderedCollection [ ],
+			#package : RGPackageDefinition {
+				#name : #ProjectFruitTree-Tests,
+				#definedClasses : IdentityDictionary { },
+				#definedMethods : IdentityDictionary { },
+				#extensionMethods : IdentityDictionary { }
+			},
+			#packageTag : #Uncategorized,
+			#sharedPools : OrderedCollection [ ]
+		},
+		#protocol : #'basic tests'
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '9' ],
+		#self : OmReference [ '10' ]
+	},
+	#content : EpSessionSnapshot {
+		#imageName : 'C:\\Users\\danyl\\Documents\\Pharo\\images\\ProjectTest\\ProjectTest.image'
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '10' ],
+		#self : OmReference [ '11' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #MyTestClassTest
+			},
+			#name : #testCreatingMyCounter,
+			#protocol : #'basic tests',
+			#sourceCode : 'testCreatingMyCounter\r  "A test that will check if the creation of an object MyCounter is done properly"\r  |tmp|\r  tmp := MyTestClass new.\r  self deny: (tmp = nil)',
+			#stamp : '10/9/2024 17:23',
+			#package : #ProjectFruitTree-Tests
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '11' ],
+		#self : OmReference [ '12' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #MyTestClassTest
+			},
+			#name : #testCreatingMyTestClass,
+			#protocol : #'basic tests',
+			#sourceCode : 'testCreatingMyTestClass\r  "A test that will check if the creation of an object MyCounter is done properly"\r  |tmp|\r  tmp := MyTestClass new.\r  self deny: (tmp = nil)',
+			#stamp : '10/9/2024 17:23',
+			#package : #ProjectFruitTree-Tests
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '12' ],
+		#self : OmReference [ '13' ]
+	},
+	#content : EpMethodRemoval {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #MyTestClassTest
+			},
+			#name : #testCreatingMyCounter,
+			#protocol : #'basic tests',
+			#sourceCode : 'testCreatingMyCounter\r  "A test that will check if the creation of an object MyCounter is done properly"\r  |tmp|\r  tmp := MyTestClass new.\r  self deny: (tmp = nil)',
+			#stamp : '10/9/2024 17:23',
+			#package : #ProjectFruitTree-Tests
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '13' ],
+		#self : OmReference [ '14' ]
+	},
+	#content : EpSessionSnapshot {
+		#imageName : 'C:\\Users\\danyl\\Documents\\Pharo\\images\\ProjectTest\\ProjectTest.image'
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '14' ],
+		#self : OmReference [ '15' ]
+	},
+	#content : EpClassAddition {
+		#class : RGClassDefinition {
+			#annotations : IdentityDictionary {
+				#superclassName : #Object,
+				#traitCompositionSource : '{}',
+				#definitionSource : 'Object << #MyTestClass\r\tslots: { #counter };\r\tpackage: \'ProjectFruitTree\''
+			},
+			#name : #MyTestClass,
+			#methods : IdentityDictionary { },
+			#protocols : Set [ ],
+			#instanceVariables : OrderedCollection [
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#isMeta : false,
+						#className : #MyTestClass
+					},
+					#name : #counter,
+					#parent : @6
+				}
+			],
+			#metaClass : RGMetaclassDefinition {
+				#annotations : IdentityDictionary {
+					#traitCompositionSource : '{}',
+					#definitionSource : 'Object class << MyTestClass class\r\tslots: {}'
+				},
+				#name : #'MyTestClass class',
+				#methods : IdentityDictionary { },
+				#protocols : Set [ ],
+				#instanceVariables : OrderedCollection [ ],
+				#baseClass : @6
+			},
+			#comment : RGCommentDefinition {
+				#annotations : IdentityDictionary {
+					#isMeta : false,
+					#className : #MyTestClass
+				},
+				#parent : @6,
+				#content : ''
+			},
+			#classVariables : OrderedCollection [ ],
+			#package : RGPackageDefinition {
+				#name : #ProjectFruitTree,
+				#definedClasses : IdentityDictionary { },
+				#definedMethods : IdentityDictionary { },
+				#extensionMethods : IdentityDictionary { }
+			},
+			#packageTag : #Uncategorized,
+			#sharedPools : OrderedCollection [ ]
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '15' ],
+		#self : OmReference [ '16' ]
+	},
+	#content : EpClassModification {
+		#oldClass : RGClassDefinition {
+			#annotations : IdentityDictionary {
+				#superclassName : #Object,
+				#traitCompositionSource : '{}',
+				#definitionSource : 'Object << #MyTestClass\r\tslots: {};\r\tpackage: \'ProjectFruitTree\''
+			},
+			#name : #MyTestClass,
+			#methods : IdentityDictionary { },
+			#protocols : Set [ ],
+			#instanceVariables : OrderedCollection [ ],
+			#metaClass : RGMetaclassDefinition {
+				#annotations : IdentityDictionary {
+					#traitCompositionSource : '{}',
+					#definitionSource : 'Object class << MyTestClass class\r\tslots: {}'
+				},
+				#name : #'MyTestClass class',
+				#methods : IdentityDictionary { },
+				#protocols : Set [ ],
+				#instanceVariables : OrderedCollection [ ],
+				#baseClass : @6
+			},
+			#comment : RGCommentDefinition {
+				#annotations : IdentityDictionary {
+					#isMeta : false,
+					#className : #MyTestClass
+				},
+				#parent : @6,
+				#content : ''
+			},
+			#classVariables : OrderedCollection [ ],
+			#package : RGPackageDefinition {
+				#name : #ProjectFruitTree,
+				#definedClasses : IdentityDictionary { },
+				#definedMethods : IdentityDictionary { },
+				#extensionMethods : IdentityDictionary { }
+			},
+			#packageTag : #Uncategorized,
+			#sharedPools : OrderedCollection [ ]
+		},
+		#newClass : RGClassDefinition {
+			#annotations : IdentityDictionary {
+				#superclassName : #Object,
+				#traitCompositionSource : '{}',
+				#definitionSource : 'Object << #MyTestClass\r\tslots: { #counter };\r\tpackage: \'ProjectFruitTree\''
+			},
+			#name : #MyTestClass,
+			#methods : IdentityDictionary { },
+			#protocols : Set [ ],
+			#instanceVariables : OrderedCollection [
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#isMeta : false,
+						#className : #MyTestClass
+					},
+					#name : #counter,
+					#parent : @24
+				}
+			],
+			#metaClass : RGMetaclassDefinition {
+				#annotations : IdentityDictionary {
+					#traitCompositionSource : '{}',
+					#definitionSource : 'Object class << MyTestClass class\r\tslots: {}'
+				},
+				#name : #'MyTestClass class',
+				#methods : IdentityDictionary { },
+				#protocols : Set [ ],
+				#instanceVariables : OrderedCollection [ ],
+				#baseClass : @24
+			},
+			#comment : RGCommentDefinition {
+				#annotations : IdentityDictionary {
+					#isMeta : false,
+					#className : #MyTestClass
+				},
+				#parent : @24,
+				#content : ''
+			},
+			#classVariables : OrderedCollection [ ],
+			#package : RGPackageDefinition {
+				#name : #ProjectFruitTree,
+				#definedClasses : IdentityDictionary { },
+				#definedMethods : IdentityDictionary { },
+				#extensionMethods : IdentityDictionary { }
+			},
+			#packageTag : #Uncategorized,
+			#sharedPools : OrderedCollection [ ]
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '16' ],
+		#self : OmReference [ '17' ]
+	},
+	#content : EpProtocolAddition {
+		#behavior : RGClassDefinition {
+			#annotations : IdentityDictionary {
+				#superclassName : #Object,
+				#traitCompositionSource : '{}',
+				#definitionSource : 'Object << #MyTestClass\r\tslots: { #counter };\r\tpackage: \'ProjectFruitTree\''
+			},
+			#name : #MyTestClass,
+			#methods : IdentityDictionary { },
+			#protocols : Set [ ],
+			#instanceVariables : OrderedCollection [
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#isMeta : false,
+						#className : #MyTestClass
+					},
+					#name : #counter,
+					#parent : @6
+				}
+			],
+			#metaClass : RGMetaclassDefinition {
+				#annotations : IdentityDictionary {
+					#traitCompositionSource : '{}',
+					#definitionSource : 'Object class << MyTestClass class\r\tslots: {}'
+				},
+				#name : #'MyTestClass class',
+				#methods : IdentityDictionary { },
+				#protocols : Set [ ],
+				#instanceVariables : OrderedCollection [ ],
+				#baseClass : @6
+			},
+			#comment : RGCommentDefinition {
+				#annotations : IdentityDictionary {
+					#isMeta : false,
+					#className : #MyTestClass
+				},
+				#parent : @6,
+				#content : ''
+			},
+			#classVariables : OrderedCollection [ ],
+			#package : RGPackageDefinition {
+				#name : #ProjectFruitTree,
+				#definedClasses : IdentityDictionary { },
+				#definedMethods : IdentityDictionary { },
+				#extensionMethods : IdentityDictionary { }
+			},
+			#packageTag : #Uncategorized,
+			#sharedPools : OrderedCollection [ ]
+		},
+		#protocol : #'as yet unclassified'
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '17' ],
+		#self : OmReference [ '18' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #MyTestClass
+			},
+			#name : #'>',
+			#protocol : #'as yet unclassified',
+			#sourceCode : '>initialize [\r        counter := 0.  "Initial value for counter"\r    ]',
+			#stamp : '10/9/2024 17:28',
+			#package : #ProjectFruitTree
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '18' ],
+		#self : OmReference [ '19' ]
+	},
+	#content : EpProtocolAddition {
+		#behavior : RGClassDefinition {
+			#annotations : IdentityDictionary {
+				#superclassName : #Object,
+				#traitCompositionSource : '{}',
+				#definitionSource : 'Object << #MyTestClass\r\tslots: { #counter };\r\tpackage: \'ProjectFruitTree\''
+			},
+			#name : #MyTestClass,
+			#methods : IdentityDictionary { },
+			#protocols : Set [ ],
+			#instanceVariables : OrderedCollection [
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#isMeta : false,
+						#className : #MyTestClass
+					},
+					#name : #counter,
+					#parent : @6
+				}
+			],
+			#metaClass : RGMetaclassDefinition {
+				#annotations : IdentityDictionary {
+					#traitCompositionSource : '{}',
+					#definitionSource : 'Object class << MyTestClass class\r\tslots: {}'
+				},
+				#name : #'MyTestClass class',
+				#methods : IdentityDictionary { },
+				#protocols : Set [ ],
+				#instanceVariables : OrderedCollection [ ],
+				#baseClass : @6
+			},
+			#comment : RGCommentDefinition {
+				#annotations : IdentityDictionary {
+					#isMeta : false,
+					#className : #MyTestClass
+				},
+				#parent : @6,
+				#content : ''
+			},
+			#classVariables : OrderedCollection [ ],
+			#package : RGPackageDefinition {
+				#name : #ProjectFruitTree,
+				#definedClasses : IdentityDictionary { },
+				#definedMethods : IdentityDictionary { },
+				#extensionMethods : IdentityDictionary { }
+			},
+			#packageTag : #Uncategorized,
+			#sharedPools : OrderedCollection [ ]
+		},
+		#protocol : #comparing
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '19' ],
+		#self : OmReference [ '20' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #MyTestClass
+			},
+			#name : #'>',
+			#protocol : #'as yet unclassified',
+			#sourceCode : '>initialize [\r        counter := 0.  "Initial value for counter"\r    ]',
+			#stamp : '10/9/2024 17:28',
+			#package : #ProjectFruitTree
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #MyTestClass
+			},
+			#name : #'>',
+			#protocol : #comparing,
+			#sourceCode : '>initialize [\r        counter := 0.  "Initial value for counter"\r    ]',
+			#stamp : '10/9/2024 17:28',
+			#package : #ProjectFruitTree
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '20' ],
+		#self : OmReference [ '21' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #MyTestClass
+			},
+			#name : #initialize,
+			#protocol : #comparing,
+			#sourceCode : 'initialize [\r        counter := 0.  "Initial value for counter"\r    ]',
+			#stamp : '10/9/2024 17:28',
+			#package : #ProjectFruitTree
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '21' ],
+		#self : OmReference [ '22' ]
+	},
+	#content : EpMethodRemoval {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #MyTestClass
+			},
+			#name : #'>',
+			#protocol : #comparing,
+			#sourceCode : '>initialize [\r        counter := 0.  "Initial value for counter"\r    ]',
+			#stamp : '10/9/2024 17:28',
+			#package : #ProjectFruitTree
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '22' ],
+		#self : OmReference [ '23' ]
+	},
+	#content : EpSessionSnapshot {
+		#imageName : 'C:\\Users\\danyl\\Documents\\Pharo\\images\\ProjectTest\\ProjectTest.image'
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '23' ],
+		#self : OmReference [ '24' ]
+	},
+	#content : EpSessionSnapshot {
+		#imageName : 'C:\\Users\\danyl\\Documents\\Pharo\\images\\ProjectTest\\ProjectTest.image'
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '24' ],
+		#self : OmReference [ '25' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #MyTestClass
+			},
+			#name : #initialize,
+			#protocol : #comparing,
+			#sourceCode : 'initialize [\r        counter := 0.  "Initial value for counter"\r    ]',
+			#stamp : '10/9/2024 17:28',
+			#package : #ProjectFruitTree
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #MyTestClass
+			},
+			#name : #initialize,
+			#protocol : #comparing,
+			#sourceCode : 'initialize [\r        counter := 0. \r    ]',
+			#stamp : '10/9/2024 17:28',
+			#package : #ProjectFruitTree
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '25' ],
+		#self : OmReference [ '26' ]
+	},
+	#content : EpProtocolAddition {
+		#behavior : RGClassDefinition {
+			#annotations : IdentityDictionary {
+				#superclassName : #Object,
+				#traitCompositionSource : '{}',
+				#definitionSource : 'Object << #MyTestClass\r\tslots: { #counter };\r\tpackage: \'ProjectFruitTree\''
+			},
+			#name : #MyTestClass,
+			#methods : IdentityDictionary { },
+			#protocols : Set [ ],
+			#instanceVariables : OrderedCollection [
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#isMeta : false,
+						#className : #MyTestClass
+					},
+					#name : #counter,
+					#parent : @6
+				}
+			],
+			#metaClass : RGMetaclassDefinition {
+				#annotations : IdentityDictionary {
+					#traitCompositionSource : '{}',
+					#definitionSource : 'Object class << MyTestClass class\r\tslots: {}'
+				},
+				#name : #'MyTestClass class',
+				#methods : IdentityDictionary { },
+				#protocols : Set [ ],
+				#instanceVariables : OrderedCollection [ ],
+				#baseClass : @6
+			},
+			#comment : RGCommentDefinition {
+				#annotations : IdentityDictionary {
+					#isMeta : false,
+					#className : #MyTestClass
+				},
+				#parent : @6,
+				#content : ''
+			},
+			#classVariables : OrderedCollection [ ],
+			#package : RGPackageDefinition {
+				#name : #ProjectFruitTree,
+				#definedClasses : IdentityDictionary { },
+				#definedMethods : IdentityDictionary { },
+				#extensionMethods : IdentityDictionary { }
+			},
+			#packageTag : #Uncategorized,
+			#sharedPools : OrderedCollection [ ]
+		},
+		#protocol : #'as yet unclassified'
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '26' ],
+		#self : OmReference [ '27' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #MyTestClass
+			},
+			#name : #increment,
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'increment [\r    counter := counter + 1.\r]',
+			#stamp : '10/9/2024 17:28',
+			#package : #ProjectFruitTree
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '27' ],
+		#self : OmReference [ '28' ]
+	},
+	#content : EpProtocolAddition {
+		#behavior : RGClassDefinition {
+			#annotations : IdentityDictionary {
+				#superclassName : #Object,
+				#traitCompositionSource : '{}',
+				#definitionSource : 'Object << #MyTestClass\r\tslots: { #counter };\r\tpackage: \'ProjectFruitTree\''
+			},
+			#name : #MyTestClass,
+			#methods : IdentityDictionary { },
+			#protocols : Set [ ],
+			#instanceVariables : OrderedCollection [
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#isMeta : false,
+						#className : #MyTestClass
+					},
+					#name : #counter,
+					#parent : @6
+				}
+			],
+			#metaClass : RGMetaclassDefinition {
+				#annotations : IdentityDictionary {
+					#traitCompositionSource : '{}',
+					#definitionSource : 'Object class << MyTestClass class\r\tslots: {}'
+				},
+				#name : #'MyTestClass class',
+				#methods : IdentityDictionary { },
+				#protocols : Set [ ],
+				#instanceVariables : OrderedCollection [ ],
+				#baseClass : @6
+			},
+			#comment : RGCommentDefinition {
+				#annotations : IdentityDictionary {
+					#isMeta : false,
+					#className : #MyTestClass
+				},
+				#parent : @6,
+				#content : ''
+			},
+			#classVariables : OrderedCollection [ ],
+			#package : RGPackageDefinition {
+				#name : #ProjectFruitTree,
+				#definedClasses : IdentityDictionary { },
+				#definedMethods : IdentityDictionary { },
+				#extensionMethods : IdentityDictionary { }
+			},
+			#packageTag : #Uncategorized,
+			#sharedPools : OrderedCollection [ ]
+		},
+		#protocol : #accessing
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '28' ],
+		#self : OmReference [ '29' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #MyTestClass
+			},
+			#name : #increment,
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'increment [\r    counter := counter + 1.\r]',
+			#stamp : '10/9/2024 17:28',
+			#package : #ProjectFruitTree
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #MyTestClass
+			},
+			#name : #increment,
+			#protocol : #accessing,
+			#sourceCode : 'increment [\r    counter := counter + 1.\r]',
+			#stamp : '10/9/2024 17:28',
+			#package : #ProjectFruitTree
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '29' ],
+		#self : OmReference [ '30' ]
+	},
+	#content : EpSessionSnapshot {
+		#imageName : 'C:\\Users\\danyl\\Documents\\Pharo\\images\\ProjectTest\\ProjectTest.image'
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '30' ],
+		#self : OmReference [ '31' ]
+	},
+	#content : EpSessionSnapshot {
+		#imageName : 'C:\\Users\\danyl\\Documents\\Pharo\\images\\ProjectTest\\ProjectTest.image'
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '31' ],
+		#self : OmReference [ '32' ]
+	},
+	#content : EpSessionSnapshot {
+		#imageName : 'C:\\Users\\danyl\\Documents\\Pharo\\images\\ProjectTest\\ProjectTest.image'
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '32' ],
+		#self : OmReference [ '33' ]
+	},
+	#content : EpProtocolAddition {
+		#behavior : RGClassDefinition {
+			#annotations : IdentityDictionary {
+				#superclassName : #Object,
+				#traitCompositionSource : '{}',
+				#definitionSource : 'Object << #MyTestClass\r\tslots: { #counter };\r\tpackage: \'ProjectFruitTree\''
+			},
+			#name : #MyTestClass,
+			#methods : IdentityDictionary { },
+			#protocols : Set [ ],
+			#instanceVariables : OrderedCollection [
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#isMeta : false,
+						#className : #MyTestClass
+					},
+					#name : #counter,
+					#parent : @6
+				}
+			],
+			#metaClass : RGMetaclassDefinition {
+				#annotations : IdentityDictionary {
+					#traitCompositionSource : '{}',
+					#definitionSource : 'Object class << MyTestClass class\r\tslots: {}'
+				},
+				#name : #'MyTestClass class',
+				#methods : IdentityDictionary { },
+				#protocols : Set [ ],
+				#instanceVariables : OrderedCollection [ ],
+				#baseClass : @6
+			},
+			#comment : RGCommentDefinition {
+				#annotations : IdentityDictionary {
+					#isMeta : false,
+					#className : #MyTestClass
+				},
+				#parent : @6,
+				#content : ''
+			},
+			#classVariables : OrderedCollection [ ],
+			#package : RGPackageDefinition {
+				#name : #ProjectFruitTree,
+				#definedClasses : IdentityDictionary { },
+				#definedMethods : IdentityDictionary { },
+				#extensionMethods : IdentityDictionary { }
+			},
+			#packageTag : #Uncategorized,
+			#sharedPools : OrderedCollection [ ]
+		},
+		#protocol : #'as yet unclassified'
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '33' ],
+		#self : OmReference [ '34' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #MyTestClass
+			},
+			#name : #decrement,
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'decrement [\r    counter := counter - 1.\r]',
+			#stamp : '10/9/2024 17:29',
+			#package : #ProjectFruitTree
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '34' ],
+		#self : OmReference [ '35' ]
+	},
+	#content : EpProtocolAddition {
+		#behavior : RGClassDefinition {
+			#annotations : IdentityDictionary {
+				#superclassName : #Object,
+				#traitCompositionSource : '{}',
+				#definitionSource : 'Object << #MyTestClass\r\tslots: { #counter };\r\tpackage: \'ProjectFruitTree\''
+			},
+			#name : #MyTestClass,
+			#methods : IdentityDictionary { },
+			#protocols : Set [ ],
+			#instanceVariables : OrderedCollection [
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#isMeta : false,
+						#className : #MyTestClass
+					},
+					#name : #counter,
+					#parent : @6
+				}
+			],
+			#metaClass : RGMetaclassDefinition {
+				#annotations : IdentityDictionary {
+					#traitCompositionSource : '{}',
+					#definitionSource : 'Object class << MyTestClass class\r\tslots: {}'
+				},
+				#name : #'MyTestClass class',
+				#methods : IdentityDictionary { },
+				#protocols : Set [ ],
+				#instanceVariables : OrderedCollection [ ],
+				#baseClass : @6
+			},
+			#comment : RGCommentDefinition {
+				#annotations : IdentityDictionary {
+					#isMeta : false,
+					#className : #MyTestClass
+				},
+				#parent : @6,
+				#content : ''
+			},
+			#classVariables : OrderedCollection [ ],
+			#package : RGPackageDefinition {
+				#name : #ProjectFruitTree,
+				#definedClasses : IdentityDictionary { },
+				#definedMethods : IdentityDictionary { },
+				#extensionMethods : IdentityDictionary { }
+			},
+			#packageTag : #Uncategorized,
+			#sharedPools : OrderedCollection [ ]
+		},
+		#protocol : #API
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '35' ],
+		#self : OmReference [ '36' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #MyTestClass
+			},
+			#name : #decrement,
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'decrement [\r    counter := counter - 1.\r]',
+			#stamp : '10/9/2024 17:29',
+			#package : #ProjectFruitTree
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #MyTestClass
+			},
+			#name : #decrement,
+			#protocol : #API,
+			#sourceCode : 'decrement [\r    counter := counter - 1.\r]',
+			#stamp : '10/9/2024 17:29',
+			#package : #ProjectFruitTree
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '36' ],
+		#self : OmReference [ '37' ]
+	},
+	#content : EpProtocolAddition {
+		#behavior : RGClassDefinition {
+			#annotations : IdentityDictionary {
+				#superclassName : #Object,
+				#traitCompositionSource : '{}',
+				#definitionSource : 'Object << #MyTestClass\r\tslots: { #counter };\r\tpackage: \'ProjectFruitTree\''
+			},
+			#name : #MyTestClass,
+			#methods : IdentityDictionary { },
+			#protocols : Set [ ],
+			#instanceVariables : OrderedCollection [
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#isMeta : false,
+						#className : #MyTestClass
+					},
+					#name : #counter,
+					#parent : @6
+				}
+			],
+			#metaClass : RGMetaclassDefinition {
+				#annotations : IdentityDictionary {
+					#traitCompositionSource : '{}',
+					#definitionSource : 'Object class << MyTestClass class\r\tslots: {}'
+				},
+				#name : #'MyTestClass class',
+				#methods : IdentityDictionary { },
+				#protocols : Set [ ],
+				#instanceVariables : OrderedCollection [ ],
+				#baseClass : @6
+			},
+			#comment : RGCommentDefinition {
+				#annotations : IdentityDictionary {
+					#isMeta : false,
+					#className : #MyTestClass
+				},
+				#parent : @6,
+				#content : ''
+			},
+			#classVariables : OrderedCollection [ ],
+			#package : RGPackageDefinition {
+				#name : #ProjectFruitTree,
+				#definedClasses : IdentityDictionary { },
+				#definedMethods : IdentityDictionary { },
+				#extensionMethods : IdentityDictionary { }
+			},
+			#packageTag : #Uncategorized,
+			#sharedPools : OrderedCollection [ ]
+		},
+		#protocol : #'as yet unclassified'
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '37' ],
+		#self : OmReference [ '38' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #MyTestClass
+			},
+			#name : #counter,
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'counter [\r    ^counter.\r]',
+			#stamp : '10/9/2024 17:29',
+			#package : #ProjectFruitTree
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '38' ],
+		#self : OmReference [ '39' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #MyTestClass
+			},
+			#name : #counter,
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'counter [\r    ^counter.\r]',
+			#stamp : '10/9/2024 17:29',
+			#package : #ProjectFruitTree
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #MyTestClass
+			},
+			#name : #counter,
+			#protocol : #accessing,
+			#sourceCode : 'counter [\r    ^counter.\r]',
+			#stamp : '10/9/2024 17:29',
+			#package : #ProjectFruitTree
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '39' ],
+		#self : OmReference [ '40' ]
+	},
+	#content : EpSessionSnapshot {
+		#imageName : 'C:\\Users\\danyl\\Documents\\Pharo\\images\\ProjectTest\\ProjectTest.image'
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '40' ],
+		#self : OmReference [ '41' ]
+	},
+	#content : EpProtocolAddition {
+		#behavior : RGClassDefinition {
+			#annotations : IdentityDictionary {
+				#superclassName : #TestCase,
+				#traitCompositionSource : '{}',
+				#definitionSource : 'TestCase << #MyTestClassTest\r\tslots: {};\r\tpackage: \'ProjectFruitTree-Tests\''
+			},
+			#name : #MyTestClassTest,
+			#methods : IdentityDictionary { },
+			#protocols : Set [ ],
+			#instanceVariables : OrderedCollection [ ],
+			#metaClass : RGMetaclassDefinition {
+				#annotations : IdentityDictionary {
+					#traitCompositionSource : '{}',
+					#definitionSource : 'TestCase class << MyTestClassTest class\r\tslots: {}'
+				},
+				#name : #'MyTestClassTest class',
+				#methods : IdentityDictionary { },
+				#protocols : Set [ ],
+				#instanceVariables : OrderedCollection [ ],
+				#baseClass : @6
+			},
+			#comment : RGCommentDefinition {
+				#annotations : IdentityDictionary {
+					#isMeta : false,
+					#className : #MyTestClassTest
+				},
+				#parent : @6,
+				#content : 'A MyTestClassTest is a test class for testing the behavior of MyTestClass',
+				#stamp : '<historical>'
+			},
+			#classVariables : OrderedCollection [ ],
+			#package : RGPackageDefinition {
+				#name : #ProjectFruitTree-Tests,
+				#definedClasses : IdentityDictionary { },
+				#definedMethods : IdentityDictionary { },
+				#extensionMethods : IdentityDictionary { }
+			},
+			#packageTag : #Uncategorized,
+			#sharedPools : OrderedCollection [ ]
+		},
+		#protocol : #'as yet unclassified'
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '41' ],
+		#self : OmReference [ '42' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #MyTestClassTest
+			},
+			#name : #testIncrementing,
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'testIncrementing\r  "A test that will check if method increment is working properly. \r    Test value 5. Expected result 6."\r  |counter|\r  counter := MyTestClass new.\r  counter counter: 5.\r  counter increment.\r  self assert: (counter value = 6)',
+			#stamp : '10/9/2024 17:33',
+			#package : #ProjectFruitTree-Tests
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '42' ],
+		#self : OmReference [ '43' ]
+	},
+	#content : EpProtocolAddition {
+		#behavior : RGClassDefinition {
+			#annotations : IdentityDictionary {
+				#superclassName : #TestCase,
+				#traitCompositionSource : '{}',
+				#definitionSource : 'TestCase << #MyTestClassTest\r\tslots: {};\r\tpackage: \'ProjectFruitTree-Tests\''
+			},
+			#name : #MyTestClassTest,
+			#methods : IdentityDictionary { },
+			#protocols : Set [ ],
+			#instanceVariables : OrderedCollection [ ],
+			#metaClass : RGMetaclassDefinition {
+				#annotations : IdentityDictionary {
+					#traitCompositionSource : '{}',
+					#definitionSource : 'TestCase class << MyTestClassTest class\r\tslots: {}'
+				},
+				#name : #'MyTestClassTest class',
+				#methods : IdentityDictionary { },
+				#protocols : Set [ ],
+				#instanceVariables : OrderedCollection [ ],
+				#baseClass : @6
+			},
+			#comment : RGCommentDefinition {
+				#annotations : IdentityDictionary {
+					#isMeta : false,
+					#className : #MyTestClassTest
+				},
+				#parent : @6,
+				#content : 'A MyTestClassTest is a test class for testing the behavior of MyTestClass',
+				#stamp : '<historical>'
+			},
+			#classVariables : OrderedCollection [ ],
+			#package : RGPackageDefinition {
+				#name : #ProjectFruitTree-Tests,
+				#definedClasses : IdentityDictionary { },
+				#definedMethods : IdentityDictionary { },
+				#extensionMethods : IdentityDictionary { }
+			},
+			#packageTag : #Uncategorized,
+			#sharedPools : OrderedCollection [ ]
+		},
+		#protocol : #tests
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '43' ],
+		#self : OmReference [ '44' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #MyTestClassTest
+			},
+			#name : #testIncrementing,
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'testIncrementing\r  "A test that will check if method increment is working properly. \r    Test value 5. Expected result 6."\r  |counter|\r  counter := MyTestClass new.\r  counter counter: 5.\r  counter increment.\r  self assert: (counter value = 6)',
+			#stamp : '10/9/2024 17:33',
+			#package : #ProjectFruitTree-Tests
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #MyTestClassTest
+			},
+			#name : #testIncrementing,
+			#protocol : #tests,
+			#sourceCode : 'testIncrementing\r  "A test that will check if method increment is working properly. \r    Test value 5. Expected result 6."\r  |counter|\r  counter := MyTestClass new.\r  counter counter: 5.\r  counter increment.\r  self assert: (counter value = 6)',
+			#stamp : '10/9/2024 17:33',
+			#package : #ProjectFruitTree-Tests
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '44' ],
+		#self : OmReference [ '45' ]
+	},
+	#content : EpProtocolAddition {
+		#behavior : RGClassDefinition {
+			#annotations : IdentityDictionary {
+				#superclassName : #TestCase,
+				#traitCompositionSource : '{}',
+				#definitionSource : 'TestCase << #MyTestClassTest\r\tslots: {};\r\tpackage: \'ProjectFruitTree-Tests\''
+			},
+			#name : #MyTestClassTest,
+			#methods : IdentityDictionary { },
+			#protocols : Set [ ],
+			#instanceVariables : OrderedCollection [ ],
+			#metaClass : RGMetaclassDefinition {
+				#annotations : IdentityDictionary {
+					#traitCompositionSource : '{}',
+					#definitionSource : 'TestCase class << MyTestClassTest class\r\tslots: {}'
+				},
+				#name : #'MyTestClassTest class',
+				#methods : IdentityDictionary { },
+				#protocols : Set [ ],
+				#instanceVariables : OrderedCollection [ ],
+				#baseClass : @6
+			},
+			#comment : RGCommentDefinition {
+				#annotations : IdentityDictionary {
+					#isMeta : false,
+					#className : #MyTestClassTest
+				},
+				#parent : @6,
+				#content : 'A MyTestClassTest is a test class for testing the behavior of MyTestClass',
+				#stamp : '<historical>'
+			},
+			#classVariables : OrderedCollection [ ],
+			#package : RGPackageDefinition {
+				#name : #ProjectFruitTree-Tests,
+				#definedClasses : IdentityDictionary { },
+				#definedMethods : IdentityDictionary { },
+				#extensionMethods : IdentityDictionary { }
+			},
+			#packageTag : #Uncategorized,
+			#sharedPools : OrderedCollection [ ]
+		},
+		#protocol : #'as yet unclassified'
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '45' ],
+		#self : OmReference [ '46' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #MyTestClassTest
+			},
+			#name : #testDecrementing,
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'testDecrementing\r  "A test that will check if method decrement is working properly.\r   Test value 5. Expested result is 4."\r  |counter|\r  counter := MyTestClass new.\r  counter value: 5.\r  counter decrement.\r  self assert: (counter value = 4)',
+			#stamp : '10/9/2024 17:34',
+			#package : #ProjectFruitTree-Tests
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '46' ],
+		#self : OmReference [ '47' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #MyTestClassTest
+			},
+			#name : #testDecrementing,
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'testDecrementing\r  "A test that will check if method decrement is working properly.\r   Test value 5. Expested result is 4."\r  |counter|\r  counter := MyTestClass new.\r  counter value: 5.\r  counter decrement.\r  self assert: (counter value = 4)',
+			#stamp : '10/9/2024 17:34',
+			#package : #ProjectFruitTree-Tests
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #MyTestClassTest
+			},
+			#name : #testDecrementing,
+			#protocol : #tests,
+			#sourceCode : 'testDecrementing\r  "A test that will check if method decrement is working properly.\r   Test value 5. Expested result is 4."\r  |counter|\r  counter := MyTestClass new.\r  counter value: 5.\r  counter decrement.\r  self assert: (counter value = 4)',
+			#stamp : '10/9/2024 17:34',
+			#package : #ProjectFruitTree-Tests
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '47' ],
+		#self : OmReference [ '48' ]
+	},
+	#content : EpProtocolAddition {
+		#behavior : RGClassDefinition {
+			#annotations : IdentityDictionary {
+				#superclassName : #Object,
+				#traitCompositionSource : '{}',
+				#definitionSource : 'Object << #MyTestClass\r\tslots: { #counter };\r\tpackage: \'ProjectFruitTree\''
+			},
+			#name : #MyTestClass,
+			#methods : IdentityDictionary { },
+			#protocols : Set [ ],
+			#instanceVariables : OrderedCollection [
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#isMeta : false,
+						#className : #MyTestClass
+					},
+					#name : #counter,
+					#parent : @6
+				}
+			],
+			#metaClass : RGMetaclassDefinition {
+				#annotations : IdentityDictionary {
+					#traitCompositionSource : '{}',
+					#definitionSource : 'Object class << MyTestClass class\r\tslots: {}'
+				},
+				#name : #'MyTestClass class',
+				#methods : IdentityDictionary { },
+				#protocols : Set [ ],
+				#instanceVariables : OrderedCollection [ ],
+				#baseClass : @6
+			},
+			#comment : RGCommentDefinition {
+				#annotations : IdentityDictionary {
+					#isMeta : false,
+					#className : #MyTestClass
+				},
+				#parent : @6,
+				#content : ''
+			},
+			#classVariables : OrderedCollection [ ],
+			#package : RGPackageDefinition {
+				#name : #ProjectFruitTree,
+				#definedClasses : IdentityDictionary { },
+				#definedMethods : IdentityDictionary { },
+				#extensionMethods : IdentityDictionary { }
+			},
+			#packageTag : #Uncategorized,
+			#sharedPools : OrderedCollection [ ]
+		},
+		#protocol : #'as yet unclassified'
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '48' ],
+		#self : OmReference [ '49' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #MyTestClass
+			},
+			#name : #'counter:',
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'counter: anInteger\r\t"Method that sets *annteger* as a variable value"\r\tcounter := anInteger',
+			#stamp : '10/9/2024 17:36',
+			#package : #ProjectFruitTree
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '49' ],
+		#self : OmReference [ '50' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #MyTestClass
+			},
+			#name : #'counter:',
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'counter: anInteger\r\t"Method that sets *annteger* as a variable value"\r\tcounter := anInteger',
+			#stamp : '10/9/2024 17:36',
+			#package : #ProjectFruitTree
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #MyTestClass
+			},
+			#name : #'counter:',
+			#protocol : #accessing,
+			#sourceCode : 'counter: anInteger\r\t"Method that sets *annteger* as a variable value"\r\tcounter := anInteger',
+			#stamp : '10/9/2024 17:36',
+			#package : #ProjectFruitTree
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '50' ],
+		#self : OmReference [ '51' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #MyTestClassTest
+			},
+			#name : #testDecrementing,
+			#protocol : #tests,
+			#sourceCode : 'testDecrementing\r  "A test that will check if method decrement is working properly.\r   Test value 5. Expested result is 4."\r  |counter|\r  counter := MyTestClass new.\r  counter value: 5.\r  counter decrement.\r  self assert: (counter value = 4)',
+			#stamp : '10/9/2024 17:34',
+			#package : #ProjectFruitTree-Tests
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #MyTestClassTest
+			},
+			#name : #testDecrementing,
+			#protocol : #tests,
+			#sourceCode : 'testDecrementing\r  "A test that will check if method decrement is working properly.\r   Test value 5. Expested result is 4."\r  |counter|\r  counter := MyTestClass new.\r  counter counter: 5.\r  counter decrement.\r  self assert: (counter value = 4)',
+			#stamp : '10/9/2024 17:37',
+			#package : #ProjectFruitTree-Tests
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '51' ],
+		#self : OmReference [ '52' ]
+	},
+	#content : EpSessionSnapshot {
+		#imageName : 'C:\\Users\\danyl\\Documents\\Pharo\\images\\ProjectTest\\ProjectTest.image'
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '52' ],
+		#self : OmReference [ '53' ]
+	},
+	#content : EpPackageAddition {
+		#packageName : #'BaselineOf<ProjectFruitTree>'
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '53' ],
+		#self : OmReference [ '54' ]
+	},
+	#content : EpPackageRename {
+		#packageName : #BaselineOfProjectFruitTree,
+		#oldPackageName : #'BaselineOf<ProjectFruitTree>'
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '54' ],
+		#self : OmReference [ '55' ]
+	},
+	#content : EpPackageTagAddition {
+		#packageTagName : #Uncategorized,
+		#packageName : #BaselineOfProjectFruitTree
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '55' ],
+		#self : OmReference [ '56' ]
+	},
+	#content : EpClassAddition {
+		#class : RGClassDefinition {
+			#annotations : IdentityDictionary {
+				#superclassName : #BaselineOf,
+				#traitCompositionSource : '{}',
+				#definitionSource : 'BaselineOf << #BaselineOfProjectFruitTree\r\tslots: {};\r\tpackage: \'BaselineOfProjectFruitTree\''
+			},
+			#name : #BaselineOfProjectFruitTree,
+			#methods : IdentityDictionary { },
+			#protocols : Set [ ],
+			#instanceVariables : OrderedCollection [ ],
+			#metaClass : RGMetaclassDefinition {
+				#annotations : IdentityDictionary {
+					#traitCompositionSource : '{}',
+					#definitionSource : 'BaselineOf class << BaselineOfProjectFruitTree class\r\tslots: {}'
+				},
+				#name : #'BaselineOfProjectFruitTree class',
+				#methods : IdentityDictionary { },
+				#protocols : Set [ ],
+				#instanceVariables : OrderedCollection [ ],
+				#baseClass : @6
+			},
+			#comment : RGCommentDefinition {
+				#annotations : IdentityDictionary {
+					#isMeta : false,
+					#className : #BaselineOfProjectFruitTree
+				},
+				#parent : @6,
+				#content : ''
+			},
+			#classVariables : OrderedCollection [ ],
+			#package : RGPackageDefinition {
+				#name : #BaselineOfProjectFruitTree,
+				#definedClasses : IdentityDictionary { },
+				#definedMethods : IdentityDictionary { },
+				#extensionMethods : IdentityDictionary { }
+			},
+			#packageTag : #Uncategorized,
+			#sharedPools : OrderedCollection [ ]
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '56' ],
+		#self : OmReference [ '57' ]
+	},
+	#content : EpProtocolAddition {
+		#behavior : RGClassDefinition {
+			#annotations : IdentityDictionary {
+				#superclassName : #BaselineOf,
+				#traitCompositionSource : '{}',
+				#definitionSource : 'BaselineOf << #BaselineOfProjectFruitTree\r\tslots: {};\r\tpackage: \'BaselineOfProjectFruitTree\''
+			},
+			#name : #BaselineOfProjectFruitTree,
+			#methods : IdentityDictionary { },
+			#protocols : Set [ ],
+			#instanceVariables : OrderedCollection [ ],
+			#metaClass : RGMetaclassDefinition {
+				#annotations : IdentityDictionary {
+					#traitCompositionSource : '{}',
+					#definitionSource : 'BaselineOf class << BaselineOfProjectFruitTree class\r\tslots: {}'
+				},
+				#name : #'BaselineOfProjectFruitTree class',
+				#methods : IdentityDictionary { },
+				#protocols : Set [ ],
+				#instanceVariables : OrderedCollection [ ],
+				#baseClass : @6
+			},
+			#comment : RGCommentDefinition {
+				#annotations : IdentityDictionary {
+					#isMeta : false,
+					#className : #BaselineOfProjectFruitTree
+				},
+				#parent : @6,
+				#content : ''
+			},
+			#classVariables : OrderedCollection [ ],
+			#package : RGPackageDefinition {
+				#name : #BaselineOfProjectFruitTree,
+				#definedClasses : IdentityDictionary { },
+				#definedMethods : IdentityDictionary { },
+				#extensionMethods : IdentityDictionary { }
+			},
+			#packageTag : #Uncategorized,
+			#sharedPools : OrderedCollection [ ]
+		},
+		#protocol : #'as yet unclassified'
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '57' ],
+		#self : OmReference [ '58' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #BaselineOfProjectFruitTree
+			},
+			#name : #'baseline:',
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'baseline: spec\r    <baseline>\r    spec for: #common do: [  \r        \r        "Packages"\r        spec\r            package: \'ProjectFruitTree\';\r            package: \'ProjectFruitTree-Tests\' with: [ spec requires: #(\'ProjectFruitTree\') ] ].',
+			#stamp : '10/9/2024 17:46',
+			#package : #BaselineOfProjectFruitTree
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '58' ],
+		#self : OmReference [ '59' ]
+	},
+	#content : EpProtocolAddition {
+		#behavior : RGClassDefinition {
+			#annotations : IdentityDictionary {
+				#superclassName : #BaselineOf,
+				#traitCompositionSource : '{}',
+				#definitionSource : 'BaselineOf << #BaselineOfProjectFruitTree\r\tslots: {};\r\tpackage: \'BaselineOfProjectFruitTree\''
+			},
+			#name : #BaselineOfProjectFruitTree,
+			#methods : IdentityDictionary { },
+			#protocols : Set [ ],
+			#instanceVariables : OrderedCollection [ ],
+			#metaClass : RGMetaclassDefinition {
+				#annotations : IdentityDictionary {
+					#traitCompositionSource : '{}',
+					#definitionSource : 'BaselineOf class << BaselineOfProjectFruitTree class\r\tslots: {}'
+				},
+				#name : #'BaselineOfProjectFruitTree class',
+				#methods : IdentityDictionary { },
+				#protocols : Set [ ],
+				#instanceVariables : OrderedCollection [ ],
+				#baseClass : @6
+			},
+			#comment : RGCommentDefinition {
+				#annotations : IdentityDictionary {
+					#isMeta : false,
+					#className : #BaselineOfProjectFruitTree
+				},
+				#parent : @6,
+				#content : ''
+			},
+			#classVariables : OrderedCollection [ ],
+			#package : RGPackageDefinition {
+				#name : #BaselineOfProjectFruitTree,
+				#definedClasses : IdentityDictionary { },
+				#definedMethods : IdentityDictionary { },
+				#extensionMethods : IdentityDictionary { }
+			},
+			#packageTag : #Uncategorized,
+			#sharedPools : OrderedCollection [ ]
+		},
+		#protocol : #baselines
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '59' ],
+		#self : OmReference [ '60' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #BaselineOfProjectFruitTree
+			},
+			#name : #'baseline:',
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'baseline: spec\r    <baseline>\r    spec for: #common do: [  \r        \r        "Packages"\r        spec\r            package: \'ProjectFruitTree\';\r            package: \'ProjectFruitTree-Tests\' with: [ spec requires: #(\'ProjectFruitTree\') ] ].',
+			#stamp : '10/9/2024 17:46',
+			#package : #BaselineOfProjectFruitTree
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #BaselineOfProjectFruitTree
+			},
+			#name : #'baseline:',
+			#protocol : #baselines,
+			#sourceCode : 'baseline: spec\r    <baseline>\r    spec for: #common do: [  \r        \r        "Packages"\r        spec\r            package: \'ProjectFruitTree\';\r            package: \'ProjectFruitTree-Tests\' with: [ spec requires: #(\'ProjectFruitTree\') ] ].',
+			#stamp : '10/9/2024 17:46',
+			#package : #BaselineOfProjectFruitTree
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '60' ],
+		#self : OmReference [ '61' ]
+	},
+	#content : EpSessionSnapshot {
+		#imageName : 'C:\\Users\\danyl\\Documents\\Pharo\\images\\ProjectTest\\ProjectTest.image'
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '61' ],
+		#self : OmReference [ '62' ]
+	},
+	#content : EpSessionSnapshot {
+		#imageName : 'C:\\Users\\danyl\\Documents\\Pharo\\images\\ProjectTest\\ProjectTest.image'
+	}
+}
