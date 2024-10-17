@@ -51,7 +51,7 @@ MyTestClassTest >> testDecrementing [
 { #category : 'tests' }
 MyTestClassTest >> testDecrising [
 	"A test that will check if method decrement is working properly.
-   Test value 10. Expested result is 12."
+   Test value 10. Expested result is 12"
 
 	| tree |
 	tree := ApricotTree new.
@@ -62,7 +62,7 @@ MyTestClassTest >> testDecrising [
 		yield: 10
 		fruitingAge: 1
 		frostOccured: true.
-
+   tree printTree: Transcript .
 	"Apply the decreaseYield method"
 	tree decreaseYield.
 	self assert: tree getYield equals: 12
