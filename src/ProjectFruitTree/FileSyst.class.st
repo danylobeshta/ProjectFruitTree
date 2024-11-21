@@ -5,18 +5,18 @@ Class {
 	#package : 'ProjectFruitTree'
 }
 
-{ #category : 'as yet unclassified' }
-FileSyst >> loadFromCodeFile: pathString [
+{ #category : 'loading' }
+FileSyst class >> loadFromCodeFile: pathString [
 pathString asFileReference readStreamDo: [ :in | ^ Smalltalk compiler evaluate: in contents ]
 ]
 
-{ #category : 'as yet unclassified' }
-FileSyst >> loadFromStonFile: pathString [
+{ #category : 'loading' }
+FileSyst class >> loadFromStonFile: pathString [
 pathString asFileReference readStreamDo: [ :in | ^ (STON reader on: in) next ]
 ]
 
 { #category : 'as yet unclassified' }
-FileSyst >> piclFileAndLoad: pattern [
+FileSyst class >> piclFileAndLoad: pattern [
 
 	|pathString|
 	pathString := UIManager default
@@ -29,21 +29,21 @@ FileSyst >> piclFileAndLoad: pattern [
 ]
 
 { #category : 'printing' }
-FileSyst >> printToFile: pathString [
+FileSyst class >> printToFile: pathString [
 	pathString asFileReference writeStreamDo: [ :out | 
 		out nextPutAll: self printString ]
 ]
 
 { #category : 'files' }
-FileSyst >> saveToFile: pathString [
+FileSyst class >> saveToFile: pathString [
 
 	pathString asFileReference writeStreamDo:  [ :out |
 		out nextPutAll: (STON toString: self) ]
 	
 ]
 
-{ #category : 'as yet unclassified' }
-FileSyst >> storeToFile: pathString [
+{ #category : 'saving' }
+FileSyst class >> storeToFile: pathString [
 
 	pathString asFileReference writeStreamDo: [ :out |
 		out nextPutAll: self storeString ]
