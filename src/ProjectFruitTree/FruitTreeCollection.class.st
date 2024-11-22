@@ -8,6 +8,29 @@ Class {
 	#package : 'ProjectFruitTree'
 }
 
+{ #category : 'loading' }
+FruitTreeCollection class >> loadFromCodeFile: pathString [
+pathString asFileReference readStreamDo: [ :in | ^ Smalltalk compiler evaluate: in contents ]
+]
+
+{ #category : 'loading' }
+FruitTreeCollection class >> loadFromStonFile: pathString [
+pathString asFileReference readStreamDo: [ :in | ^ (STON reader on: in) next ]
+]
+
+{ #category : 'as yet unclassified' }
+FruitTreeCollection class >> piclFileAndLoad: pattern [
+
+	|pathString|
+	pathString := UIManager default
+			chooseFullFileNameMatching: { pattern }
+			label: 'Choose file to open'.
+	pathString ifNil: [ ^ nil ].
+	'*.ston' = pattern ifTrue: [ ^self loadFromStonFile: pathString ].
+	'*.stc' = pattern ifTrue: [ ^self loadFromCodeFile: pathString ].
+	^ self error: 'Unknown type of file: ', pattern 
+]
+
 { #category : 'adding' }
 FruitTreeCollection >> addAppleTreeWithSpecies: species age: age height: height yield: yield fruitingAge: fruitingAge frostOccured: frostOccured [
     | newTree |
@@ -237,32 +260,24 @@ FruitTreeCollection >> printCollection: aTranscript [
 
 ]
 
-{ #category : 'as yet unclassified' }
-FruitTreeCollection >> saveToFile [
-  	 | validTrees filePath fileHandle input output aFileName |
-    
-    "Фільтруємо дерева, залишаючи лише об'єкти типу FruitTree"
-    validTrees := trees select: [:tree | 
-        (tree notNil and: [tree isKindOf: FruitTree])
-    ].
+{ #category : 'saving' }
+FruitTreeCollection >> printToFile: pathString [
+	pathString asFileReference writeStreamDo: [ :out | 
+		out nextPutAll: self printString ]
+]
+
+{ #category : 'saving' }
+FruitTreeCollection >> saveToFile: pathString [
    
-	  "Construct the file path relative to the project's directory"
-    filePath := FileSystem disk workingDirectory,   '/Collection/' .
+	pathString asFileReference writeStreamDo:  [ :out |
+		out nextPutAll: (STON toString: self) ]
+]
 
-    "Create the Collection directory if it doesn't exist"
-    
-   "filePath := FileSystem disk workingDirectory asPath parent parent pathString, '/Collection/'.
-	filePath := filePath collect: [ :aChar | aChar == $/ ifTrue: [ $\ ] ifFalse: [ aChar ] ] from: 2 to: filePath size."
-   input := (validTrees collect: [:tree | tree asString ] ).
-	output := File openForWriteFileNamed: filePath, 'FruitTrees.txt'.
-	[ input atEnd ]
-			whileFalse: [ output nextPut: input next ].
-	input close.
-	output close.
+{ #category : 'saving' }
+FruitTreeCollection >> storeToFile: pathString [
 
-	"(FileSystem disk workingDirectory / aFileName) writeStream
-  		nextPutAll: (validTrees collect: [:tree | tree asString ] ) ;
-  		close."
+	pathString asFileReference writeStreamDo: [ :out |
+		out nextPutAll: self storeString ]
 ]
 
 { #category : 'as yet unclassified' }
